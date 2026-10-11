@@ -2,11 +2,6 @@
 
 Documentation du projet Vibro.
 
-## Contenu
-
-- [Installation](guide/Installation.md) — prérequis et mise en route
-- [Utilisation](guide/Utilisation.md) — commandes courantes
-
 ## Prévisualiser ce site
 
 ```bash

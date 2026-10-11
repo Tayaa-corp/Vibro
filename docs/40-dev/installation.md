@@ -6,7 +6,7 @@
 
 ## Dépendances de la documentation
 
-MkDocs 2.0 est encore en préversion. La version est épinglée dans `requirements-docs.txt`.
+MkDocs 1.x avec le thème Material. Les versions sont épinglées dans `requirements-docs.txt`.
 
 ```bash
 python3 -m venv .venv

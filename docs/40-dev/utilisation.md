@@ -14,7 +14,7 @@ Le contenu d’une page déjà connue est relu à chaque requête. Après l’aj
 ## Ajouter une page
 
 1. Créez un fichier `.md` dans `docs/`.
-2. Reliez-le depuis une autre page avec un lien relatif, par exemple `[Titre](guide/Page.md)`.
+2. Reliez-le depuis une autre page avec un lien relatif, par exemple `[Titre](40-dev/page.md)`.
 3. Relancez `mkdocs serve`.
 
 La navigation reprend le nom de chaque fichier, sans extension. `README.md` et `index.md` sont servis comme page d’accueil de leur dossier.
