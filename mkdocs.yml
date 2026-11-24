@@ -26,6 +26,28 @@ nav:
   - Développement:
       - 40-dev/installation.md
       - 40-dev/utilisation.md
+  - IA (proposition):
+      - 50-ia-propal/index.md
+      - 50-ia-propal/architecture.md
+      - 50-ia-propal/lectures-obligatoires.md
+      - 50-ia-propal/cycle-de-travail.md
+      - 50-ia-propal/composants.md
+      - 50-ia-propal/points-a-trancher.md
+      - Fichiers proposés:
+          - CLAUDE.md: 50-ia-propal/setup/CLAUDE.md
+          - Index des décisions: 50-ia-propal/setup/decisions/index.md
+          - Rules:
+              - git: 50-ia-propal/setup/dot-claude/rules/git.md
+              - data-securite: 50-ia-propal/setup/dot-claude/rules/data-securite.md
+              - docs: 50-ia-propal/setup/dot-claude/rules/docs.md
+              - python: 50-ia-propal/setup/dot-claude/rules/python.md
+              - dbt-sql: 50-ia-propal/setup/dot-claude/rules/dbt-sql.md
+          - Skills:
+              - adr: 50-ia-propal/setup/dot-claude/skills/adr/SKILL.md
+              - adaptateur: 50-ia-propal/setup/dot-claude/skills/adaptateur/SKILL.md
+              - livrable: 50-ia-propal/setup/dot-claude/skills/livrable/SKILL.md
+          - Agents:
+              - reviewer: 50-ia-propal/setup/dot-claude/agents/reviewer.md
 
 theme:
   name: material
