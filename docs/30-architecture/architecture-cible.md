@@ -13,7 +13,8 @@ description: ClickHouse comme moteur unique, Dagster et dbt pour le batch de nui
     - ClickHouse stocke, transforme et sert les données.
     - Dagster pilote dbt de 23 h à 6 h. Les données sont prêtes à 7 h 30.
     - Les row policies ClickHouse filtrent chaque requête, quel que soit l'outil.
-    - Le reverse proxy est la seule machine visible depuis Internet.
+    - Le magasin envoie ses fichiers à `depot.vibro.fr`. Vibro ne se connecte jamais au magasin.
+    - Deux machines sont visibles depuis Internet : `restitution` et `depot`.
     - OpenTofu crée l'infrastructure, Ansible la configure, SOPS chiffre les secrets.
 
 ## Contraintes qui pilotent les choix
@@ -33,9 +34,9 @@ Sources : [volumétrie](../00-cadrage/reponses-client/volumetrie-et-contraintes.
 
 ```mermaid
 flowchart LR
-    M["762 magasins"] -->|"push ou pull : à définir"| L[("S3 landing<br>immuable")]
+    M["762 magasins<br>connecteur éditeur ou rclone"] -->|"SFTP via depot.vibro.fr"| L[("S3 landing<br>immuable")]
     N["SI national<br>REFNAT, annuaire, tarifs"] --> L
-    L -->|S3Queue| B
+    L -->|"sensor Dagster"| B
     subgraph CH["ClickHouse"]
         B["bronze<br>texte brut"] -->|dbt| S["silver<br>typé, dédoublonné"]
         S -.->|rejets| Q["quarantaine"]
@@ -52,7 +53,7 @@ flowchart LR
 | Heure | Étape | En cas d'échec |
 |---|---|---|
 | 21 h – 22 h | Les caisses clôturent | — |
-| 22 h – 23 h 30 | Les fichiers arrivent dans S3 `landing/` | Le fichier reste en landing, une alerte part |
+| 22 h – 23 h 30 | Les livraisons arrivent par `depot.vibro.fr` | Le connecteur réessaie, une alerte part |
 | 23 h 30 | Dagster contrôle la complétude | Alerte « magasin absent » |
 | 23 h 30 – 6 h | dbt construit silver puis `gold_new` | Dagster relance la partition magasin × jour |
 | 6 h | Les tests dbt vérifient volumes, seuil de 5 magasins, étanchéité | La veille reste en ligne avec un bandeau |
@@ -63,7 +64,7 @@ flowchart LR
 
 | Couche | Où | Contenu | Règle |
 |---|---|---|---|
-| **landing** | S3 | Fichier reçu, tel quel | Immuable : versionnement et object lock. Source de tout rejeu |
+| **landing** | S3 | Fichier reçu, tel quel | Immuable : versionnement et object lock. Fichier avec données personnelles : 13 mois au plus. Source de rejeu |
 | **bronze** | ClickHouse | Colonnes en `String`, plus `_path` et `_file` | Aucune interprétation. Conserve l'encodage d'origine |
 | **silver** | ClickHouse | Données typées, dédoublonnées, référentiels appliqués | Rejets en quarantaine avec leur motif |
 | **gold** | ClickHouse | CA jour × magasin × rayon, comparaison N-1 | Publié seulement si les tests passent |
@@ -74,24 +75,13 @@ flowchart LR
 
 ## Ingestion
 
-Le mode d'envoi n'est **pas encore choisi**. Les deux options gardent la même suite de traitement.
+Le magasin envoie ses fichiers à `depot.vibro.fr`. Vibro ne se connecte jamais à un système du magasin. Le détail est dans [Ingestion des sources hétérogènes](ingestion.md).
 
-| | Push : le magasin envoie | Pull : Vibro va chercher |
-|---|---|---|
-| Secrets chez Vibro | Aucun accès aux systèmes des magasins | Accès à l'API de l'éditeur pour 762 magasins |
-| Exposition | Un point d'entrée sur le reverse proxy (443) | Aucune entrée, flux sortant seul |
-| Contrôle de l'adhérent | L'adhérent choisit ce qui part | Vibro lit ce que l'API permet |
-| Logiciel de stock majoritaire | Export poussé par l'éditeur | Connecteur Dagster vers l'API |
-| Autres magasins | Petit service à définir | Petit service à définir |
-
-Premier critère à obtenir : ce que l'éditeur majoritaire sait faire.
-
-**Quel que soit le mode, appliquer ces règles :**
-
-1. Identifier chaque fichier par son empreinte `sha256`. Un renvoi ne crée pas de doublon.
-2. Déclarer le format de chaque source (séparateur, encodage, en-tête). Ne jamais deviner les types.
-3. Si un fichier est illisible, le rejeter entier et alerter. Les autres magasins continuent.
-4. Si plus de 2 % des lignes sont rejetées, ne pas publier la journée de ce magasin.
+- Voie 1 : l'éditeur de caisse envoie chaque nuit les tickets et un manifeste. Cette voie vise ~750 magasins.
+- Voie 2 : rclone copie le dossier d'export, pour les magasins sans connecteur éditeur.
+- La passerelle SFTPGo, sur la VM `depot`, écrit dans le bucket `landing`. Chaque magasin a sa clé SSH.
+- Un sensor Dagster contrôle chaque livraison et la charge dans le bronze.
+- Le directeur ne fait aucune action. L'alerte va à l'exploitant.
 
 ## Cloisonnement
 
@@ -123,18 +113,19 @@ Premier critère à obtenir : ce que l'éditeur majoritaire sait faire.
 
 | Machine | Rôle | Remarque |
 |---|---|---|
-| `ch-1`, `ch-2` | ClickHouse et Keeper | Disque séparé pour Keeper |
-| `keeper-3` | Arbitre du quorum Keeper | Petite VM |
+| `ch-1` | ClickHouse, avec Keeper intégré | **Nœud unique**. Disque séparé pour Keeper |
 | `orchestration` | Dagster et runner CI | Lance OpenTofu et Ansible |
-| `restitution` | Traefik, Keycloak, Lightdash | **Seule IP publique** |
+| `restitution` | Traefik, Keycloak, Lightdash | IP publique, port 443 |
+| `depot` | SFTPGo, passerelle de dépôt des magasins | IP publique, ports 22 (SFTP) et 443. Écrit dans `landing` seulement |
 | `supervision` | Prometheus, Grafana, Loki | Alertes : magasin absent, rejets, fraîcheur |
 | PostgreSQL managé | Métadonnées Dagster, Lightdash, Keycloak | Endpoint privé |
 | Buckets S3 | `landing`, `froid`, `backups`, `tofu-state` | `backups` répliqué en région 2 |
 
 **Réseau :**
 
-- Seul le port 443 du reverse proxy est ouvert sur Internet.
-- Les ports 9440 (ClickHouse), 9281 (Keeper) et 22 (SSH) restent dans le réseau privé.
+- Sur Internet, seuls ces ports sont ouverts : 443 sur `restitution`, 22 (SFTP) et 443 sur `depot`.
+- Les ports 9440 et 8443 (ClickHouse) restent dans le réseau privé. Keeper n'écoute pas sur le réseau.
+- Le SSH d'administration (22) écoute sur l'interface privée seulement. Sur `depot`, le port 22 public est le SFTP de SFTPGo.
 - SSH vers les VM part seulement d'`orchestration`, où le runner lance Ansible.
 
 ### Diagrammes UML
@@ -189,20 +180,44 @@ flowchart LR
 | PostgreSQL | Sauvegarde du fournisseur avec reprise à un instant donné | Restauration du fournisseur |
 | Code, infrastructure, secrets | Git, chiffré par SOPS | Nouveau `tofu apply` puis Ansible |
 
-Objectifs à valider avec le client : **RPO 24 h**, **RTO 4 à 8 h**. Tester une restauration chaque trimestre.
+Objectifs à valider avec le client : **RPO 24 h**, **RTO 4 à 8 h**.
+
+### Pourquoi un seul nœud ClickHouse
+
+Une restauration depuis `backups` tient le RTO. Rejouer 5 ans depuis landing ne le tient pas : ce rejeu sert à corriger une règle, pas à reprendre après une panne.
+
+| Panne | Reprise | Durée estimée |
+|---|---|---|
+| VM perdue en journée | OpenTofu recrée la VM, Ansible la configure, restauration de la sauvegarde de 6 h | 1 à 2 h, **à mesurer** |
+| VM perdue pendant le batch | Restauration de la veille, puis rejeu de la nuit depuis landing | 2 à 4 h. La matinée peut être ratée |
+
+- **Gain** : une VM de données au lieu de trois, plus de quorum ni de réplication à surveiller.
+- **Coût** : 1 à 2 h sans tableaux de bord en cas de panne, montées de version la nuit.
+- **Assurance** : les tables sont en `ReplicatedMergeTree` avec une seule réplique. Ajouter une 2e réplique demande une VM, pas une migration.
+
+**Passer à 2 répliques si l'un de ces seuils est atteint :**
+
+- la restauration mesurée dépasse 3 h ;
+- le nœud fait rater plus d'une matinée par trimestre ;
+- la latence p95 au pic de 7 h 30 sort de la cible.
+
+Chronométrer une restauration à chaque incrément, puis chaque trimestre.
 
 ## Décisions
 
 | Sujet | Choix | État |
 |---|---|---|
 | Moteur | ClickHouse, moteur unique | Décidé |
+| Haute disponibilité | Un nœud ClickHouse, 2e réplique si un seuil est atteint | Décidé |
 | Bronze | Table ClickHouse en `String`, pas de Parquet | Décidé |
 | Orchestration | Dagster et dbt-clickhouse | Décidé |
 | Restitution | Lightdash, Cube si un 2e consommateur arrive | Décidé |
 | Cloisonnement | Row policies ClickHouse et seuil de 5 magasins | Décidé |
 | Infrastructure | OpenTofu, Ansible, SOPS + age, runner auto-hébergé | Décidé |
-| Ingestion | Push ou pull | **Ouvert** |
-| Service pour les autres magasins | À définir | **Ouvert** |
+| Ingestion | Le magasin envoie. Connecteur éditeur, sinon rclone | **Proposé**, à valider avec les éditeurs |
+| Point de dépôt | Passerelle SFTPGo sur `depot.vibro.fr`, une clé SSH par magasin | **Proposé** |
+| Chargement du bronze | Sensor Dagster par livraison, pas S3Queue | **Proposé** |
+| Éditeurs locaux (~12 magasins) | Au cas par cas | **Ouvert** |
 | Fournisseur cloud | Français, 2 régions | **Ouvert** |
 
 Chaque décision fait l'objet d'une fiche courte : contexte, options, choix, conséquences.
@@ -216,6 +231,8 @@ Chaque décision fait l'objet d'une fiche courte : contexte, options, choix, con
 | Lightdash répond-il au pic de 7 h 30 ? | Cible proposée : moins de 2 s par tableau. Nombre d'utilisateurs simultanés à fixer avec le client |
 | Le `sql_filter` de Lightdash fonctionne-t-il sur ClickHouse ? | Filtre appliqué à chaque requête |
 | Quelle est la compression réelle ? | Mesure sur données du client |
+| Combien de temps prend une restauration complète ? | Moins de 3 h, VM comprise |
+| Un connecteur éditeur livre-t-il sans intervention ? | 30 nuits de suite sur les magasins pilotes, 0 minute demandée au directeur |
 
 !!! info "Ordre de grandeur"
     6 Go bruts par jour, compressés environ ×15, donnent environ 150 Go par an et moins de 1 To sur 5 ans. C'est une hypothèse, à mesurer.

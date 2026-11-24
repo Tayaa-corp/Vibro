@@ -1,23 +1,29 @@
 <mxfile host="Claude Code" type="device">
   <diagram id="deploiement" name="Déploiement UML">
-    <mxGraphModel dx="1720" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1040" math="0" shadow="0">
+    <mxGraphModel dx="1720" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1160" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" value="&lt;b&gt;deployment&lt;/b&gt; Vibro : architecture cible (ClickHouse, Dagster, Lightdash)" parent="1" vertex="1" style="shape=umlFrame;html=1;whiteSpace=wrap;width=420;height=26;align=left;spacingLeft=8;fontSize=13;fillColor=none;strokeColor=#333333;">
-          <mxGeometry as="geometry" x="0" y="0" width="1720" height="1000" />
+          <mxGeometry as="geometry" x="0" y="0" width="1720" height="1120" />
         </mxCell>
-        <mxCell id="n1" value="«node»&lt;br&gt;&lt;b&gt;Logiciel de stock (éditeur, SaaS) [1]&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;">
-          <mxGeometry as="geometry" x="20" y="50" width="310" height="150" />
+        <mxCell id="n1" value="«device»&lt;br&gt;&lt;b&gt;Magasin [762]&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;">
+          <mxGeometry as="geometry" x="20" y="50" width="310" height="345" />
         </mxCell>
-        <mxCell id="a2" value="«artifact»&lt;br&gt;API de l'éditeur&lt;br&gt;majorité des magasins" parent="n1" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
-          <mxGeometry as="geometry" x="15" y="50" width="270" height="75" />
+        <mxCell id="n2" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Connecteur éditeur (voie 1)&lt;/b&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+          <mxGeometry as="geometry" x="15" y="45" width="280" height="110" />
         </mxCell>
-        <mxCell id="n3" value="«device»&lt;br&gt;&lt;b&gt;Service de collecte {à définir} [*]&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;dashed=1;">
-          <mxGeometry as="geometry" x="20" y="230" width="310" height="150" />
+        <mxCell id="a2" value="«artifact»&lt;br&gt;livraison : données + manifeste JSON&lt;br&gt;{7 derniers jours gardés sur place}" parent="n2" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="45" width="250" height="50" />
         </mxCell>
-        <mxCell id="a4" value="«artifact»&lt;br&gt;export du magasin&lt;br&gt;magasins restants" parent="n3" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
-          <mxGeometry as="geometry" x="15" y="50" width="270" height="75" />
+        <mxCell id="n3" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;rclone, tâche planifiée (voie 2)&lt;/b&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;dashed=1;">
+          <mxGeometry as="geometry" x="15" y="170" width="280" height="100" />
+        </mxCell>
+        <mxCell id="a4" value="«artifact»&lt;br&gt;dossier d'export, copié tel quel" parent="n3" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="45" width="250" height="40" />
+        </mxCell>
+        <mxCell id="a3" value="«artifact»&lt;br&gt;clé SSH privée du magasin {ne sort pas du magasin}" parent="n1" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="285" width="280" height="45" />
         </mxCell>
         <mxCell id="n5" value="«node»&lt;br&gt;&lt;b&gt;SI national (prestataire B)&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;">
           <mxGeometry as="geometry" x="20" y="420" width="310" height="140" />
@@ -35,33 +41,45 @@
           <mxGeometry as="geometry" x="15" y="45" width="240" height="40" />
         </mxCell>
         <mxCell id="n10" value="«node»&lt;br&gt;&lt;b&gt;Hébergement France / UE&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#f8fff8;strokeColor=#82b366;fontSize=12;">
-          <mxGeometry as="geometry" x="370" y="50" width="1000" height="940" />
+          <mxGeometry as="geometry" x="370" y="50" width="1000" height="1060" />
         </mxCell>
         <mxCell id="n11" value="«node»&lt;br&gt;&lt;b&gt;Stockage objet S3&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;">
           <mxGeometry as="geometry" x="20" y="50" width="280" height="250" />
         </mxCell>
-        <mxCell id="a12" value="«artifact»&lt;br&gt;landing/&amp;lt;source&amp;gt;/&amp;lt;magasin&amp;gt;/&amp;lt;date&amp;gt;/&amp;lt;sha256&amp;gt;&lt;br&gt;{immuable, versionné, object lock}" parent="n11" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
-          <mxGeometry as="geometry" x="15" y="50" width="250" height="75" />
+        <mxCell id="a12" value="«artifact»&lt;br&gt;landing/&amp;lt;code_national&amp;gt;/&amp;lt;flux&amp;gt;/&lt;br&gt;&amp;lt;date_metier&amp;gt;/&amp;lt;envoi&amp;gt;/&lt;br&gt;{immuable, versionné, object lock}&lt;br&gt;{données personnelles : 13 mois au plus}" parent="n11" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="50" width="250" height="95" />
         </mxCell>
         <mxCell id="a13" value="«artifact»&lt;br&gt;froid/ (tiering ClickHouse, &amp;gt; 13 mois)" parent="n11" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
-          <mxGeometry as="geometry" x="15" y="140" width="250" height="50" />
+          <mxGeometry as="geometry" x="15" y="160" width="250" height="50" />
+        </mxCell>
+        <mxCell id="n67" value="«device»&lt;br&gt;&lt;b&gt;VM depot&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;">
+          <mxGeometry as="geometry" x="20" y="330" width="280" height="225" />
+        </mxCell>
+        <mxCell id="n68" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;SFTPGo (depot.vibro.fr)&lt;/b&gt;" parent="n67" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+          <mxGeometry as="geometry" x="15" y="45" width="250" height="165" />
+        </mxCell>
+        <mxCell id="a69" value="«artifact»&lt;br&gt;1 compte par magasin, clé SSH publique&lt;br&gt;{créés par Ansible depuis le registre}" parent="n68" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="45" width="220" height="55" />
+        </mxCell>
+        <mxCell id="a70" value="«artifact»&lt;br&gt;configuration S3&lt;br&gt;{seule copie de l'URL du bucket}" parent="n68" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="108" width="220" height="45" />
         </mxCell>
         <mxCell id="n14" value="«node»&lt;br&gt;&lt;b&gt;Stockage objet S3 (2e site)&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;">
-          <mxGeometry as="geometry" x="20" y="330" width="280" height="130" />
+          <mxGeometry as="geometry" x="710" y="790" width="270" height="130" />
         </mxCell>
         <mxCell id="a15" value="«artifact»&lt;br&gt;sauvegardes clickhouse-backup" parent="n14" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="50" width="250" height="50" />
         </mxCell>
-        <mxCell id="n16" value="«node»&lt;br&gt;&lt;b&gt;Cluster ClickHouse&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;">
-          <mxGeometry as="geometry" x="320" y="50" width="370" height="540" />
+        <mxCell id="n16" value="«node»&lt;br&gt;&lt;b&gt;ClickHouse (nœud unique)&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;">
+          <mxGeometry as="geometry" x="320" y="50" width="370" height="430" />
         </mxCell>
-        <mxCell id="n17" value="«device»&lt;br&gt;&lt;b&gt;VM ch-1, ch-2 [2]&lt;/b&gt;" parent="n16" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#fffbe6;strokeColor=#d6b656;fontSize=12;">
+        <mxCell id="n17" value="«device»&lt;br&gt;&lt;b&gt;VM ch-1 [1]&lt;/b&gt;" parent="n16" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#fffbe6;strokeColor=#d6b656;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="45" width="340" height="360" />
         </mxCell>
         <mxCell id="n18" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;ClickHouse Server&lt;/b&gt;" parent="n17" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="45" width="310" height="230" />
         </mxCell>
-        <mxCell id="a19" value="«artifact»&lt;br&gt;tables S3Queue (1 par format de source)" parent="n18" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+        <mxCell id="a19" value="«artifact»&lt;br&gt;bronze en String, 1 table par format" parent="n18" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="45" width="280" height="40" />
         </mxCell>
         <mxCell id="a20" value="«artifact»&lt;br&gt;schémas bronze / silver / gold / quarantaine" parent="n18" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
@@ -70,173 +88,152 @@
         <mxCell id="a21" value="«artifact»&lt;br&gt;ROW POLICY, rôles, utilisateurs" parent="n18" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="145" width="280" height="40" />
         </mxCell>
-        <mxCell id="n22" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;ClickHouse Keeper (disque séparé)&lt;/b&gt;" parent="n17" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n22" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;ClickHouse Keeper intégré (disque séparé)&lt;/b&gt;" parent="n17" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="285" width="310" height="60" />
         </mxCell>
-        <mxCell id="n23" value="«device»&lt;br&gt;&lt;b&gt;VM keeper-3 [1]&lt;/b&gt;" parent="n16" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#fffbe6;strokeColor=#d6b656;fontSize=12;">
-          <mxGeometry as="geometry" x="15" y="420" width="340" height="105" />
+        <mxCell id="n23" value="«device»&lt;br&gt;&lt;b&gt;VM orchestration&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;">
+          <mxGeometry as="geometry" x="20" y="710" width="340" height="340" />
         </mxCell>
-        <mxCell id="n24" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;ClickHouse Keeper (arbitre)&lt;/b&gt;" parent="n23" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
-          <mxGeometry as="geometry" x="15" y="40" width="310" height="50" />
-        </mxCell>
-        <mxCell id="n25" value="«device»&lt;br&gt;&lt;b&gt;VM orchestration&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;">
-          <mxGeometry as="geometry" x="20" y="590" width="340" height="340" />
-        </mxCell>
-        <mxCell id="n26" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Dagster (webserver + daemon)&lt;/b&gt;" parent="n25" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n24" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Dagster (webserver + daemon)&lt;/b&gt;" parent="n23" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="45" width="310" height="185" />
         </mxCell>
-        <mxCell id="a27" value="«artifact»&lt;br&gt;projet dbt-clickhouse" parent="n26" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+        <mxCell id="a25" value="«artifact»&lt;br&gt;projet dbt-clickhouse" parent="n24" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="45" width="280" height="38" />
         </mxCell>
-        <mxCell id="a28" value="«artifact»&lt;br&gt;assets, sensors, partitions magasin × jour" parent="n26" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+        <mxCell id="a26" value="«artifact»&lt;br&gt;sensor landing, partitions magasin × jour" parent="n24" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="90" width="280" height="38" />
         </mxCell>
-        <mxCell id="a29" value="«artifact»&lt;br&gt;connecteurs API logiciel de stock" parent="n26" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+        <mxCell id="a27" value="«artifact»&lt;br&gt;adaptateurs par format (XML → JSON compris)" parent="n24" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="135" width="280" height="38" />
         </mxCell>
-        <mxCell id="n30" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Runner CI auto-hébergé&lt;/b&gt;" parent="n25" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n28" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Runner CI auto-hébergé&lt;/b&gt;" parent="n23" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="245" width="310" height="80" />
         </mxCell>
-        <mxCell id="a31" value="«artifact»&lt;br&gt;OpenTofu, Ansible, clé age (SOPS)" parent="n30" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+        <mxCell id="a29" value="«artifact»&lt;br&gt;OpenTofu, Ansible, clé age (SOPS)" parent="n28" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="40" width="280" height="32" />
         </mxCell>
-        <mxCell id="n32" value="«node»&lt;br&gt;&lt;b&gt;PostgreSQL managé&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;">
+        <mxCell id="n30" value="«node»&lt;br&gt;&lt;b&gt;PostgreSQL managé&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;">
           <mxGeometry as="geometry" x="710" y="640" width="270" height="130" />
         </mxCell>
-        <mxCell id="a33" value="«artifact»&lt;br&gt;métadonnées Dagster,&lt;br&gt;Lightdash, Keycloak" parent="n32" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+        <mxCell id="a31" value="«artifact»&lt;br&gt;métadonnées Dagster,&lt;br&gt;Lightdash, Keycloak" parent="n30" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="50" width="240" height="60" />
         </mxCell>
-        <mxCell id="n34" value="«device»&lt;br&gt;&lt;b&gt;VM supervision&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;">
+        <mxCell id="n32" value="«device»&lt;br&gt;&lt;b&gt;VM supervision&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;">
           <mxGeometry as="geometry" x="380" y="620" width="310" height="250" />
         </mxCell>
-        <mxCell id="n35" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Prometheus&lt;/b&gt;" parent="n34" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n33" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Prometheus&lt;/b&gt;" parent="n32" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="45" width="280" height="50" />
         </mxCell>
-        <mxCell id="n36" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Grafana (alertes)&lt;/b&gt;" parent="n34" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n34" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Grafana (alertes, tableau de flotte)&lt;/b&gt;" parent="n32" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="110" width="280" height="50" />
         </mxCell>
-        <mxCell id="n37" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Loki&lt;/b&gt;" parent="n34" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n35" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Loki&lt;/b&gt;" parent="n32" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="175" width="280" height="50" />
         </mxCell>
-        <mxCell id="n38" value="«device»&lt;br&gt;&lt;b&gt;VM restitution&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;">
+        <mxCell id="n36" value="«device»&lt;br&gt;&lt;b&gt;VM restitution&lt;/b&gt;" parent="n10" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;">
           <mxGeometry as="geometry" x="710" y="50" width="270" height="560" />
         </mxCell>
-        <mxCell id="n39" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Reverse proxy (Traefik, TLS)&lt;/b&gt;" parent="n38" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n37" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Reverse proxy (Traefik, TLS)&lt;/b&gt;" parent="n36" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="45" width="240" height="60" />
         </mxCell>
-        <mxCell id="n40" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Lightdash&lt;/b&gt;" parent="n38" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n38" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Lightdash&lt;/b&gt;" parent="n36" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="125" width="240" height="130" />
         </mxCell>
-        <mxCell id="a41" value="«artifact»&lt;br&gt;modèles dbt + métriques (YAML)&lt;br&gt;sql_filter" parent="n40" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+        <mxCell id="a39" value="«artifact»&lt;br&gt;modèles dbt + métriques (YAML)&lt;br&gt;sql_filter" parent="n38" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="45" width="210" height="60" />
         </mxCell>
-        <mxCell id="n42" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Keycloak&lt;/b&gt;" parent="n38" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n40" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Keycloak&lt;/b&gt;" parent="n36" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="275" width="240" height="130" />
         </mxCell>
-        <mxCell id="a43" value="«artifact»&lt;br&gt;realm vibro&lt;br&gt;groupes magasin &amp;gt; région &amp;gt; national" parent="n42" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+        <mxCell id="a41" value="«artifact»&lt;br&gt;realm vibro&lt;br&gt;groupes magasin &amp;gt; région &amp;gt; national" parent="n40" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
           <mxGeometry as="geometry" x="15" y="45" width="210" height="60" />
         </mxCell>
-        <mxCell id="n44" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Cube {optionnel}&lt;/b&gt;" parent="n38" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;dashed=1;">
+        <mxCell id="n42" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Cube {optionnel}&lt;/b&gt;" parent="n36" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;dashed=1;">
           <mxGeometry as="geometry" x="15" y="425" width="240" height="110" />
         </mxCell>
-        <mxCell id="n45" value="«device»&lt;br&gt;&lt;b&gt;Poste ou tablette utilisateur&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;">
+        <mxCell id="n43" value="«device»&lt;br&gt;&lt;b&gt;Poste ou tablette utilisateur&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;">
           <mxGeometry as="geometry" x="1410" y="50" width="290" height="150" />
         </mxCell>
-        <mxCell id="n46" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Navigateur web récent&lt;/b&gt;" parent="n45" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
+        <mxCell id="n44" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Navigateur web récent&lt;/b&gt;" parent="n43" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fillColor=#ffffff;strokeColor=#666666;fontSize=12;">
           <mxGeometry as="geometry" x="15" y="50" width="250" height="70" />
         </mxCell>
-        <mxCell id="c47" value="&lt;b&gt;Contraintes&lt;/b&gt;&lt;br&gt;{cloisonnement par ROW POLICY ClickHouse}&lt;br&gt;{agrégats publiés si &amp;gt;= 5 magasins}&lt;br&gt;{marge visible par l'adhérent seul}&lt;br&gt;{batch 23 h - 6 h, publication 7 h 30}&lt;br&gt;{données en France / UE}&lt;br&gt;{une seule IP publique : VM restitution}" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
-          <mxGeometry as="geometry" x="1410" y="240" width="290" height="160" />
+        <mxCell id="c45" value="&lt;b&gt;Contraintes&lt;/b&gt;&lt;br&gt;{cloisonnement par ROW POLICY ClickHouse}&lt;br&gt;{agrégats publiés si &amp;gt;= 5 magasins}&lt;br&gt;{marge visible par l'adhérent seul}&lt;br&gt;{batch 23 h - 6 h, publication 7 h 30}&lt;br&gt;{données en France / UE}&lt;br&gt;{le magasin envoie, Vibro ne se connecte jamais au magasin}&lt;br&gt;{deux IP publiques : VM restitution et VM depot}" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;spacingLeft=6;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="1410" y="240" width="290" height="190" />
         </mxCell>
-        <mxCell id="e48" value="«HTTPS» connecteur&lt;br&gt;appel sortant" parent="1" edge="1" source="n26" target="n1" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="e71" value="«SFTP 22»" parent="1" edge="1" source="n1" target="n68" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" x="-0.5" relative="1" />
         </mxCell>
-        <mxCell id="m49" value="1" parent="e48" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=left;labelBackgroundColor=none;">
+        <mxCell id="m72" value="*" parent="e71" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=left;labelBackgroundColor=none;">
           <mxGeometry as="geometry" x="-0.85" relative="1">
             <mxPoint as="offset" y="-8" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m50" value="1" parent="e48" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=right;labelBackgroundColor=none;">
+        <mxCell id="m73" value="1" parent="e71" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=right;labelBackgroundColor=none;">
           <mxGeometry as="geometry" x="0.85" relative="1">
             <mxPoint as="offset" y="-8" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e51" value="«HTTPS» API S3&lt;br&gt;écriture seule" parent="1" edge="1" source="n3" target="n11" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;dashed=1;">
+        <mxCell id="e51" value="«SFTP 22»&lt;br&gt;dépôt nocturne" parent="1" edge="1" source="n5" target="n68" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="m52" value="*" parent="e51" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=left;labelBackgroundColor=none;">
+        <mxCell id="e74" value="«HTTPS» écriture" parent="1" edge="1" source="n68" target="n11" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0.7;exitY=0;exitDx=0;exitDy=0;entryX=0.68;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e75" value="«HTTPS» sensor" parent="1" edge="1" source="n24" target="n11" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0.887;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" x="-0.6" relative="1" />
+        </mxCell>
+        <mxCell id="e52" value="«HTTPS»&lt;br&gt;s3(), tiering" parent="1" edge="1" source="n18" target="n11" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0;exitY=0.05;exitDx=0;exitDy=0;entryX=1;entryY=0.4;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e53" value="«HTTPS» sauvegarde" parent="1" edge="1" source="n18" target="n14" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1070" y="397" />
+              <mxPoint x="1070" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e54" value="«TCP/TLS 5432»" parent="1" edge="1" source="n24" target="n30" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e55" value="«TCP/TLS 5432»" parent="1" edge="1" source="n38" target="n30" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=1;exitY=0.8;entryX=1;entryY=0.3;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e56" value="«TCP/TLS 9440»" parent="1" edge="1" source="n24" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0.75;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e57" value="«HTTPS 8443»" parent="1" edge="1" source="n38" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e58" value="«HTTPS 8443»" parent="1" edge="1" source="n42" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e59" value="«OIDC»" parent="1" edge="1" source="n38" target="n40" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e60" value="«HTTPS 443»" parent="1" edge="1" source="n44" target="n37" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="m61" value="*" parent="e60" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=left;labelBackgroundColor=none;">
           <mxGeometry as="geometry" x="-0.85" relative="1">
             <mxPoint as="offset" y="-8" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m53" value="1" parent="e51" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=right;labelBackgroundColor=none;">
+        <mxCell id="m62" value="1" parent="e60" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=right;labelBackgroundColor=none;">
           <mxGeometry as="geometry" x="0.85" relative="1">
             <mxPoint as="offset" y="-8" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e54" value="«HTTPS» dépôt nocturne" parent="1" edge="1" source="n5" target="n11" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
+        <mxCell id="e63" value="«HTTP» /metrics" parent="1" edge="1" source="n33" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="e55" value="«HTTPS»&lt;br&gt;S3Queue, tiering" parent="1" edge="1" source="n18" target="n11" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
+        <mxCell id="e64" value="«HTTP» /metrics" parent="1" edge="1" source="n33" target="n24" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="e56" value="«HTTPS» sauvegarde" parent="1" edge="1" source="n18" target="n14" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0;exitY=0.85;exitDx=0;exitDy=0;">
+        <mxCell id="e65" value="«HTTPS 443» sortant&lt;br&gt;le runner récupère les jobs" parent="1" edge="1" source="n28" target="n8" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="e57" value="«TLS 9281 / 9234» Keeper" parent="1" edge="1" source="n17" target="n23" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="m58" value="2" parent="e57" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=left;labelBackgroundColor=none;">
-          <mxGeometry as="geometry" x="-0.85" relative="1">
-            <mxPoint as="offset" y="-8" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m59" value="1" parent="e57" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=right;labelBackgroundColor=none;">
-          <mxGeometry as="geometry" x="0.85" relative="1">
-            <mxPoint as="offset" y="-8" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e60" value="«TCP/TLS 5432»" parent="1" edge="1" source="n26" target="n32" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="e61" value="«TCP/TLS 5432»" parent="1" edge="1" source="n40" target="n32" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=1;exitY=0.8;entryX=1;entryY=0.3;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="e62" value="«TCP/TLS 9440»" parent="1" edge="1" source="n26" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0.75;exitY=0;exitDx=0;exitDy=0;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="e63" value="«HTTPS 8443»" parent="1" edge="1" source="n40" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="e64" value="«HTTPS 8443»" parent="1" edge="1" source="n44" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;dashed=1;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="e65" value="«OIDC»" parent="1" edge="1" source="n40" target="n42" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="e66" value="«HTTPS 443»" parent="1" edge="1" source="n46" target="n39" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="m67" value="*" parent="e66" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=left;labelBackgroundColor=none;">
-          <mxGeometry as="geometry" x="-0.85" relative="1">
-            <mxPoint as="offset" y="-8" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m68" value="1" parent="e66" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=11;align=right;labelBackgroundColor=none;">
-          <mxGeometry as="geometry" x="0.85" relative="1">
-            <mxPoint as="offset" y="-8" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e69" value="«HTTP» /metrics" parent="1" edge="1" source="n35" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="e70" value="«HTTP» /metrics" parent="1" edge="1" source="n35" target="n26" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="e71" value="«HTTPS 443» sortant&lt;br&gt;le runner récupère les jobs" parent="1" edge="1" source="n30" target="n8" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;">
-          <mxGeometry as="geometry" relative="1" />
-        </mxCell>
-        <mxCell id="e72" value="" parent="1" edge="1" source="c47" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;dashed=1;endArrow=none;edgeStyle=none;">
+        <mxCell id="e66" value="" parent="1" edge="1" source="c45" target="n18" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;labelBackgroundColor=#ffffff;strokeColor=#333333;dashed=1;endArrow=none;edgeStyle=none;">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
       </root>

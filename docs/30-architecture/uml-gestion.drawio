@@ -79,7 +79,7 @@
         <mxCell id="x24" value="Générer l'inventaire&lt;br&gt;depuis tofu output -json" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
           <mxGeometry as="geometry" x="1000" y="1210" width="200" height="56" />
         </mxCell>
-        <mxCell id="x25" value="ansible-playbook site.yml&lt;br&gt;(rôles base, clickhouse, keeper,&lt;br&gt;dagster, traefik, keycloak, lightdash,&lt;br&gt;supervision)" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+        <mxCell id="x25" value="ansible-playbook site.yml&lt;br&gt;(rôles base, clickhouse,&lt;br&gt;dagster, sftpgo, traefik, keycloak,&lt;br&gt;lightdash, supervision)" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
           <mxGeometry as="geometry" x="1000" y="1285" width="200" height="80" />
         </mxCell>
         <mxCell id="x26" value="Configurer les VM&lt;br&gt;(secrets injectés depuis SOPS)" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;">

@@ -23,6 +23,7 @@ nav:
       - 10-besoins/expression-de-besoin-client.md
   - Architecture:
       - 30-architecture/architecture-cible.md
+      - 30-architecture/ingestion.md
   - Développement:
       - 40-dev/installation.md
       - 40-dev/utilisation.md
