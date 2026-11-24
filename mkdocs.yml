@@ -3,10 +3,36 @@ site_description: Documentation du projet Vibro, source de vérité pour l'équi
 docs_dir: docs
 strict: false
 
+nav:
+  - Accueil: index.md
+  - Cadrage:
+      - 00-cadrage/modalites-apprenant.md
+      - 00-cadrage/compte-rendu-cloture-projet-2023.md
+      - Réponses client:
+          - 00-cadrage/reponses-client/index.md
+          - 00-cadrage/reponses-client/organisation-gouvernance.md
+          - 00-cadrage/reponses-client/cartographie-si.md
+          - 00-cadrage/reponses-client/hebergement-et-securite.md
+          - 00-cadrage/reponses-client/donnees-personnelles-et-cloisonnement.md
+          - 00-cadrage/reponses-client/volumetrie-et-contraintes.md
+          - 00-cadrage/reponses-client/consolidation-regionale.md
+          - 00-cadrage/reponses-client/remontees-terrain.md
+          - 00-cadrage/reponses-client/annuaire-magasins.md
+          - 00-cadrage/reponses-client/tarifs-achat-centrale.md
+  - Besoins:
+      - 10-besoins/expression-de-besoin-client.md
+  - Architecture:
+      - 30-architecture/architecture-cible.md
+  - Développement:
+      - 40-dev/installation.md
+      - 40-dev/utilisation.md
+
 theme:
   name: material
   language: fr
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
     - navigation.top
@@ -17,14 +43,22 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Passer en mode sombre
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Passer en mode clair
+
+extra_css:
+  - stylesheets/neutral.css
+  - stylesheets/drawio-tabs.css
 
 plugins:
   - search:

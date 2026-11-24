@@ -1,0 +1,184 @@
+<mxfile host="Claude Code" type="device">
+  <diagram id="Infrastructure" name="Infrastructure">
+    <mxGraphModel dx="1900" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="1360" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frame" value="&lt;b&gt;deployment&lt;/b&gt; Infrastructure Vibro : ressources OpenTofu et logiciels déployés" parent="1" vertex="1" style="shape=umlFrame;html=1;whiteSpace=wrap;width=520;height=26;align=left;spacingLeft=8;fontSize=13;fillColor=none;strokeColor=#333333;">
+          <mxGeometry as="geometry" x="0" y="0" width="1900" height="1320" />
+        </mxCell>
+        <mxCell id="n1" value="«node»&lt;br&gt;&lt;b&gt;Fournisseur cloud France : région 1&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#f8fff8;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="20" y="50" width="1500" height="1170" />
+        </mxCell>
+        <mxCell id="n2" value="«device»&lt;br&gt;&lt;b&gt;ch-1&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;16 vCPU · 64 Go · Debian stable&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;disque data 500 Go SSD (/var/lib/clickhouse)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;disque keeper 50 Go SSD (/var/lib/clickhouse-keeper)&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="20" y="50" width="340" height="470" />
+        </mxCell>
+        <mxCell id="n3" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;ClickHouse Server&lt;/b&gt;" parent="n2" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="100" width="310" height="200" />
+        </mxCell>
+        <mxCell id="a4" value="«artifact»&lt;br&gt;&lt;b&gt;config.d/*.xml&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;remote_servers, storage_policy (froid S3)&lt;/font&gt;" parent="n3" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="45" width="280" height="40" />
+        </mxCell>
+        <mxCell id="a5" value="«artifact»&lt;br&gt;&lt;b&gt;users.d, ROW POLICY&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;rôles magasin / région / national&lt;/font&gt;" parent="n3" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="95" width="280" height="40" />
+        </mxCell>
+        <mxCell id="a6" value="«artifact»&lt;br&gt;&lt;b&gt;bronze, silver, gold&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;Replicated*MergeTree&lt;/font&gt;" parent="n3" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="145" width="280" height="40" />
+        </mxCell>
+        <mxCell id="n7" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;ClickHouse Keeper&lt;/b&gt;" parent="n2" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="315" width="310" height="65" />
+        </mxCell>
+        <mxCell id="n8" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Agents&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;node_exporter · Alloy (journaux vers Loki)&lt;/font&gt;" parent="n2" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="395" width="310" height="60" />
+        </mxCell>
+        <mxCell id="n9" value="«device»&lt;br&gt;&lt;b&gt;ch-2&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;16 vCPU · 64 Go · Debian stable&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;disque data 500 Go SSD (/var/lib/clickhouse)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;disque keeper 50 Go SSD (/var/lib/clickhouse-keeper)&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="380" y="50" width="340" height="470" />
+        </mxCell>
+        <mxCell id="n10" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;ClickHouse Server&lt;/b&gt;" parent="n9" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="100" width="310" height="200" />
+        </mxCell>
+        <mxCell id="a11" value="«artifact»&lt;br&gt;&lt;b&gt;config.d/*.xml&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;remote_servers, storage_policy (froid S3)&lt;/font&gt;" parent="n10" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="45" width="280" height="40" />
+        </mxCell>
+        <mxCell id="a12" value="«artifact»&lt;br&gt;&lt;b&gt;users.d, ROW POLICY&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;rôles magasin / région / national&lt;/font&gt;" parent="n10" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="95" width="280" height="40" />
+        </mxCell>
+        <mxCell id="a13" value="«artifact»&lt;br&gt;&lt;b&gt;bronze, silver, gold&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;Replicated*MergeTree&lt;/font&gt;" parent="n10" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="145" width="280" height="40" />
+        </mxCell>
+        <mxCell id="n14" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;ClickHouse Keeper&lt;/b&gt;" parent="n9" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="315" width="310" height="65" />
+        </mxCell>
+        <mxCell id="n15" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Agents&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;node_exporter · Alloy (journaux vers Loki)&lt;/font&gt;" parent="n9" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="395" width="310" height="60" />
+        </mxCell>
+        <mxCell id="n16" value="«device»&lt;br&gt;&lt;b&gt;keeper-3&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;2 vCPU · 4 Go · Debian stable&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;disque keeper 50 Go SSD&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="740" y="50" width="300" height="230" />
+        </mxCell>
+        <mxCell id="n17" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;ClickHouse Keeper&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;arbitre du quorum&lt;/font&gt;" parent="n16" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="85" width="270" height="60" />
+        </mxCell>
+        <mxCell id="n18" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Agents&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;node_exporter · Alloy&lt;/font&gt;" parent="n16" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="155" width="270" height="60" />
+        </mxCell>
+        <mxCell id="n19" value="«device»&lt;br&gt;&lt;b&gt;orchestration&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;4 vCPU · 16 Go · disque 100 Go&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;">
+          <mxGeometry as="geometry" x="20" y="560" width="480" height="360" />
+        </mxCell>
+        <mxCell id="n20" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Dagster (webserver + daemon)&lt;/b&gt;" parent="n19" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="70" width="450" height="120" />
+        </mxCell>
+        <mxCell id="a21" value="«artifact»&lt;br&gt;&lt;b&gt;projet dbt-clickhouse&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;modèles, tests, métriques&lt;/font&gt;" parent="n20" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="45" width="205" height="60" />
+        </mxCell>
+        <mxCell id="a22" value="«artifact»&lt;br&gt;&lt;b&gt;code Dagster&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;assets, sensors, connecteurs API stock&lt;/font&gt;" parent="n20" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="230" y="45" width="205" height="60" />
+        </mxCell>
+        <mxCell id="n23" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Runner GitHub Actions (auto-hébergé)&lt;/b&gt;" parent="n19" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="205" width="450" height="140" />
+        </mxCell>
+        <mxCell id="a24" value="«artifact»&lt;br&gt;&lt;b&gt;OpenTofu, Ansible&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;versions figées&lt;/font&gt;" parent="n23" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="45" width="205" height="75" />
+        </mxCell>
+        <mxCell id="a25" value="«artifact»&lt;br&gt;&lt;b&gt;clé privée age&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;fichier 0400, utilisateur runner&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;déchiffre les *.sops.yaml&lt;/font&gt;" parent="n23" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="230" y="45" width="205" height="75" />
+        </mxCell>
+        <mxCell id="n26" value="«device»&lt;br&gt;&lt;b&gt;restitution&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;4 vCPU · 8 Go · disque 50 Go&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;IP publique (seule de la plateforme)&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;">
+          <mxGeometry as="geometry" x="540" y="560" width="500" height="360" />
+        </mxCell>
+        <mxCell id="n27" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Docker Compose&lt;/b&gt;" parent="n26" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="85" width="470" height="260" />
+        </mxCell>
+        <mxCell id="a28" value="«artifact»&lt;br&gt;&lt;b&gt;Traefik&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;TLS Let's Encrypt&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;forward auth Keycloak&lt;/font&gt;" parent="n27" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="45" width="140" height="90" />
+        </mxCell>
+        <mxCell id="a29" value="«artifact»&lt;br&gt;&lt;b&gt;Keycloak&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;realm vibro&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;groupes, attributs&lt;/font&gt;" parent="n27" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="165" y="45" width="140" height="90" />
+        </mxCell>
+        <mxCell id="a30" value="«artifact»&lt;br&gt;&lt;b&gt;Lightdash&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;projet dbt&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;sql_filter&lt;/font&gt;" parent="n27" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="315" y="45" width="140" height="90" />
+        </mxCell>
+        <mxCell id="a31" value="«artifact»&lt;br&gt;&lt;b&gt;Cube {optionnel}&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;si 2e consommateur&lt;/font&gt;" parent="n27" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="150" width="440" height="50" />
+        </mxCell>
+        <mxCell id="n32" value="«device»&lt;br&gt;&lt;b&gt;supervision&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;4 vCPU · 16 Go · disque 200 Go&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;">
+          <mxGeometry as="geometry" x="1080" y="50" width="400" height="360" />
+        </mxCell>
+        <mxCell id="n33" value="«executionEnvironment»&lt;br&gt;&lt;b&gt;Docker Compose&lt;/b&gt;" parent="n32" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="70" width="370" height="270" />
+        </mxCell>
+        <mxCell id="a34" value="«artifact»&lt;br&gt;&lt;b&gt;Prometheus&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;rétention 30 jours&lt;/font&gt;" parent="n33" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="45" width="340" height="50" />
+        </mxCell>
+        <mxCell id="a35" value="«artifact»&lt;br&gt;&lt;b&gt;Grafana&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;alertes : magasin absent, rejets, fraîcheur 7 h 30&lt;/font&gt;" parent="n33" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="105" width="340" height="50" />
+        </mxCell>
+        <mxCell id="a36" value="«artifact»&lt;br&gt;&lt;b&gt;Loki&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;journaux, rétention 30 jours&lt;/font&gt;" parent="n33" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="165" width="340" height="50" />
+        </mxCell>
+        <mxCell id="n37" value="«node»&lt;br&gt;&lt;b&gt;Stockage objet S3&lt;/b&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="1080" y="440" width="400" height="400" />
+        </mxCell>
+        <mxCell id="a38" value="«artifact»&lt;br&gt;&lt;b&gt;vibro-landing&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;versionnement, object lock (conformité)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;cycle de vie : 24 mois&lt;/font&gt;" parent="n37" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="50" width="370" height="70" />
+        </mxCell>
+        <mxCell id="a39" value="«artifact»&lt;br&gt;&lt;b&gt;vibro-froid&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;disque S3 de ClickHouse (&gt; 13 mois)&lt;/font&gt;" parent="n37" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="130" width="370" height="60" />
+        </mxCell>
+        <mxCell id="a40" value="«artifact»&lt;br&gt;&lt;b&gt;vibro-backups&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;versionnement, réplication vers région 2&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;quotidiennes 35 j, mensuelles 12 mois&lt;/font&gt;" parent="n37" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="200" width="370" height="70" />
+        </mxCell>
+        <mxCell id="a41" value="«artifact»&lt;br&gt;&lt;b&gt;vibro-tofu-state&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;versionnement, accès runner seul&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;état chiffré par OpenTofu (aes_gcm, clé pbkdf2)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;verrouillage de l'état activé&lt;/font&gt;" parent="n37" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="280" width="370" height="100" />
+        </mxCell>
+        <mxCell id="n42" value="«node»&lt;br&gt;&lt;b&gt;PostgreSQL managé&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;HA, sauvegarde PITR&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="1080" y="870" width="400" height="130" />
+        </mxCell>
+        <mxCell id="a43" value="«artifact»&lt;br&gt;&lt;b&gt;bases dagster, lightdash, keycloak&lt;/b&gt;" parent="n42" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="65" width="370" height="50" />
+        </mxCell>
+        <mxCell id="n44" value="«node»&lt;br&gt;&lt;b&gt;DNS&lt;/b&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="20" y="950" width="1020" height="190" />
+        </mxCell>
+        <mxCell id="a45" value="«artifact»&lt;br&gt;&lt;b&gt;zone publique *.vibro.&amp;lt;domaine&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;bi. → Lightdash&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;auth. → Keycloak&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;dagster. et grafana. → réservés aux exploitants&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;tous vers l'IP publique de restitution&lt;/font&gt;" parent="n44" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="50" width="490" height="120" />
+        </mxCell>
+        <mxCell id="a46" value="«artifact»&lt;br&gt;&lt;b&gt;zone privée prod.internal&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;ch-1, ch-2, keeper-3, orchestration,&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;restitution, supervision, pg&lt;/font&gt;" parent="n44" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="515" y="50" width="490" height="120" />
+        </mxCell>
+        <mxCell id="n47" value="«node»&lt;br&gt;&lt;b&gt;Groupes de sécurité&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;sg-restitution, sg-orchestration, sg-supervision,&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;sg-clickhouse, sg-keeper&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;détail dans le diagramme réseau&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="1080" y="1030" width="400" height="110" />
+        </mxCell>
+        <mxCell id="n48" value="«node»&lt;br&gt;&lt;b&gt;Région 2&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#f8fff8;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="1560" y="50" width="320" height="200" />
+        </mxCell>
+        <mxCell id="n49" value="«node»&lt;br&gt;&lt;b&gt;Stockage objet S3&lt;/b&gt;" parent="n48" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="15" y="50" width="290" height="130" />
+        </mxCell>
+        <mxCell id="a50" value="«artifact»&lt;br&gt;&lt;b&gt;vibro-backups (réplique)&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;même cycle de vie&lt;/font&gt;" parent="n49" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="50" width="260" height="60" />
+        </mxCell>
+        <mxCell id="n51" value="«node»&lt;br&gt;&lt;b&gt;GitHub&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;">
+          <mxGeometry as="geometry" x="1560" y="290" width="320" height="200" />
+        </mxCell>
+        <mxCell id="a52" value="«artifact»&lt;br&gt;&lt;b&gt;dépôt vibro&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;tofu/ (modules, environnements)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;ansible/ (rôles, playbooks)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;secrets/*.sops.yaml (chiffrés age)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:10px'&gt;.sops.yaml (clés publiques)&lt;/font&gt;" parent="n51" vertex="1" style="shape=note;size=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="50" width="290" height="130" />
+        </mxCell>
+        <mxCell id="e53" value="réplication" parent="1" edge="1" source="n37" target="n49" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;exitX=1;exitY=0.4;entryX=0.5;entryY=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e54" value="jobs (le runner interroge GitHub)" parent="1" edge="1" source="n51" target="n23" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;dashed=1;exitX=0;exitY=0.8;entryX=1;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1530" y="450" />
+              <mxPoint x="1530" y="1260" />
+              <mxPoint x="520" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c55" value="{dimensionnement : hypothèse à valider au POC (banc d'essai 24 décembre)}&lt;br&gt;{chaque ressource de ce diagramme est créée par OpenTofu, chaque logiciel par Ansible}" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="1560" y="520" width="320" height="110" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

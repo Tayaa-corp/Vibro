@@ -1,0 +1,61 @@
+/* Neutral de Tailwind */
+:root {
+  --neutral-50: #fafafa;
+  --neutral-100: #f5f5f5;
+  --neutral-200: #e5e5e5;
+  --neutral-300: #d4d4d4;
+  --neutral-400: #a3a3a3;
+  --neutral-500: #737373;
+  --neutral-600: #525252;
+  --neutral-700: #404040;
+  --neutral-800: #262626;
+  --neutral-900: #171717;
+  --neutral-950: #0a0a0a;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--neutral-800);
+  --md-primary-fg-color--light: var(--neutral-600);
+  --md-primary-fg-color--dark: var(--neutral-900);
+  --md-primary-bg-color: var(--neutral-50);
+  --md-primary-bg-color--light: rgb(250 250 250 / 0.7);
+  --md-accent-fg-color: var(--neutral-500);
+  --md-accent-fg-color--transparent: rgb(115 115 115 / 0.1);
+  --md-typeset-a-color: var(--neutral-700);
+}
+
+/* Slate est bleuté par défaut */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--neutral-900);
+  --md-primary-fg-color--light: var(--neutral-700);
+  --md-primary-fg-color--dark: var(--neutral-950);
+  --md-primary-bg-color: var(--neutral-200);
+  --md-primary-bg-color--light: rgb(229 229 229 / 0.7);
+  --md-accent-fg-color: var(--neutral-400);
+  --md-accent-fg-color--transparent: rgb(163 163 163 / 0.1);
+  --md-typeset-a-color: var(--neutral-300);
+
+  --md-default-fg-color: rgb(229 229 229 / 0.82);
+  --md-default-fg-color--light: rgb(229 229 229 / 0.56);
+  --md-default-fg-color--lighter: rgb(229 229 229 / 0.32);
+  --md-default-fg-color--lightest: rgb(229 229 229 / 0.12);
+
+  --md-default-bg-color: var(--neutral-800);
+  --md-default-bg-color--light: rgb(38 38 38 / 0.54);
+  --md-default-bg-color--lighter: rgb(38 38 38 / 0.26);
+  --md-default-bg-color--lightest: rgb(38 38 38 / 0.07);
+
+  --md-code-fg-color: rgb(229 229 229 / 0.82);
+  --md-code-bg-color: var(--neutral-900);
+  --md-code-bg-color--light: rgb(23 23 23 / 0.9);
+  --md-code-bg-color--lighter: rgb(23 23 23 / 0.54);
+
+  --md-typeset-kbd-color: rgb(229 229 229 / 0.12);
+  --md-typeset-kbd-accent-color: rgb(229 229 229 / 0.2);
+  --md-typeset-kbd-border-color: var(--neutral-800);
+  --md-typeset-table-color: rgb(245 245 245 / 0.12);
+  --md-typeset-table-color--light: rgb(245 245 245 / 0.035);
+
+  --md-footer-bg-color: var(--neutral-900);
+  --md-footer-bg-color--dark: var(--neutral-950);
+}

@@ -1,0 +1,20 @@
+/* Onglets masqués sans display:none, sinon draw.io dessine à largeur 0 */
+.md-typeset .tabbed-set:has(.mxgraph) > .tabbed-content > .tabbed-block {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.md-typeset .tabbed-set:has(.mxgraph) > input:nth-child(1):checked ~ .tabbed-content > .tabbed-block:nth-child(1),
+.md-typeset .tabbed-set:has(.mxgraph) > input:nth-child(2):checked ~ .tabbed-content > .tabbed-block:nth-child(2),
+.md-typeset .tabbed-set:has(.mxgraph) > input:nth-child(3):checked ~ .tabbed-content > .tabbed-block:nth-child(3),
+.md-typeset .tabbed-set:has(.mxgraph) > input:nth-child(4):checked ~ .tabbed-content > .tabbed-block:nth-child(4),
+.md-typeset .tabbed-set:has(.mxgraph) > input:nth-child(5):checked ~ .tabbed-content > .tabbed-block:nth-child(5),
+.md-typeset .tabbed-set:has(.mxgraph) > input:nth-child(6):checked ~ .tabbed-content > .tabbed-block:nth-child(6),
+.md-typeset .tabbed-set:has(.mxgraph) > input:nth-child(7):checked ~ .tabbed-content > .tabbed-block:nth-child(7),
+.md-typeset .tabbed-set:has(.mxgraph) > input:nth-child(8):checked ~ .tabbed-content > .tabbed-block:nth-child(8) {
+  height: auto;
+  overflow: visible;
+  visibility: visible;
+}

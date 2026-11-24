@@ -1,0 +1,201 @@
+<mxfile host="Claude Code" type="device">
+  <diagram id="Gestion" name="Gestion">
+    <mxGraphModel dx="1840" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1880" pageHeight="1680" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frame" value="&lt;b&gt;activity&lt;/b&gt; Gestion de l'infrastructure : OpenTofu, Ansible, SOPS + age, CI" parent="1" vertex="1" style="shape=umlFrame;html=1;whiteSpace=wrap;width=520;height=26;align=left;spacingLeft=8;fontSize=13;fillColor=none;strokeColor=#333333;">
+          <mxGeometry as="geometry" x="0" y="0" width="1840" height="1640" />
+        </mxCell>
+        <mxCell id="l1" value="&lt;b&gt;Exploitant&lt;/b&gt;" parent="1" vertex="1" style="swimlane;html=1;startSize=30;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;swimlaneFillColor=#ffffff;container=0;">
+          <mxGeometry as="geometry" x="20" y="50" width="240" height="1560" />
+        </mxCell>
+        <mxCell id="l2" value="&lt;b&gt;GitHub&lt;/b&gt;" parent="1" vertex="1" style="swimlane;html=1;startSize=30;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;swimlaneFillColor=#ffffff;container=0;">
+          <mxGeometry as="geometry" x="260" y="50" width="240" height="1560" />
+        </mxCell>
+        <mxCell id="l3" value="&lt;b&gt;Runner (orchestration)&lt;/b&gt;" parent="1" vertex="1" style="swimlane;html=1;startSize=30;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;swimlaneFillColor=#ffffff;container=0;">
+          <mxGeometry as="geometry" x="500" y="50" width="240" height="1560" />
+        </mxCell>
+        <mxCell id="l4" value="&lt;b&gt;OpenTofu&lt;/b&gt;" parent="1" vertex="1" style="swimlane;html=1;startSize=30;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;swimlaneFillColor=#ffffff;container=0;">
+          <mxGeometry as="geometry" x="740" y="50" width="240" height="1560" />
+        </mxCell>
+        <mxCell id="l5" value="&lt;b&gt;Ansible&lt;/b&gt;" parent="1" vertex="1" style="swimlane;html=1;startSize=30;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;swimlaneFillColor=#ffffff;container=0;">
+          <mxGeometry as="geometry" x="980" y="50" width="240" height="1560" />
+        </mxCell>
+        <mxCell id="l6" value="&lt;b&gt;Ressources cibles&lt;/b&gt;" parent="1" vertex="1" style="swimlane;html=1;startSize=30;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;swimlaneFillColor=#ffffff;container=0;">
+          <mxGeometry as="geometry" x="1220" y="50" width="240" height="1560" />
+        </mxCell>
+        <mxCell id="i7" value="" parent="1" vertex="1" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;">
+          <mxGeometry as="geometry" x="127" y="95" width="26" height="26" />
+        </mxCell>
+        <mxCell id="x8" value="Modifier tofu/, ansible/&lt;br&gt;ou secrets/*.sops.yaml" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="40" y="140" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x9" value="Ouvrir une pull request" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="40" y="225" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x10" value="Déclencher le workflow&lt;br&gt;(branche protégée, pas de fork)" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="280" y="310" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x11" value="Checkout, puis déchiffrer les secrets&lt;br&gt;(sops -d, clé age du runner)" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="520" y="395" width="200" height="56" />
+        </mxCell>
+        <mxCell id="b12" value="" parent="1" vertex="1" style="rounded=0;html=1;fillColor=#000000;strokeColor=#000000;">
+          <mxGeometry as="geometry" x="520" y="480" width="680" height="6" />
+        </mxCell>
+        <mxCell id="x13" value="tofu fmt, validate, tflint" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="760" y="505" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x14" value="ansible-lint, yamllint&lt;br&gt;ansible-playbook --check" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="1000" y="505" width="200" height="56" />
+        </mxCell>
+        <mxCell id="b15" value="" parent="1" vertex="1" style="rounded=0;html=1;fillColor=#000000;strokeColor=#000000;">
+          <mxGeometry as="geometry" x="520" y="590" width="680" height="6" />
+        </mxCell>
+        <mxCell id="x16" value="tofu init (backend S3, état chiffré)&lt;br&gt;tofu plan -out=plan" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="760" y="615" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x17" value="Publier le plan&lt;br&gt;en commentaire de PR" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="280" y="700" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x18" value="Relire le plan et le code" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="40" y="785" width="200" height="56" />
+        </mxCell>
+        <mxCell id="d19" value="approuvé ?" parent="1" vertex="1" style="rhombus;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;">
+          <mxGeometry as="geometry" x="85" y="870" width="110" height="60" />
+        </mxCell>
+        <mxCell id="x20" value="Merge sur main" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="280" y="955" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x21" value="tofu apply plan&lt;br&gt;(plan relu, sans recalcul)" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="760" y="1040" width="200" height="56" />
+        </mxCell>
+        <mxCell id="o22" value="«datastore»&lt;br&gt;état OpenTofu chiffré&lt;br&gt;[vibro-tofu-state]" parent="1" vertex="1" style="rounded=0;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;">
+          <mxGeometry as="geometry" x="1240" y="1040" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x23" value="Créer / mettre à jour : VM, disques,&lt;br&gt;groupes de sécurité, buckets, PG, DNS" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="1240" y="1125" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x24" value="Générer l'inventaire&lt;br&gt;depuis tofu output -json" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="1000" y="1210" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x25" value="ansible-playbook site.yml&lt;br&gt;(rôles base, clickhouse, keeper,&lt;br&gt;dagster, traefik, keycloak, lightdash,&lt;br&gt;supervision)" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="1000" y="1285" width="200" height="80" />
+        </mxCell>
+        <mxCell id="x26" value="Configurer les VM&lt;br&gt;(secrets injectés depuis SOPS)" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="1240" y="1285" width="200" height="56" />
+        </mxCell>
+        <mxCell id="x27" value="Tests de fumée&lt;br&gt;+ tests de cloisonnement" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="520" y="1395" width="200" height="56" />
+        </mxCell>
+        <mxCell id="d28" value="OK ?" parent="1" vertex="1" style="rhombus;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;">
+          <mxGeometry as="geometry" x="565" y="1480" width="110" height="60" />
+        </mxCell>
+        <mxCell id="x29" value="Alerter, puis revert&lt;br&gt;(nouvelle PR)" parent="1" vertex="1" style="rounded=1;arcSize=30;html=1;whiteSpace=wrap;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="280" y="1482" width="200" height="56" />
+        </mxCell>
+        <mxCell id="f30" value="" parent="1" vertex="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;">
+          <mxGeometry as="geometry" x="845" y="1495" width="30" height="30" />
+        </mxCell>
+        <mxCell id="f31" value="" parent="1" vertex="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;">
+          <mxGeometry as="geometry" x="365" y="1570" width="30" height="30" />
+        </mxCell>
+        <mxCell id="e32" value="" parent="1" edge="1" source="i7" target="x8" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e33" value="" parent="1" edge="1" source="x8" target="x9" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e34" value="" parent="1" edge="1" source="x9" target="x10" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e35" value="" parent="1" edge="1" source="x10" target="x11" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e36" value="" parent="1" edge="1" source="x11" target="b12" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e37" value="" parent="1" edge="1" source="b12" target="x13" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e38" value="" parent="1" edge="1" source="b12" target="x14" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e39" value="" parent="1" edge="1" source="x13" target="b15" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e40" value="" parent="1" edge="1" source="x14" target="b15" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e41" value="" parent="1" edge="1" source="b15" target="x16" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e42" value="" parent="1" edge="1" source="x16" target="x17" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e43" value="" parent="1" edge="1" source="x17" target="x18" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e44" value="" parent="1" edge="1" source="x18" target="d19" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e45" value="[non]" parent="1" edge="1" source="d19" target="x8" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="30" y="900" />
+              <mxPoint x="30" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e46" value="[oui]" parent="1" edge="1" source="d19" target="x20" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e47" value="" parent="1" edge="1" source="x20" target="x21" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e48" value="" parent="1" edge="1" source="x21" target="o22" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e49" value="" parent="1" edge="1" source="x21" target="x23" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e50" value="" parent="1" edge="1" source="x23" target="x24" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e51" value="" parent="1" edge="1" source="x24" target="x25" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e52" value="" parent="1" edge="1" source="x25" target="x26" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e53" value="" parent="1" edge="1" source="x26" target="x27" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e54" value="" parent="1" edge="1" source="x27" target="d28" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e55" value="[oui]" parent="1" edge="1" source="d28" target="f30" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e56" value="[non]" parent="1" edge="1" source="d28" target="x29" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e57" value="" parent="1" edge="1" source="x29" target="f31" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=open;endFill=0;endSize=10;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="c58" value="&lt;b&gt;Amorçage (une seule fois)&lt;/b&gt;&lt;br&gt;{premier tofu apply depuis le poste d'un exploitant : bucket d'état, VPC, VM orchestration et runner}&lt;br&gt;{ensuite, toute modification passe par une PR et le runner}" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="1490" y="60" width="330" height="130" />
+        </mxCell>
+        <mxCell id="c59" value="&lt;b&gt;Secrets : SOPS + age&lt;/b&gt;&lt;br&gt;{secrets/*.sops.yaml chiffrés dans le dépôt}&lt;br&gt;{.sops.yaml liste les clés publiques : runner + exploitants}&lt;br&gt;{clé privée du runner : fichier 0400 sur orchestration, copie hors ligne}&lt;br&gt;{la phrase de passe de chiffrement de l'état OpenTofu est elle-même dans SOPS}" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="1490" y="220" width="330" height="170" />
+        </mxCell>
+        <mxCell id="c60" value="&lt;b&gt;Sécurité du runner&lt;/b&gt;&lt;br&gt;{runner dédié au dépôt, labels self-hosted, prod}&lt;br&gt;{jamais de job sur une PR issue d'un fork}&lt;br&gt;{tofu apply et ansible-playbook réservés à main, avec environnement GitHub protégé}" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="1490" y="420" width="330" height="150" />
+        </mxCell>
+        <mxCell id="c61" value="&lt;b&gt;Dérive&lt;/b&gt;&lt;br&gt;{chaque nuit, tofu plan -detailed-exitcode et ansible --check : alerte Grafana si l'écart est non nul}" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="1490" y="600" width="330" height="100" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

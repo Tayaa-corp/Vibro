@@ -1,0 +1,169 @@
+<mxfile host="Claude Code" type="device">
+  <diagram id="Réseau" name="Réseau">
+    <mxGraphModel dx="1900" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="1280" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frame" value="&lt;b&gt;deployment&lt;/b&gt; Réseau Vibro : zones, flux et ports" parent="1" vertex="1" style="shape=umlFrame;html=1;whiteSpace=wrap;width=520;height=26;align=left;spacingLeft=8;fontSize=13;fillColor=none;strokeColor=#333333;">
+          <mxGeometry as="geometry" x="0" y="0" width="1900" height="1240" />
+        </mxCell>
+        <mxCell id="n1" value="«node»&lt;br&gt;&lt;b&gt;Internet&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;">
+          <mxGeometry as="geometry" x="20" y="50" width="330" height="600" />
+        </mxCell>
+        <mxCell id="n2" value="«device»&lt;br&gt;&lt;b&gt;Navigateur [*]&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;directeurs, régions, national, exploitants&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="50" width="300" height="90" />
+        </mxCell>
+        <mxCell id="n3" value="«node»&lt;br&gt;&lt;b&gt;Logiciel de stock (API éditeur)&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;majorité des magasins&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;connecteur Dagster, appel sortant&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="170" width="300" height="100" />
+        </mxCell>
+        <mxCell id="n4" value="«device»&lt;br&gt;&lt;b&gt;Service de collecte {à définir}&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;magasins restants&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;dépôt direct dans S3 landing&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;dashed=1;">
+          <mxGeometry as="geometry" x="15" y="300" width="300" height="110" />
+        </mxCell>
+        <mxCell id="n5" value="«node»&lt;br&gt;&lt;b&gt;GitHub&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;dépôt, Actions&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;le runner interne se connecte en sortant&lt;/font&gt;" parent="n1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="440" width="300" height="110" />
+        </mxCell>
+        <mxCell id="n6" value="«node»&lt;br&gt;&lt;b&gt;Fournisseur cloud France : région 1&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#f8fff8;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="390" y="50" width="1150" height="830" />
+        </mxCell>
+        <mxCell id="n7" value="«network»&lt;br&gt;&lt;b&gt;VPC vibro-prod 10.10.0.0/16&lt;/b&gt;" parent="n6" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#eef5ff;strokeColor=#6c8ebf;">
+          <mxGeometry as="geometry" x="20" y="50" width="800" height="760" />
+        </mxCell>
+        <mxCell id="n8" value="«subnet»&lt;br&gt;&lt;b&gt;dmz 10.10.1.0/24&lt;/b&gt;" parent="n7" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;">
+          <mxGeometry as="geometry" x="20" y="50" width="760" height="170" />
+        </mxCell>
+        <mxCell id="n9" value="«device»&lt;br&gt;&lt;b&gt;restitution&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;IP publique unique · sg-restitution&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;Traefik :443 · Keycloak · Lightdash&lt;/font&gt;" parent="n8" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="20" y="45" width="340" height="110" />
+        </mxCell>
+        <mxCell id="n10" value="«device»&lt;br&gt;&lt;b&gt;Passerelle NAT&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;sortant uniquement, 443/tcp&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;aucun port entrant&lt;/font&gt;" parent="n8" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="400" y="45" width="340" height="110" />
+        </mxCell>
+        <mxCell id="n11" value="«subnet»&lt;br&gt;&lt;b&gt;app 10.10.2.0/24&lt;/b&gt;" parent="n7" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;">
+          <mxGeometry as="geometry" x="20" y="260" width="760" height="190" />
+        </mxCell>
+        <mxCell id="n12" value="«device»&lt;br&gt;&lt;b&gt;orchestration&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;sg-orchestration&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;Dagster :3000 · runner CI&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;OpenTofu, Ansible, SOPS (clé age)&lt;/font&gt;" parent="n11" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="20" y="45" width="340" height="125" />
+        </mxCell>
+        <mxCell id="n13" value="«device»&lt;br&gt;&lt;b&gt;supervision&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;sg-supervision&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;Prometheus :9090 · Grafana :3000&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;Loki :3100&lt;/font&gt;" parent="n11" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="400" y="45" width="340" height="125" />
+        </mxCell>
+        <mxCell id="n14" value="«subnet»&lt;br&gt;&lt;b&gt;data 10.10.3.0/24&lt;/b&gt;" parent="n7" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="20" y="490" width="760" height="250" />
+        </mxCell>
+        <mxCell id="n15" value="«device»&lt;br&gt;&lt;b&gt;ch-1&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;sg-clickhouse&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;ClickHouse :9440 :8443 :9010&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;Keeper :9281 :9234&lt;/font&gt;" parent="n14" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="20" y="45" width="220" height="125" />
+        </mxCell>
+        <mxCell id="n16" value="«device»&lt;br&gt;&lt;b&gt;ch-2&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;sg-clickhouse&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;ClickHouse :9440 :8443 :9010&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;Keeper :9281 :9234&lt;/font&gt;" parent="n14" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="270" y="45" width="220" height="125" />
+        </mxCell>
+        <mxCell id="n17" value="«device»&lt;br&gt;&lt;b&gt;keeper-3&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;sg-keeper&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;Keeper :9281 :9234&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;arbitre du quorum&lt;/font&gt;" parent="n14" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="520" y="45" width="220" height="125" />
+        </mxCell>
+        <mxCell id="n18" value="«node»&lt;br&gt;&lt;b&gt;Services managés (endpoints privés)&lt;/b&gt;" parent="n6" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="850" y="50" width="280" height="760" />
+        </mxCell>
+        <mxCell id="n19" value="«node»&lt;br&gt;&lt;b&gt;Stockage objet S3&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;vibro-landing (versionné, object lock)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;vibro-froid (tiering)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;vibro-tofu-state&lt;/font&gt;" parent="n18" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="50" width="250" height="210" />
+        </mxCell>
+        <mxCell id="n20" value="«node»&lt;br&gt;&lt;b&gt;PostgreSQL managé&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;:5432 TLS, endpoint privé&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;bases dagster, lightdash, keycloak&lt;/font&gt;" parent="n18" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="290" width="250" height="130" />
+        </mxCell>
+        <mxCell id="n21" value="«node»&lt;br&gt;&lt;b&gt;DNS&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;zone publique : *.vibro.&amp;lt;domaine&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;→ IP publique de restitution&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;zone privée : *.prod.internal&lt;/font&gt;" parent="n18" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="450" width="250" height="150" />
+        </mxCell>
+        <mxCell id="n22" value="«node»&lt;br&gt;&lt;b&gt;Région 2&lt;/b&gt;" parent="1" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#f8fff8;strokeColor=#82b366;">
+          <mxGeometry as="geometry" x="1580" y="50" width="300" height="180" />
+        </mxCell>
+        <mxCell id="n23" value="«node»&lt;br&gt;&lt;b&gt;Stockage objet S3&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;vibro-backups (réplique)&lt;/font&gt;&lt;br&gt;&lt;font style='font-size:11px'&gt;clickhouse-backup&lt;/font&gt;" parent="n22" vertex="1" style="shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;spacingRight=14;container=1;collapsible=0;fontSize=12;fillColor=#ffffff;strokeColor=#666666;">
+          <mxGeometry as="geometry" x="15" y="50" width="270" height="110" />
+        </mxCell>
+        <mxCell id="e24" value="«HTTPS 443»&lt;br&gt;seul flux entrant" parent="1" edge="1" source="n2" target="n9" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="m25" value="*" parent="e24" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=10;align=left;labelBackgroundColor=none;">
+          <mxGeometry as="geometry" x="-0.85" relative="1">
+            <mxPoint as="offset" y="-8" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m26" value="1" parent="e24" vertex="1" connectable="0" style="edgeLabel;html=1;resizable=0;fontSize=10;align=right;labelBackgroundColor=none;">
+          <mxGeometry as="geometry" x="0.85" relative="1">
+            <mxPoint as="offset" y="-8" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e27" value="«HTTPS 443» sortant" parent="1" edge="1" source="n3" target="n10" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e28" value="«HTTPS 443» sortant&lt;br&gt;(runner)" parent="1" edge="1" source="n5" target="n10" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.8;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e29" value="«HTTPS» API S3&lt;br&gt;clé en écriture seule sur landing/" parent="1" edge="1" source="n4" target="n19" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="370" y="405" />
+              <mxPoint x="370" y="860" />
+              <mxPoint x="1350" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e30" value="sortant" parent="1" edge="1" source="n12" target="n10" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=0.85;exitY=0;entryX=0.2;entryY=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e31" value="«HTTPS 3000»&lt;br&gt;UI Dagster via Traefik" parent="1" edge="1" source="n9" target="n12" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=0.3;exitY=1;entryX=0.3;entryY=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e32" value="«HTTP 3000» Grafana via Traefik" parent="1" edge="1" source="n9" target="n13" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=0.9;exitY=1;entryX=0.1;entryY=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e33" value="«HTTPS 8443»&lt;br&gt;Lightdash → ch-1 / ch-2" parent="1" edge="1" source="n9" target="n15" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=0.08;exitY=1;entryX=0.2;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="438" y="385" />
+              <mxPoint x="438" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e34" value="«TCP/TLS 9440»&lt;br&gt;dbt, Dagster" parent="1" edge="1" source="n12" target="n15" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=0.6;exitY=1;entryX=0.7;entryY=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e35" value="«HTTPS 9010» réplication&lt;br&gt;«TLS 9281 / 9234» Keeper" parent="1" edge="1" source="n15" target="n16" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e36" value="«TLS 9281 / 9234»&lt;br&gt;Keeper (Raft)" parent="1" edge="1" source="n16" target="n17" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e37" value="«HTTP 9100 / 9363»&lt;br&gt;scrape métriques" parent="1" edge="1" source="n13" target="n14" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=0.7;exitY=1;entryX=0.85;entryY=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e38" value="«HTTPS» S3Queue, tiering" parent="1" edge="1" source="n14" target="n19" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.8;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e39" value="«HTTPS» sauvegardes" parent="1" edge="1" source="n14" target="n23" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=1;exitY=0.7;entryX=0.5;entryY=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1730" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e40" value="«TCP/TLS 5432»" parent="1" edge="1" source="n11" target="n20" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e41" value="«HTTPS» état OpenTofu" parent="1" edge="1" source="n12" target="n19" style="html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=none;exitX=1;exitY=0.2;entryX=0;entryY=0.4;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1150" y="345" />
+              <mxPoint x="1150" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c42" value="&lt;b&gt;Groupes de sécurité : règles entrantes&lt;/b&gt; (tout le reste est refusé)&lt;br&gt;&lt;b&gt;sg-restitution&lt;/b&gt; : 443/tcp ← 0.0.0.0/0 · 22 ← sg-orchestration&lt;br&gt;&lt;b&gt;sg-orchestration&lt;/b&gt; : 3000 ← sg-restitution · 9100 ← sg-supervision&lt;br&gt;&lt;b&gt;sg-supervision&lt;/b&gt; : 3000 ← sg-restitution · 3100 ← tout le VPC (Alloy) · 22 ← sg-orchestration&lt;br&gt;&lt;b&gt;sg-clickhouse&lt;/b&gt; : 9440 ← sg-orchestration · 8443 ← sg-restitution · 9010, 9281, 9234 ← sg-clickhouse + sg-keeper · 9100, 9363 ← sg-supervision · 22 ← sg-orchestration&lt;br&gt;&lt;b&gt;sg-keeper&lt;/b&gt; : 9281, 9234 ← sg-clickhouse · 9100 ← sg-supervision · 22 ← sg-orchestration&lt;br&gt;&lt;b&gt;PostgreSQL managé&lt;/b&gt; : 5432 ← sg-orchestration, sg-restitution&lt;br&gt;&lt;b&gt;Sortant&lt;/b&gt; : 443/tcp via la passerelle NAT, DNS et NTP du fournisseur" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="390" y="900" width="1150" height="160" />
+        </mxCell>
+        <mxCell id="c43" value="&lt;b&gt;Principes&lt;/b&gt;&lt;br&gt;{une seule IP publique en entrée : restitution, 443/tcp}&lt;br&gt;{9440, 9281 et 22 jamais exposés sur Internet}&lt;br&gt;{SSH uniquement depuis orchestration (Ansible lancé par le runner)}&lt;br&gt;{secours : console série du fournisseur, pas de bastion}&lt;br&gt;{la passerelle NAT a une IP sortante, sans port entrant ; variante : NAT porté par restitution}&lt;br&gt;{UI Dagster et Grafana derrière Traefik + Keycloak}" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="1580" y="260" width="300" height="260" />
+        </mxCell>
+        <mxCell id="c44" value="&lt;b&gt;Ingestion&lt;/b&gt;&lt;br&gt;{magasins sur le logiciel de stock majoritaire : connecteur Dagster vers l'API éditeur, appel sortant}&lt;br&gt;{autres magasins : service de collecte à définir, dépôt dans landing/}" parent="1" vertex="1" style="shape=note;size=14;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry as="geometry" x="1580" y="550" width="300" height="150" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
