@@ -1,0 +1,763 @@
+code_national;nom;region;code_region;format;zone_touristique;code_adherent;adherent;solution_caisse;version_caisse;solution_stock;drive;points_retrait
+1001;Vieux-Chatel;Nord;R10-001;Supermarche;;A2273;Didier Doucet;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1002;Bourg-Vernay;Nord;R10-002;Supermarche;;A2215;Didier Perrot;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1003;Saint-Coteau;Nord;R10-003;Supermarche;;A2266;Thierry Bonneau;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1004;ClairVallon;Nord;R10-004;Supermarche;oui;A2223;Remi Orsini;BETAPOS;5.0;BETASTOCK;Integre a la caisse;1
+1005;Fontaine-Riviere;Nord;R10-005;Supermarche;;A2232;Valerie Vallet;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1006;Pont-Charme;Nord;R10-006;Supermarche;;A2251;Xavier Imbert;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1007;BeauGenet;Nord;R10-007;Supermarche;;A2203;Gilles Olivier;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1008;Roche-Saule;Nord;R10-008;Supermarche;;A2262;Sylvie Keraudren;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1009;Haut-Chatel;Nord;R10-009;Supermarche;;A2234;Nathalie Guibert;BETAPOS;4.6;Tenue manuelle ou solution tierce;Sans drive;0
+1010;Champ-Frene;Nord;R10-010;Hypermarche;oui;A2218;Olivier Weber;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1011;Bourg-Chene;Nord;R10-011;Supermarche;;A2210;Agnes Jolivet;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;1
+1012;Bourg-Jardin;Nord;R10-012;Supermarche;;A2211;Olivier Rossignol;ALPHACAISSE;5.4;ALPHASTOCK;Sans drive;0
+1013;Terre-Marais;Nord;R10-013;Hypermarche;;A2271;Francois Quemener;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;2
+1014;Pont-Ajonc;Nord;R10-014;Supermarche;;A2250;Sophie Rossignol;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1015;Cote-Vigne;Nord;R10-015;Supermarche;;A2226;Didier Gauthier;ALPHACAISSE;8.0;BETASTOCK;Integre a la caisse;2
+1016;Port-Aulnay;Nord;R10-016;Supermarche;oui;A2253;Chantal Moreau;BETAPOS;5.0;BETASTOCK;Integre a la caisse;1
+1017;ClairAulnay;Nord;R10-017;Hypermarche;;A2219;Benoit Renard;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1018;Neuf-Ormeau;Nord;R10-018;Petit format de centre-bourg;;A2244;Helene Rossignol;ALPHACAISSE;7.1;BETASTOCK;DRIVEPLUS;1
+1019;Port-Frene;Nord;R10-019;Supermarche;;A2255;Xavier Olivier;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1020;Croix-Charme;Nord;R10-020;Petit format de centre-bourg;;A2227;Fabienne Esnault;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1021;Port-Marais;Nord;R10-021;Hypermarche;;A2256;Benoit Ferrand;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1022;Haut-Riviere;Nord;R10-022;Supermarche;;A2237;Nathalie Noguez;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1023;ClairFort;Nord;R10-023;Hypermarche;;A2222;Emilie Vasseur;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1024;Bourg-Marais;Nord;R10-024;Supermarche;;A2212;Benoit Huet;Editeur local;;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1025;Roche-Jardin;Nord;R10-025;Supermarche;;A2261;Francois Dauvergne;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1026;Terre-Vernay;Nord;R10-026;Supermarche;oui;A2272;Isabelle Pichon;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1027;Plaine-Fort;Nord;R10-027;Supermarche;;A2248;Alain Noguez;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1028;BeauMesnil;Nord;R10-028;Supermarche;oui;A2204;Yann Carrere;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;1
+1029;Mont-Pre;Nord;R10-029;Hypermarche;;A2241;Francois Ferrand;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1030;Bois-Marais;Nord;R10-030;Petit format de centre-bourg;oui;A2205;Remi Rouaud;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1031;Villeneuve-Frene;Nord;R10-031;Hypermarche;oui;A2275;Francois Rossignol;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1032;Croix-Vigne;Nord;R10-032;Magasin urbain de proximite;;A2230;Marc Renard;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1033;Bois-Vernay;Nord;R10-033;Supermarche;;A2208;Gilles Dauvergne;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1034;Fontaine-Jardin;Nord;R10-034;Magasin urbain de proximite;;A2231;Fabienne Berthier;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1035;Petit-Houx;Nord;R10-035;Supermarche;;A2246;Thierry Bresson;ALPHACAISSE;8.0;ALPHASTOCK;Sans drive;0
+1036;Saint-Bruyere;Nord;R10-036;Supermarche;;A2264;Gilles Siriex;BETAPOS;3.8;BETASTOCK;Integre a la caisse;1
+1037;Moulin-Orme;Nord;R10-037;Supermarche;;A2243;Helene Marchand;GAMMASOFT;3.5;ALPHASTOCK;DRIVEPLUS;1
+1038;Cote-Houx;Nord;R10-038;Supermarche;;A2225;Sophie Jourdan;BETAPOS;3.8;BETASTOCK;Sans drive;0
+1039;Saint-Chene;Nord;R10-039;Supermarche;oui;A2265;Denis Lemoine;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1040;ClairColline;Nord;R10-040;Supermarche;;A2221;Yann Herve;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1041;Bois-Peuplier;Nord;R10-041;Hypermarche;;A2206;Helene Dumas;Editeur local;;ALPHASTOCK;Integre a la caisse;2
+1042;Port-Vigne;Nord;R10-042;Hypermarche;;A2259;Didier Sauvage;GAMMASOFT;3.5;ALPHASTOCK;DRIVEPLUS;2
+1043;Roche-Bruyere;Nord;R10-043;Supermarche;;A2260;Alain Ferrand;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1044;Croix-Tilleul;Nord;R10-044;Supermarche;;A2229;Claire Fleury;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1045;Bourg-Chatel;Nord;R10-045;Supermarche;;A2209;Patrick Olivier;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1046;Port-Saule;Nord;R10-046;Supermarche;;A2258;Benoit Jolivet;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1047;Saint-Houx;Nord;R10-047;Hypermarche;;A2268;Claire Imbert;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;2
+1048;ClairBouleau;Nord;R10-048;Magasin urbain de proximite;;A2220;Catherine Rossignol;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1049;Mont-Bruyere;Nord;R10-049;Hypermarche;oui;A2239;Laurent Gillet;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1050;Champ-Bouleau;Nord;R10-050;Petit format de centre-bourg;;A2216;Sylvie Mazet;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1051;Petit-Pre;Nord;R10-051;Supermarche;oui;A2247;Sophie Bonneau;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1052;Mont-Peuplier;Nord;R10-052;Supermarche;;A2240;Herve Esnault;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1053;Petit-Charme;Nord;R10-053;Supermarche;;A2245;Olivier Imbert;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1054;Plaine-Saule;Nord;R10-054;Supermarche;;A2249;Jerome Vidal;BETAPOS;3.8;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1055;Moulin-Mesnil;Nord;R10-055;Supermarche;;A2242;Emilie Marchand;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;2
+1056;Cote-Etang;Nord;R10-056;Supermarche;;A2224;Agnes Carrere;ALPHACAISSE;5.4;BETASTOCK;Integre a la caisse;1
+1057;Mont-Bouleau;Nord;R10-057;Supermarche;;A2238;Sophie Lebrun;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1058;Bourg-Tilleul;Nord;R10-058;Supermarche;;A2214;Helene Faivre;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1059;Saint-Mesnil;Nord;R10-059;Hypermarche;;A2270;Didier Zanetti;GAMMASOFT;3.3;ALPHASTOCK;DRIVEPLUS;2
+1060;Croix-Riviere;Nord;R10-060;Petit format de centre-bourg;;A2228;Yann Hamelin;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1061;Port-Charme;Nord;R10-061;Supermarche;;A2254;Valerie Berthier;BETAPOS;5.0;BETASTOCK;Integre a la caisse;1
+1062;Haut-Loup;Nord;R10-062;Hypermarche;;A2235;Benoit Lebrun;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1063;Vieux-Mer;Nord;R10-063;Hypermarche;;A2274;Catherine Lacombe;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1064;Bourg-Mer;Nord;R10-064;Magasin urbain de proximite;;A2213;Bruno Moreau;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1065;BeauBouleau;Nord;R10-065;Magasin urbain de proximite;;A2202;Sophie Faivre;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1066;Saint-Frene;Nord;R10-066;Hypermarche;;A2267;Denis Dumas;GAMMASOFT;3.3;BETASTOCK;Integre a la caisse;2
+1067;Saint-Ajonc;Nord;R10-067;Supermarche;;A2263;Isabelle Lebrun;ALPHACAISSE;6.2;ALPHASTOCK;Sans drive;0
+1068;Port-Orme;Nord;R10-068;Supermarche;;A2257;Thierry Fleury;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1069;Champ-Chene;Nord;R10-069;Supermarche;;A2217;Pascal Pichon;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1070;Bois-Tilleul;Nord;R10-070;Hypermarche;oui;A2207;Patrick Renard;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;2
+1071;Pont-Loup;Nord;R10-071;Supermarche;;A2252;Catherine Sauvage;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1072;Saint-Martin;Nord;R10-072;Supermarche;;A2269;Marc Dumas;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1073;Haut-Pierre;Nord;R10-073;Supermarche;;A2236;Nathalie Delmas;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1074;Grand-Aulnay;Nord;R10-074;Petit format de centre-bourg;;A2233;Francois Nicolas;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1075;Neuf-Bouleau;Normandie;R11-001;Supermarche;;A2308;Marc Nicolas;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;2
+1076;Cote-Verger;Normandie;R11-002;Supermarche;;A2294;Remi Carrere;BETAPOS;4.2;ALPHASTOCK;DRIVEPLUS;1
+1077;Port-Vallon;Normandie;R11-003;Magasin urbain de proximite;;A2321;Patrick Quemener;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1078;Villeneuve-Ormeau;Normandie;R11-004;Petit format de centre-bourg;;A2333;Olivier Tanguy;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1079;Moulin-Verger;Normandie;R11-005;Supermarche;;A2307;Thierry Chapelain;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1080;Terre-Ajonc;Normandie;R11-006;Supermarche;;A2325;Herve Guibert;ALPHACAISSE;7.1;BETASTOCK;DRIVEPLUS;1
+1081;BeauFrene;Normandie;R11-007;Hypermarche;;A2281;Sylvie Marchand;ALPHACAISSE;5.4;BETASTOCK;DRIVEPLUS;2
+1082;Mont-Ajonc;Normandie;R11-008;Supermarche;;A2300;Claire Chapelain;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1083;Haut-Vigne;Normandie;R11-009;Magasin urbain de proximite;;A2299;Catherine Quemener;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1084;Petit-Vigne;Normandie;R11-010;Hypermarche;;A2313;Helene Ferrand;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1085;Plaine-Chene;Normandie;R11-011;Supermarche;;A2315;Karine Marchand;BETAPOS;4.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1086;Petit-Orme;Normandie;R11-012;Supermarche;;A2312;Michel Dauvergne;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1087;Vieux-Riviere;Normandie;R11-013;Hypermarche;;A2330;Chantal Quemener;BETAPOS;4.2;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1088;Terre-Etang;Normandie;R11-014;Hypermarche;;A2326;Michel Tessier;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1089;Bois-Colline;Normandie;R11-015;Supermarche;;A2283;Olivier Gillet;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1090;Bas-Aulnay;Normandie;R11-016;Supermarche;;A2276;Jerome Thevenin;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1091;Neuf-Martin;Normandie;R11-017;Magasin urbain de proximite;;A2310;Sylvie Bonneau;BETAPOS;4.6;BETASTOCK;Sans drive;0
+1092;BeauChatel;Normandie;R11-018;Supermarche;oui;A2280;Chantal Nicolas;GAMMASOFT;3.3;ALPHASTOCK;DRIVEPLUS;1
+1093;Mont-Mer;Normandie;R11-019;Hypermarche;;A2302;Francois Hamelin;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1094;Mont-Loup;Normandie;;Supermarche;;A2301;Laurent Lacroix;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1095;Neuf-Marais;Normandie;;Supermarche;;A2309;Catherine Hamelin;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1096;Pont-Riviere;Normandie;R11-022;Supermarche;;A2318;Olivier Guibert;ALPHACAISSE;7.1;BETASTOCK;Sans drive;0
+1097;Terre-Genet;Normandie;R11-023;Hypermarche;;A2327;Vincent Huet;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1098;Moulin-Noyer;Normandie;R11-024;Supermarche;oui;A2306;Karine Sauvage;ALPHACAISSE;5.4;BETASTOCK;Integre a la caisse;1
+1099;Moulin-Jardin;Normandie;R11-025;Supermarche;oui;A2305;Catherine Ferrand;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1100;Port-Vernay;Normandie;R11-026;Supermarche;;A2322;Thierry Quemener;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1101;Fontaine-Gue;Normandie;;Supermarche;;A2297;Benoit Vallet;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1102;Champ-Aulnay;Normandie;R11-028;Hypermarche;oui;A2287;Fabienne Gauthier;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1103;Vieux-Ajonc;Normandie;R11-029;Petit format de centre-bourg;;A2328;Gilles Gauthier;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1104;Villeneuve-Ajonc;Normandie;R11-030;Supermarche;;A2332;Marc Noguez;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1105;Vieux-Houx;Normandie;;Hypermarche;;A2329;Jerome Yvon;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1106;Bas-Bruyere;Normandie;R11-032;Magasin urbain de proximite;;A2277;Bruno Vidal;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1107;Neuf-Peuplier;Normandie;R11-033;Petit format de centre-bourg;;A2311;Sophie Vasseur;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1108;Vieux-Vallon;Normandie;R11-034;Hypermarche;;A2331;Agnes Imbert;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1109;Roche-Aulnay;Normandie;R11-035;Hypermarche;;A2323;Helene Huet;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1110;Mont-Mesnil;Normandie;R11-036;Supermarche;;A2303;Michel Guibert;BETAPOS;4.6;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1111;Pont-Verger;Normandie;R11-037;Supermarche;;A2319;Thierry Vallet;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1112;ClairAjonc;Normandie;R11-038;Supermarche;;A2289;Nathalie Doucet;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1113;Fontaine-Aulnay;Normandie;R11-039;Hypermarche;;A2296;Didier Marchand;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1114;Moulin-Colline;Normandie;R11-040;Petit format de centre-bourg;;A2304;Thierry Perrot;GAMMASOFT;2.9;ALPHASTOCK;DRIVEPLUS;1
+1115;Bois-Pierre;Normandie;R11-041;Supermarche;;A2284;Denis Dauvergne;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1116;Plaine-Bouleau;Normandie;R11-042;Hypermarche;;A2314;Fabienne Carrere;Editeur local;;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1117;Port-Loup;Normandie;R11-043;Hypermarche;oui;A2320;Valerie Keraudren;GAMMASOFT;3.3;ALPHASTOCK;DRIVEPLUS;2
+1118;Roche-Etang;Normandie;R11-044;Supermarche;;A2324;Herve Gillet;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1119;Bois-Chene;Normandie;R11-045;Hypermarche;;A2282;Michel Aubry;BETAPOS;3.8;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1120;Cote-Noyer;Normandie;R11-046;Supermarche;;A2293;Pascal Herve;ALPHACAISSE;8.0;ALPHASTOCK;Sans drive;0
+1121;Bourg-Gue;Normandie;R11-047;Supermarche;;A2285;Denis Rouaud;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1122;Bas-Lande;Normandie;R11-048;Supermarche;;A2278;Valerie Thevenin;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1123;Pont-Chene;Normandie;R11-049;Supermarche;;A2316;Karine Tanguy;BETAPOS;3.8;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1124;Champ-Gue;Normandie;R11-050;Hypermarche;;A2288;Jerome Imbert;BETAPOS;4.6;BETASTOCK;Integre a la caisse;2
+1125;ClairMartin;Normandie;R11-051;Supermarche;;A2291;Catherine Lebrun;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1126;Bas-Peuplier;Normandie;R11-052;Supermarche;;A2279;Chantal Mazet;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1127;Cote-Mesnil;Normandie;R11-053;Supermarche;;A2292;Isabelle Sauvage;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1128;Bourg-Martin;Normandie;R11-054;Supermarche;;A2286;Xavier Fourcade;BETAPOS;5.0;BETASTOCK;Sans drive;0
+1129;Fontaine-Verger;Normandie;R11-055;Supermarche;;A2298;Benoit Mazet;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;2
+1130;Croix-Vallon;Normandie;R11-056;Supermarche;;A2295;Fabienne Yvon;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1131;ClairEtang;Normandie;;Supermarche;;A2290;Marc Jolivet;BETAPOS;3.8;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1132;Pont-Marais;Normandie;R11-058;Supermarche;;A2317;Sophie Tanguy;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1133;Villeneuve-Tilleul;Ouest;;Supermarche;oui;A2464;Herve Lebrun;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1134;Pont-Saule;Ouest;R12-002;Supermarche;;A2444;Catherine Bresson;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1135;Roche-Pre;Ouest;R12-003;Supermarche;;A2448;Denis Mazet;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1136;Le Marche;Ouest;R12-004;Petit format de centre-bourg;;A2426;Francois Lebrun;Editeur local;;Tenue manuelle ou solution tierce;Sans drive;0
+1137;Bas-Vallon;Ouest;R12-005;Supermarche;oui;A2406;Francois Marchand;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1138;Val-Vallon;Ouest;R12-006;Supermarche;;A2458;Vincent Vidal;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1139;Les Portes;Ouest;R12-007;Supermarche;;A2427;Claire Rouaud;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1140;Petit-Martin;Ouest;R12-008;Supermarche;;A2438;Claire Perrot;BETAPOS;4.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1141;Saint-Pre;Ouest;R12-009;Magasin urbain de proximite;;A2452;Pascal Renard;BETAPOS;5.0;BETASTOCK;Sans drive;0
+1142;Cote-Lande;Ouest;R12-010;Supermarche;;A2416;Didier Vallet;BETAPOS;5.0;ALPHASTOCK;DRIVEPLUS;1
+1143;Plaine-Etang;Ouest;R12-011;Hypermarche;;A2440;Alain Caillaud;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;2
+1144;Bel-Air;Ouest;R12-012;Hypermarche;;A2407;Murielle Jourdan;ALPHACAISSE;7.1;BETASTOCK;DRIVEPLUS;2
+1145;Fontaine-Coteau;Ouest;R12-013;Magasin urbain de proximite;;A2419;Marc Moreau;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1146;Moulin-Ajonc;Ouest;R12-014;Supermarche;;A2432;Vincent Guibert;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1147;Villeneuve-Coteau;Ouest;R12-015;Hypermarche;oui;A2462;Sylvie Aubry;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;2
+1148;Grand-Ajonc;Ouest;R12-016;Supermarche;;A2423;Michel Orsini;GAMMASOFT;2.9;ALPHASTOCK;Integre a la caisse;1
+1149;Mont-Genet;Ouest;R12-017;Supermarche;;A2429;Francois Faivre;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1150;Petit-Vallon;Ouest;R12-018;Petit format de centre-bourg;;A2439;Thierry Olivier;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1151;Pont-Jardin;Ouest;R12-019;Hypermarche;;A2443;Gilles Hamelin;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1152;Villeneuve-Bouleau;Ouest;R12-020;Magasin urbain de proximite;;A2461;Catherine Herve;ALPHACAISSE;7.1;BETASTOCK;Integre a la caisse;1
+1153;Plaine-Sablon;Ouest;R12-021;Supermarche;;A2441;Didier Herve;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1154;Centre-Ville;Ouest;R12-022;Magasin urbain de proximite;;A2411;Michel Mazet;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Sans drive;0
+1155;ClairGue;Ouest;R12-023;Supermarche;;A2415;Murielle Urvoy;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1156;Champ-Lande;Ouest;R12-024;Hypermarche;oui;A2412;Remi Herve;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1157;Fontaine-Bouleau;Ouest;R12-025;Supermarche;oui;A2418;Francois Sauvage;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1158;Val-Ajonc;Ouest;R12-026;Supermarche;;A2456;Francois Esnault;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1159;Mont-Fort;Ouest;R12-027;Supermarche;;A2428;Laurent Rouaud;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1160;Roche-Vallon;Ouest;R12-028;Supermarche;;A2450;Marc Keraudren;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1161;Fontaine-Tilleul;Ouest;R12-029;Supermarche;;A2422;Xavier Carrere;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1162;ClairBruyere;Ouest;R12-030;Supermarche;;A2414;Yann Tessier;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Sans drive;0
+1163;Roche-Bouleau;Ouest;R12-031;Hypermarche;;A2446;Benoit Nicolas;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1164;Roche-Ajonc;Ouest;R12-032;Petit format de centre-bourg;;A2445;Pascal Sauvage;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1165;Moulin-Charme;Ouest;R12-033;Hypermarche;;A2433;Isabelle Bresson;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;2
+1166;Val-Bouleau;Ouest;R12-034;Supermarche;;A2457;Michel Delmas;GAMMASOFT;3.3;ALPHASTOCK;Sans drive;0
+1167;Saint-Sablon;Ouest;R12-035;Hypermarche;;A2453;Xavier Fleury;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;2
+1168;Pont-Bouleau;Ouest;R12-036;Hypermarche;;A2442;Fabienne Bresson;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;2
+1169;Neuf-Verger;Ouest;R12-037;Supermarche;;A2437;Gilles Lacroix;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;1
+1170;Bois-Mer;Ouest;R12-038;Supermarche;;A2409;Fabienne Sauvage;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1171;Fontaine-Etang;Ouest;R12-039;Hypermarche;;A2420;Patrick Dauvergne;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;2
+1172;Haut-Mer;Ouest;R12-040;Supermarche;;A2424;Catherine Olivier;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1173;Mont-Vernay;Ouest;R12-041;Hypermarche;;A2431;Pascal Berthier;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;2
+1174;Terre-Frene;Ouest;R12-042;Supermarche;;A2454;Sophie Weber;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1175;Fontaine-Mesnil;Ouest;R12-043;Hypermarche;;A2421;Catherine Vidal;GAMMASOFT;3.5;BETASTOCK;DRIVEPLUS;2
+1176;Haut-Noyer;Ouest;R12-044;Supermarche;;A2425;Francois Noguez;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1177;Neuf-Genet;Ouest;R12-045;Supermarche;;A2436;Sylvie Olivier;BETAPOS;5.0;BETASTOCK;Integre a la caisse;1
+1178;Bourg-Saule;Ouest;R12-046;Supermarche;;A2410;Francois Esteve;Editeur local;;ALPHASTOCK;DRIVEPLUS;1
+1179;Terre-Noyer;Ouest;R12-047;Supermarche;;A2455;Laurent Fourcade;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1180;Bois-Aulnay;Ouest;R12-048;Hypermarche;;A2408;Marc Esteve;GAMMASOFT;3.5;BETASTOCK;Integre a la caisse;2
+1181;Roche-Houx;Ouest;R12-049;Petit format de centre-bourg;;A2447;Thierry Nicolas;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1182;Bas-Jardin;Ouest;R12-050;Supermarche;;A2405;Murielle Lacombe;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1183;Villeneuve-Etang;Ouest;R12-051;Supermarche;;A2463;Alain Fleury;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1184;Croix-Mer;Ouest;R12-052;Supermarche;;A2417;Vincent Thevenin;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1185;Champ-Pre;Ouest;R12-053;Supermarche;;A2413;Alain Faivre;ALPHACAISSE;6.2;ALPHASTOCK;Sans drive;0
+1186;Roche-Vigne;Ouest;R12-054;Supermarche;;A2451;Vincent Caillaud;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1187;Vieux-Genet;Ouest;R12-055;Supermarche;;A2460;Remi Imbert;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1188;Roche-Tilleul;Ouest;R12-056;Magasin urbain de proximite;;A2449;Bruno Bourdon;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1189;Moulin-Gue;Ouest;R12-057;Hypermarche;;A2434;Claire Lebrun;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;2
+1190;Mont-Vallon;Ouest;R12-058;Magasin urbain de proximite;;A2430;Fabienne Chapelain;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1191;Moulin-Sablon;Ouest;R12-059;Petit format de centre-bourg;;A2435;Pascal Fleury;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1192;Val-Verger;Ouest;;Supermarche;oui;A2459;Valerie Rossignol;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1193;Haut-Marais;Bretagne;R13-001;Supermarche;oui;A2071;Herve Perrot;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1194;Bourg-Frene;Bretagne;R13-002;Supermarche;;A2063;Sylvie Fourcade;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1195;Bas-Sablon;Bretagne;R13-003;Supermarche;oui;A2061;Sophie Jolivet;GAMMASOFT;2.9;ALPHASTOCK;DRIVEPLUS;1
+1196;Bois-Sablon;Bretagne;R13-004;Magasin urbain de proximite;;A2062;Jerome Chauvin;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1197;Saint-Mer;Bretagne;R13-005;Supermarche;;A2082;Catherine Zanetti;ALPHACAISSE;7.1;BETASTOCK;Integre a la caisse;2
+1198;Haut-Houx;Bretagne;R13-006;Magasin urbain de proximite;;A2071;Herve Perrot;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1199;Vieux-Marais;Bretagne;;Supermarche;;A2085;Pascal Moreau;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1200;Roche-Frene;Bretagne;;Magasin urbain de proximite;;A2080;Chantal Delmas;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1201;Saint-Vigne;Bretagne;R13-009;Petit format de centre-bourg;;A2083;Nathalie Grandjean;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1202;Roche-Marais;Bretagne;R13-010;Magasin urbain de proximite;;A2080;Chantal Delmas;GAMMASOFT;3.5;ALPHASTOCK;DRIVEPLUS;1
+1203;Bois-Ormeau;Bretagne;R13-011;Petit format de centre-bourg;oui;A2062;Jerome Chauvin;ALPHACAISSE;5.4;ALPHASTOCK;Sans drive;0
+1204;Port-Peuplier;Bretagne;R13-012;Supermarche;;A2079;Sylvie Imbert;BETAPOS;4.2;BETASTOCK;Integre a la caisse;2
+1205;Saint-Marais;Bretagne;R13-013;Hypermarche;;A2081;Fabienne Nicolas;BETAPOS;4.2;BETASTOCK;Integre a la caisse;2
+1206;Vieux-Vernay;Bretagne;R13-014;Supermarche;;A2086;Claire Urvoy;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1207;ClairPre;Bretagne;R13-015;Supermarche;;A2065;Murielle Gillet;Editeur local;;ALPHASTOCK;Integre a la caisse;1
+1208;Neuf-Chene;Bretagne;R13-016;Hypermarche;;A2073;Emilie Vallet;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1209;Grand-Etang;Bretagne;R13-017;Supermarche;;A2069;Michel Renard;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1210;Pont-Tilleul;Bretagne;R13-018;Supermarche;;A2077;Karine Doucet;ALPHACAISSE;5.4;BETASTOCK;Integre a la caisse;1
+1211;Val-Bruyere;Bretagne;R13-019;Hypermarche;;A2084;Alain Imbert;GAMMASOFT;3.3;BETASTOCK;Integre a la caisse;2
+1212;Croix-Martin;Bretagne;R13-020;Supermarche;;A2067;Laurent Lebrun;GAMMASOFT;2.9;ALPHASTOCK;Integre a la caisse;1
+1213;Saint-Pierre;Bretagne;R13-021;Supermarche;;A2082;Catherine Zanetti;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1214;Saint-Vallon;Bretagne;R13-022;Supermarche;;A2083;Nathalie Grandjean;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1215;Petit-Gue;Bretagne;R13-023;Supermarche;;A2074;Karine Aubry;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1216;Haut-Pre;Bretagne;R13-024;Petit format de centre-bourg;oui;A2072;Isabelle Carrere;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1217;Grand Large;Bretagne;R13-025;Hypermarche;oui;A2068;Michel Gauthier;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;2
+1218;Val-Houx;Bretagne;R13-026;Petit format de centre-bourg;;A2084;Alain Imbert;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1219;Plaine-Vernay;Bretagne;R13-027;Hypermarche;oui;A2076;Denis Rossignol;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;2
+1220;Champ-Saule;Bretagne;R13-028;Magasin urbain de proximite;;A2064;Sylvie Chapelain;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1221;BeauAjonc;Bretagne;R13-029;Petit format de centre-bourg;;A2061;Sophie Jolivet;BETAPOS;4.6;BETASTOCK;Sans drive;0
+1222;Neuf-Saule;Bretagne;R13-030;Hypermarche;;A2074;Karine Aubry;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;2
+1223;Champ-Vigne;Bretagne;R13-031;Hypermarche;oui;A2065;Murielle Gillet;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;2
+1224;Fontaine-Lande;Bretagne;R13-032;Hypermarche;;A2067;Laurent Lebrun;ALPHACAISSE;7.1;BETASTOCK;DRIVEPLUS;2
+1225;Bas-Mesnil;Bretagne;;Supermarche;;A2060;Laurent Huet;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1226;Petit-Jardin;Bretagne;R13-034;Petit format de centre-bourg;oui;A2075;Herve Imbert;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1227;Haut-Etang;Bretagne;R13-035;Supermarche;;A2070;Catherine Renard;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1228;Haut-Genet;Bretagne;R13-036;Magasin urbain de proximite;;A2070;Catherine Renard;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1229;Haut-Mesnil;Bretagne;R13-037;Hypermarche;;A2072;Isabelle Carrere;ALPHACAISSE;6.2;ALPHASTOCK;Sans drive;0
+1230;Plaine-Lande;Bretagne;R13-038;Hypermarche;;A2075;Herve Imbert;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;2
+1231;Cote-Ajonc;Bretagne;R13-039;Supermarche;;A2066;Claire Pichon;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1232;Villeneuve-Pierre;Bretagne;R13-040;Hypermarche;;A2087;Murielle Tanguy;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1233;Vieux-Martin;Bretagne;R13-041;Hypermarche;;A2086;Claire Urvoy;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1234;Grand-Vallon;Bretagne;R13-042;Hypermarche;;A2069;Michel Renard;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;2
+1235;Port-Gue;Bretagne;R13-043;Hypermarche;;A2078;Karine Renard;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1236;Grand-Bouleau;Bretagne;R13-044;Hypermarche;;A2068;Michel Gauthier;BETAPOS;3.8;BETASTOCK;Integre a la caisse;2
+1237;Bourg-Pre;Bretagne;R13-045;Supermarche;;A2064;Sylvie Chapelain;BETAPOS;3.8;ALPHASTOCK;Integre a la caisse;1
+1238;Port-Lande;Bretagne;R13-046;Magasin urbain de proximite;;A2079;Sylvie Imbert;BETAPOS;3.8;BETASTOCK;Integre a la caisse;1
+1239;Val-Ormeau;Bretagne;R13-047;Petit format de centre-bourg;oui;A2085;Pascal Moreau;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1240;Pont-Peuplier;Bretagne;R13-048;Magasin urbain de proximite;;A2076;Denis Rossignol;ALPHACAISSE;7.1;BETASTOCK;DRIVEPLUS;1
+1241;ClairTilleul;Bretagne;R13-049;Hypermarche;;A2066;Claire Pichon;ALPHACAISSE;6.2;BETASTOCK;DRIVEPLUS;2
+1242;Mont-Jardin;Bretagne;R13-050;Hypermarche;oui;A2073;Emilie Vallet;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1243;Roche-Riviere;Bretagne;R13-051;Hypermarche;;A2081;Fabienne Nicolas;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1244;Bas-Chatel;Bretagne;R13-052;Supermarche;oui;A2060;Laurent Huet;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1245;Pont-Vigne;Bretagne;R13-053;Hypermarche;;A2077;Karine Doucet;BETAPOS;5.0;BETASTOCK;Integre a la caisse;2
+1246;Bourg-Fort;Bretagne;R13-054;Supermarche;;A2063;Sylvie Fourcade;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1247;Port-Houx;Bretagne;;Supermarche;;A2078;Karine Renard;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1248;Pont-Vernay;Centre;R14-001;Hypermarche;;A2107;Remi Huet;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1249;Moulin-Vigne;Centre;R14-002;Hypermarche;;A2104;Bruno Weber;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1250;BeauTilleul;Centre;R14-003;Magasin urbain de proximite;;A2090;Marc Pasquier;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1251;Cote-Marais;Centre;R14-004;Supermarche;;A2095;Marc Thevenin;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1252;Fontaine-Vigne;Centre;R14-005;Magasin urbain de proximite;;A2099;Marc Mazet;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1253;Fontaine-Chatel;Centre;R14-932;Magasin urbain de proximite;;A2098;Sophie Imbert;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Sans drive;0
+1254;Croix-Houx;Centre;R14-007;Hypermarche;;A2096;Patrick Lebrun;ALPHACAISSE;8.0;ALPHASTOCK;Sans drive;0
+1255;Bas-Chene;Centre;R14-008;Supermarche;;A2087;Murielle Tanguy;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;1
+1256;Roche-Mer;Centre;R14-009;Magasin urbain de proximite;;A2108;Didier Fleury;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;1
+1257;Plaine-Chatel;Centre;R14-010;Petit format de centre-bourg;;A2105;Laurent Ferrand;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1258;BeauJardin;Centre;R14-011;Petit format de centre-bourg;;A2088;Marc Berthier;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;1
+1259;Val-Martin;Centre;R14-012;Hypermarche;;A2110;Alain Bresson;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;2
+1260;Val-Tilleul;Centre;R14-013;Supermarche;;A2111;Yann Grandjean;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1261;Grand-Lande;Centre;R14-014;Hypermarche;;A2099;Marc Mazet;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1262;Val-Riviere;Centre;R14-968;Supermarche;oui;A2111;Yann Grandjean;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1263;Haut-Vernay;Centre;R14-016;Hypermarche;;A2101;Alain Jourdan;BETAPOS;4.6;BETASTOCK;Sans drive;0
+1264;Bois-Lande;Centre;R14-017;Supermarche;;A2090;Marc Pasquier;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1265;Pont-Martin;Centre;R14-018;Hypermarche;;A2106;Catherine Yvon;BETAPOS;4.2;BETASTOCK;Integre a la caisse;2
+1266;Bois-Loup;Centre;R14-019;Hypermarche;;A2091;Sylvie Huet;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1267;Bourg-Orme;Centre;R14-020;Hypermarche;oui;A2092;Olivier Sauvage;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1268;Plaine-Noyer;Centre;R14-021;Supermarche;;A2106;Catherine Yvon;BETAPOS;5.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1269;Croix-Jardin;Centre;R14-022;Supermarche;;A2097;Helene Carrere;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;2
+1270;Grand-Vigne;Centre;R14-023;Magasin urbain de proximite;;A2100;Xavier Quemener;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1271;Cote-Pre;Centre;R14-024;Supermarche;;A2096;Patrick Lebrun;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1272;Haut-Peuplier;Centre;R14-025;Supermarche;oui;A2101;Alain Jourdan;BETAPOS;5.0;BETASTOCK;Integre a la caisse;1
+1273;Moulin-Peuplier;Centre;R14-026;Petit format de centre-bourg;oui;A2103;Xavier Orsini;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1274;Vieux-Frene;Centre;R14-027;Magasin urbain de proximite;;A2112;Laurent Nicolas;GAMMASOFT;2.9;ALPHASTOCK;DRIVEPLUS;1
+1275;Champ-Houx;Centre;R14-028;Supermarche;;A2092;Olivier Sauvage;ALPHACAISSE;8.0;BETASTOCK;Integre a la caisse;2
+1276;Croix-Vernay;Centre;R14-029;Magasin urbain de proximite;;A2097;Helene Carrere;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1277;Saint-Jardin;Centre;R14-030;Supermarche;;A2109;Michel Fourcade;GAMMASOFT;3.3;ALPHASTOCK;Integre a la caisse;2
+1278;BeauSablon;Centre;R14-031;Supermarche;;A2089;Valerie Perrot;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1279;Roche-Vernay;Centre;R14-032;Magasin urbain de proximite;;A2108;Didier Fleury;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1280;Bois-Verger;Centre;R14-033;Hypermarche;;A2091;Sylvie Huet;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1281;Fontaine-Saule;Centre;R14-034;Supermarche;;A2098;Sophie Imbert;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1282;Val-Vigne;Centre;R14-035;Magasin urbain de proximite;;A2112;Laurent Nicolas;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1283;Neuf-Charme;Centre;R14-036;Supermarche;;A2104;Bruno Weber;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1284;Petit-Chene;Centre;R14-037;Hypermarche;;A2105;Laurent Ferrand;BETAPOS;5.0;BETASTOCK;Sans drive;0
+1285;Terre-Lande;Centre;R14-038;Supermarche;oui;A2110;Alain Bresson;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1286;Champ-Ormeau;Centre;R14-039;Hypermarche;;A2093;Valerie Pichon;BETAPOS;4.2;BETASTOCK;Integre a la caisse;2
+1287;Moulin-Pierre;Centre;R14-040;Supermarche;;A2103;Xavier Orsini;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1288;Champ-Sablon;Centre;R14-041;Supermarche;;A2093;Valerie Pichon;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1289;Mont-Martin;Centre;R14-042;Supermarche;;A2102;Helene Pasquier;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1290;ClairSablon;Centre;R14-043;Magasin urbain de proximite;;A2094;Agnes Tessier;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1291;Villeneuve-Pre;Centre;R14-044;Supermarche;;A2113;Benoit Bourdon;GAMMASOFT;3.3;ALPHASTOCK;DRIVEPLUS;1
+1292;Mont-Chatel;Centre;R14-045;Petit format de centre-bourg;;A2102;Helene Pasquier;Editeur local;;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1293;Bas-Mer;Centre;R14-046;Petit format de centre-bourg;oui;A2088;Marc Berthier;BETAPOS;4.2;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1294;Cote-Aulnay;Centre;R14-047;Supermarche;;A2095;Marc Thevenin;BETAPOS;4.2;BETASTOCK;Sans drive;0
+1295;BeauSaule;Centre;R14-048;Hypermarche;;A2089;Valerie Perrot;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1296;Grand-Verger;Centre;R14-049;Supermarche;;A2100;Xavier Quemener;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1297;Champ-Verger;Centre;R14-050;Supermarche;oui;A2094;Agnes Tessier;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1298;Pont-Orme;Centre;;Supermarche;;A2107;Remi Huet;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1299;Terre-Bruyere;Centre;R14-052;Hypermarche;;A2109;Michel Fourcade;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1300;Plaine-Colline;Est;R15-001;Supermarche;;A2132;Claire Aubry;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1301;Saint-Gue;Est;R15-002;Supermarche;;A2138;Catherine Gauthier;Editeur local;;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1302;Terre-Colline;Est;R15-003;Supermarche;;A2142;Laurent Rossignol;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1303;Terre-Pierre;Est;R15-004;Supermarche;;A2145;Jerome Aubry;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1304;Neuf-Coteau;Est;R15-005;Hypermarche;;A2128;Claire Nicolas;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1305;Val-Pierre;Est;R15-006;Hypermarche;;A2151;Denis Aubry;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1306;Port-Etang;Est;R15-007;Supermarche;;A2135;Helene Vallet;BETAPOS;4.6;BETASTOCK;Sans drive;0
+1307;Bourg-Coteau;Est;R15-008;Magasin urbain de proximite;;A2116;Olivier Tessier;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1308;ClairMarais;Est;R15-009;Petit format de centre-bourg;;A2120;Marc Gillet;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1309;Val-Marais;Est;R15-010;Hypermarche;;A2147;Xavier Bourdon;BETAPOS;4.6;BETASTOCK;Sans drive;0
+1310;Villeneuve-Chatel;Est;R15-011;Petit format de centre-bourg;;A2153;Bruno Faivre;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1311;Bourg-Verger;Est;R15-012;Hypermarche;;A2117;Herve Berthier;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;2
+1312;Pont-Ormeau;Est;R15-013;Hypermarche;;A2135;Helene Vallet;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1313;BeauColline;Est;R15-014;Supermarche;;A2114;Nathalie Renard;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1314;Plaine-Riviere;Est;;Supermarche;;A2132;Claire Aubry;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1315;Vieux-Verger;Est;R15-016;Supermarche;;A2152;Catherine Gillet;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1316;Bois-Gue;Est;;Supermarche;;A2115;Denis Fourcade;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1317;Bourg-Etang;Est;R15-018;Supermarche;;A2117;Herve Berthier;ALPHACAISSE;7.1;BETASTOCK;Integre a la caisse;1
+1318;Champ-Pierre;Est;R15-019;Supermarche;oui;A2119;Yann Bresson;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1319;Champ-Mesnil;Est;R15-020;Hypermarche;oui;A2118;Claire Delmas;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1320;Champ-Coteau;Est;R15-021;Supermarche;;A2118;Claire Delmas;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1321;Mont-Charme;Est;R15-022;Magasin urbain de proximite;;A2125;Michel Yvon;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1322;Terre-Bouleau;Est;R15-023;Magasin urbain de proximite;;A2141;Isabelle Quemener;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1323;Bas-Loup;Est;R15-024;Hypermarche;;A2113;Benoit Bourdon;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1324;Plaine-Tilleul;Est;R15-025;Magasin urbain de proximite;;A2133;Jerome Tessier;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1325;ClairSaule;Est;R15-026;Supermarche;;A2121;Alain Moreau;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1326;Terre-Martin;Est;R15-027;Supermarche;;A2143;Herve Lacombe;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1327;Port-Pre;Est;R15-028;Supermarche;;A2136;Remi Gillet;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1328;Croix-Ormeau;Est;R15-029;Petit format de centre-bourg;;A2122;Herve Marchand;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1329;Val-Noyer;Est;R15-030;Supermarche;;A2150;Claire Jolivet;ALPHACAISSE;8.0;ALPHASTOCK;Sans drive;0
+1330;Port-Fort;Est;;Supermarche;;A2136;Remi Gillet;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1331;Roche-Verger;Est;R15-032;Supermarche;;A2137;Remi Marchand;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1332;ClairChatel;Est;R15-033;Hypermarche;;A2119;Yann Bresson;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;2
+1333;Pont-Etang;Est;R15-034;Supermarche;;A2134;Valerie Gauthier;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1334;Fontaine-Vernay;Est;R15-035;Supermarche;;A2123;Sylvie Moreau;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1335;Croix-Orme;Est;R15-036;Supermarche;;A2121;Alain Moreau;GAMMASOFT;2.9;ALPHASTOCK;Integre a la caisse;1
+1336;Saint-Saule;Est;R15-037;Supermarche;;A2140;Yann Quemener;BETAPOS;3.8;ALPHASTOCK;Integre a la caisse;1
+1337;Val-Mer;Est;R15-038;Hypermarche;;A2148;Sophie Pichon;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;2
+1338;BeauLande;Est;R15-039;Supermarche;;A2115;Denis Fourcade;BETAPOS;4.2;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1339;Haut-Bruyere;Est;R15-040;Magasin urbain de proximite;;A2124;Yann Sauvage;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1340;Saint-Peuplier;Est;R15-041;Supermarche;;A2139;Yann Jourdan;GAMMASOFT;3.3;ALPHASTOCK;Sans drive;0
+1341;ClairLande;Est;R15-042;Hypermarche;;A2120;Marc Gillet;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1342;Neuf-Etang;Est;R15-043;Supermarche;;A2129;Xavier Tessier;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1343;Pont-Coteau;Est;R15-044;Supermarche;;A2134;Valerie Gauthier;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1344;Bois-Vallon;Est;R15-045;Hypermarche;oui;A2116;Olivier Tessier;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;2
+1345;Val-Coteau;Est;R15-046;Supermarche;;A2146;Didier Olivier;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1346;Petit-Ajonc;Est;R15-047;Supermarche;;A2130;Didier Lacombe;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1347;Neuf-Frene;Est;R15-048;Supermarche;;A2129;Xavier Tessier;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1348;Haut-Frene;Est;R15-049;Supermarche;;A2125;Michel Yvon;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1349;Mont-Riviere;Est;R15-050;Supermarche;oui;A2127;Olivier Noguez;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1350;Mont-Chene;Est;R15-051;Hypermarche;;A2126;Didier Vidal;BETAPOS;4.6;BETASTOCK;Integre a la caisse;2
+1351;Croix-Peuplier;Est;R15-052;Supermarche;;A2122;Herve Marchand;GAMMASOFT;3.3;ALPHASTOCK;DRIVEPLUS;1
+1352;Saint-Orme;Est;R15-053;Hypermarche;;A2139;Yann Jourdan;BETAPOS;3.8;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1353;Saint-Aulnay;Est;R15-054;Hypermarche;;A2137;Remi Marchand;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;2
+1354;Bas-Marais;Est;R15-055;Supermarche;;A2114;Nathalie Renard;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1355;Saint-Fort;Est;R15-056;Supermarche;;A2138;Catherine Gauthier;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1356;Pont-Colline;Est;R15-057;Supermarche;;A2133;Jerome Tessier;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1357;Moulin-Bruyere;Est;R15-058;Supermarche;;A2127;Olivier Noguez;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1358;Grand-Frene;Est;R15-059;Petit format de centre-bourg;;A2123;Sylvie Moreau;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1359;Grand-Loup;Est;R15-060;Supermarche;;A2124;Yann Sauvage;BETAPOS;3.8;BETASTOCK;Sans drive;0
+1360;Mont-Coteau;Est;R15-061;Magasin urbain de proximite;;A2126;Didier Vidal;BETAPOS;4.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1361;Villeneuve-Loup;Est;R15-062;Supermarche;;A2154;Pascal Grandjean;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1362;Moulin-Martin;Est;R15-063;Supermarche;;A2128;Claire Nicolas;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1363;Petit-Bruyere;Est;R15-953;Supermarche;;A2131;Bruno Bonneau;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1364;Terre-Orme;Est;R15-065;Supermarche;;A2144;Michel Bonneau;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1365;Neuf-Tilleul;Est;R15-066;Supermarche;;A2130;Didier Lacombe;BETAPOS;5.0;ALPHASTOCK;Integre a la caisse;2
+1366;Val-Mesnil;Est;R15-067;Petit format de centre-bourg;;A2149;Catherine Berthier;BETAPOS;3.8;BETASTOCK;Integre a la caisse;1
+1367;Petit-Etang;Est;R15-068;Supermarche;;A2131;Bruno Bonneau;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1368;ClairCoteau;Bourgogne Franche-Comte;R16-001;Hypermarche;oui;A2042;Thierry Rossignol;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1369;Villeneuve-Gue;Bourgogne Franche-Comte;R16-002;Supermarche;;A2057;Patrick Huet;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1370;Petit-Riviere;Bourgogne Franche-Comte;R16-003;Hypermarche;oui;A2051;Chantal Jolivet;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;2
+1371;Pont-Pre;Bourgogne Franche-Comte;R16-004;Supermarche;;A2053;Herve Siriex;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1372;Pont-Lande;Bourgogne Franche-Comte;R16-005;Magasin urbain de proximite;;A2053;Herve Siriex;ALPHACAISSE;8.0;ALPHASTOCK;Sans drive;0
+1373;Grand-Pierre;Bourgogne Franche-Comte;R16-006;Supermarche;;A2047;Agnes Esnault;Editeur local;;ALPHASTOCK;Integre a la caisse;1
+1374;Champ-Genet;Bourgogne Franche-Comte;R16-007;Hypermarche;oui;A2041;Laurent Esteve;BETAPOS;3.8;BETASTOCK;Integre a la caisse;2
+1375;Terre-Loup;Bourgogne Franche-Comte;R16-008;Supermarche;;A2055;Emilie Berthier;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1376;Villeneuve-Vallon;Bourgogne Franche-Comte;R16-009;Supermarche;;A2059;Pascal Gauthier;ALPHACAISSE;6.2;BETASTOCK;Integre a la caisse;1
+1377;Croix-Marais;Bourgogne Franche-Comte;R16-010;Hypermarche;;A2044;Chantal Guibert;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1378;Neuf-Noyer;Bourgogne Franche-Comte;R16-011;Supermarche;;A2050;Michel Vasseur;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1379;Bois-Riviere;Bourgogne Franche-Comte;R16-012;Supermarche;;A2040;Sylvie Ferrand;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1380;Grand-Mer;Bourgogne Franche-Comte;R16-013;Supermarche;;A2046;Michel Urvoy;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1381;Moulin-Houx;Bourgogne Franche-Comte;;Hypermarche;;A2048;Herve Vallet;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1382;Villeneuve-Noyer;Bourgogne Franche-Comte;R16-015;Magasin urbain de proximite;;A2058;Pascal Chauvin;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1383;Petit-Bouleau;Bourgogne Franche-Comte;R16-016;Supermarche;;A2050;Michel Vasseur;ALPHACAISSE;8.0;ALPHASTOCK;Sans drive;0
+1384;Villeneuve-Vigne;Bourgogne Franche-Comte;R16-017;Supermarche;;A2059;Pascal Gauthier;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1385;Vieux-Chene;Bourgogne Franche-Comte;R16-018;Supermarche;;A2056;Michel Vidal;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1386;Bas-Bouleau;Bourgogne Franche-Comte;R16-019;Hypermarche;;A2038;Francois Tanguy;GAMMASOFT;3.5;BETASTOCK;DRIVEPLUS;2
+1387;Saint-Chatel;Bourgogne Franche-Comte;R16-020;Supermarche;;A2054;Valerie Mazet;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1388;Croix-Lande;Bourgogne Franche-Comte;R16-021;Hypermarche;;A2044;Chantal Guibert;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;2
+1389;Cote-Mer;Bourgogne Franche-Comte;R16-022;Supermarche;oui;A2043;Olivier Delmas;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1390;BeauChene;Bourgogne Franche-Comte;R16-023;Supermarche;;A2039;Herve Keraudren;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1391;BeauVernay;Bourgogne Franche-Comte;R16-024;Supermarche;;A2040;Sylvie Ferrand;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;1
+1392;Neuf-Ajonc;Bourgogne Franche-Comte;R16-025;Supermarche;;A2049;Marc Lacombe;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1393;ClairVigne;Bourgogne Franche-Comte;R16-026;Supermarche;;A2042;Thierry Rossignol;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1394;Plaine-Marais;Bourgogne Franche-Comte;R16-027;Magasin urbain de proximite;;A2052;Nathalie Jourdan;BETAPOS;5.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1395;Villeneuve-Sablon;Bourgogne Franche-Comte;R16-028;Supermarche;;A2058;Pascal Chauvin;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1396;Bourg-Colline;Bourgogne Franche-Comte;R16-029;Supermarche;;A2041;Laurent Esteve;BETAPOS;4.6;BETASTOCK;Sans drive;0
+1397;Roche-Gue;Bourgogne Franche-Comte;R16-030;Hypermarche;;A2054;Valerie Mazet;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1398;Pont-Chatel;Bourgogne Franche-Comte;R16-031;Hypermarche;;A2052;Nathalie Jourdan;BETAPOS;4.6;BETASTOCK;Sans drive;0
+1399;Bas-Frene;Bourgogne Franche-Comte;R16-032;Hypermarche;oui;A2038;Francois Tanguy;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;2
+1400;Croix-Ajonc;Bourgogne Franche-Comte;;Supermarche;;A2043;Olivier Delmas;BETAPOS;4.6;ALPHASTOCK;DRIVEPLUS;1
+1401;Fontaine-Chene;Bourgogne Franche-Comte;R16-034;Hypermarche;;A2045;Patrick Rossignol;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;2
+1402;Grand-Orme;Bourgogne Franche-Comte;R16-035;Petit format de centre-bourg;;A2046;Michel Urvoy;GAMMASOFT;2.9;ALPHASTOCK;DRIVEPLUS;1
+1403;Saint-Tilleul;Bourgogne Franche-Comte;;Supermarche;;A2055;Emilie Berthier;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1404;Val-Genet;Bourgogne Franche-Comte;R16-037;Supermarche;;A2056;Michel Vidal;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1405;Villeneuve-Mesnil;Bourgogne Franche-Comte;R16-038;Supermarche;;A2057;Patrick Huet;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1406;Plaine-Aulnay;Bourgogne Franche-Comte;R16-039;Hypermarche;;A2051;Chantal Jolivet;BETAPOS;4.2;BETASTOCK;Integre a la caisse;2
+1407;Moulin-Ormeau;Bourgogne Franche-Comte;R16-040;Supermarche;;A2048;Herve Vallet;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1408;Fontaine-Sablon;Bourgogne Franche-Comte;R16-041;Supermarche;;A2045;Patrick Rossignol;ALPHACAISSE;6.2;BETASTOCK;DRIVEPLUS;1
+1409;Bas-Houx;Bourgogne Franche-Comte;R16-042;Supermarche;;A2039;Herve Keraudren;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1410;Haut-Lande;Bourgogne Franche-Comte;R16-043;Magasin urbain de proximite;;A2047;Agnes Esnault;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1411;Moulin-Tilleul;Bourgogne Franche-Comte;R16-044;Hypermarche;oui;A2049;Marc Lacombe;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1412;Grand-Jardin;Auvergne Rhone-Alpes;R17-001;Supermarche;;A2013;Catherine Guibert;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1413;Vieux-Orme;Auvergne Rhone-Alpes;R17-002;Supermarche;oui;A2036;Francois Pasquier;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1414;Cote-Bouleau;Auvergne Rhone-Alpes;R17-003;Magasin urbain de proximite;;A2007;Sophie Huet;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1415;Terre-Vallon;Auvergne Rhone-Alpes;R17-004;Magasin urbain de proximite;;A2032;Sylvie Gauthier;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1416;Terre-Chatel;Auvergne Rhone-Alpes;R17-005;Petit format de centre-bourg;;A2031;Jerome Rossignol;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1417;Plaine-Ormeau;Auvergne Rhone-Alpes;R17-006;Supermarche;;A2021;Vincent Aubry;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1418;ClairRiviere;Auvergne Rhone-Alpes;R17-007;Supermarche;;A2006;Vincent Lacroix;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1419;Bourg-Charme;Auvergne Rhone-Alpes;R17-008;Supermarche;oui;A2003;Benoit Vidal;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1420;Villeneuve-Orme;Auvergne Rhone-Alpes;R17-009;Supermarche;;A2037;Catherine Huet;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1421;BeauEtang;Auvergne Rhone-Alpes;R17-010;Hypermarche;;A2001;Nathalie Tessier;GAMMASOFT;3.3;ALPHASTOCK;DRIVEPLUS;2
+1422;Cote-Vallon;Auvergne Rhone-Alpes;R17-011;Hypermarche;;A2008;Olivier Rouaud;ALPHACAISSE;7.1;BETASTOCK;Sans drive;0
+1423;BeauNoyer;Auvergne Rhone-Alpes;R17-012;Supermarche;;A2002;Gilles Vallet;BETAPOS;4.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1424;Vieux-Aulnay;Auvergne Rhone-Alpes;R17-013;Supermarche;oui;A2034;Helene Delmas;BETAPOS;4.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1425;Vieux-Etang;Auvergne Rhone-Alpes;R17-014;Hypermarche;;A2035;Chantal Hamelin;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;2
+1426;Saint-Ormeau;Auvergne Rhone-Alpes;R17-015;Supermarche;;A2030;Remi Dumas;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1427;Pont-Noyer;Auvergne Rhone-Alpes;R17-016;Hypermarche;;A2023;Pascal Marchand;BETAPOS;4.2;Tenue manuelle ou solution tierce;Sans drive;0
+1428;Pont-Vallon;Auvergne Rhone-Alpes;R17-017;Petit format de centre-bourg;oui;A2024;Denis Siriex;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1429;Bas-Noyer;Auvergne Rhone-Alpes;R17-018;Hypermarche;;A2000;Emilie Orsini;BETAPOS;4.2;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1430;Port-Ajonc;Auvergne Rhone-Alpes;R17-019;Supermarche;;A2024;Denis Siriex;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1431;Plaine-Bruyere;Auvergne Rhone-Alpes;R17-020;Petit format de centre-bourg;;A2020;Fabienne Mazet;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1432;Bois-Frene;Auvergne Rhone-Alpes;R17-021;Hypermarche;;A2002;Gilles Vallet;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;Sans drive;0
+1433;Neuf-Sablon;Auvergne Rhone-Alpes;;Petit format de centre-bourg;oui;A2018;Francois Jolivet;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1434;Neuf-Pierre;Auvergne Rhone-Alpes;R17-023;Supermarche;;A2018;Francois Jolivet;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1435;Vieux-Coteau;Auvergne Rhone-Alpes;R17-024;Hypermarche;;A2035;Chantal Hamelin;Editeur local;;ALPHASTOCK;DRIVEPLUS;2
+1436;Bas-Ajonc;Auvergne Rhone-Alpes;R17-025;Hypermarche;;A2000;Emilie Orsini;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1437;Mont-Noyer;Auvergne Rhone-Alpes;R17-026;Hypermarche;;A2015;Claire Grandjean;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1438;Terre-Peuplier;Auvergne Rhone-Alpes;R17-027;Supermarche;;A2032;Sylvie Gauthier;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1439;Roche-Sablon;Auvergne Rhone-Alpes;;Magasin urbain de proximite;;A2028;Catherine Nicolas;BETAPOS;5.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1440;Cote-Jardin;Auvergne Rhone-Alpes;R17-029;Supermarche;;A2007;Sophie Huet;Editeur local;;ALPHASTOCK;DRIVEPLUS;1
+1441;ClairLoup;Auvergne Rhone-Alpes;R17-030;Supermarche;;A2006;Vincent Lacroix;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1442;Mont-Gue;Auvergne Rhone-Alpes;R17-031;Supermarche;;A2015;Claire Grandjean;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1443;Val-Etang;Auvergne Rhone-Alpes;R17-032;Magasin urbain de proximite;;A2033;Vincent Vasseur;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1444;Port-Mesnil;Auvergne Rhone-Alpes;R17-033;Supermarche;;A2025;Chantal Caillaud;BETAPOS;3.8;BETASTOCK;Sans drive;0
+1445;Petit-Loup;Auvergne Rhone-Alpes;R17-034;Hypermarche;;A2020;Fabienne Mazet;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1446;Neuf-Mesnil;Auvergne Rhone-Alpes;R17-035;Supermarche;;A2017;Herve Faivre;ALPHACAISSE;6.2;ALPHASTOCK;Sans drive;0
+1447;Plaine-Pierre;Auvergne Rhone-Alpes;R17-036;Magasin urbain de proximite;;A2022;Chantal Dumas;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1448;Bas-Pre;Auvergne Rhone-Alpes;R17-037;Supermarche;;A2001;Nathalie Tessier;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1449;Bois-Jardin;Auvergne Rhone-Alpes;R17-038;Hypermarche;;A2003;Benoit Vidal;BETAPOS;4.2;BETASTOCK;Integre a la caisse;2
+1450;Champ-Charme;Auvergne Rhone-Alpes;R17-039;Supermarche;;A2005;Karine Fourcade;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1451;Croix-Sablon;Auvergne Rhone-Alpes;R17-040;Supermarche;;A2009;Emilie Siriex;BETAPOS;4.6;Tenue manuelle ou solution tierce;Sans drive;0
+1452;Roche-Coteau;Auvergne Rhone-Alpes;R17-041;Supermarche;oui;A2026;Gilles Bonneau;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1453;Val-Aulnay;Auvergne Rhone-Alpes;R17-042;Supermarche;;A2033;Vincent Vasseur;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1454;Mont-Etang;Auvergne Rhone-Alpes;R17-043;Hypermarche;;A2014;Catherine Perrot;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1455;Croix-Fort;Auvergne Rhone-Alpes;R17-044;Supermarche;;A2009;Emilie Siriex;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1456;Bas-Pierre;Auvergne Rhone-Alpes;R17-045;Supermarche;;A2000;Emilie Orsini;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1457;Petit-Chatel;Auvergne Rhone-Alpes;R17-046;Supermarche;oui;A2019;Bruno Huet;GAMMASOFT;3.3;ALPHASTOCK;Integre a la caisse;2
+1458;Fontaine-Orme;Auvergne Rhone-Alpes;R17-047;Hypermarche;;A2011;Remi Rossignol;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1459;Haut-Charme;Auvergne Rhone-Alpes;R17-048;Supermarche;;A2013;Catherine Guibert;ALPHACAISSE;5.4;ALPHASTOCK;Sans drive;0
+1460;Roche-Pierre;Auvergne Rhone-Alpes;R17-049;Supermarche;;A2028;Catherine Nicolas;BETAPOS;5.0;BETASTOCK;Sans drive;0
+1461;Bourg-Sablon;Auvergne Rhone-Alpes;R17-050;Hypermarche;;A2004;Patrick Urvoy;GAMMASOFT;3.5;ALPHASTOCK;Sans drive;0
+1462;Haut-Orme;Auvergne Rhone-Alpes;R17-051;Supermarche;;A2014;Catherine Perrot;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1463;Fontaine-Marais;Auvergne Rhone-Alpes;R17-052;Supermarche;;A2010;Michel Rossignol;GAMMASOFT;3.5;ALPHASTOCK;DRIVEPLUS;1
+1464;Neuf-Gue;Auvergne Rhone-Alpes;R17-053;Supermarche;;A2017;Herve Faivre;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1465;Saint-Etang;Auvergne Rhone-Alpes;R17-054;Supermarche;;A2029;Xavier Rouaud;ALPHACAISSE;8.0;ALPHASTOCK;Sans drive;0
+1466;Bourg-Vallon;Auvergne Rhone-Alpes;R17-055;Supermarche;oui;A2005;Karine Fourcade;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1467;Fontaine-Martin;Auvergne Rhone-Alpes;R17-056;Supermarche;;A2011;Remi Rossignol;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1468;Villeneuve-Vernay;Auvergne Rhone-Alpes;R17-057;Supermarche;;A2037;Catherine Huet;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;Sans drive;0
+1469;Bourg-Mesnil;Auvergne Rhone-Alpes;R17-058;Supermarche;;A2004;Patrick Urvoy;BETAPOS;4.6;BETASTOCK;Integre a la caisse;2
+1470;Petit-Aulnay;Auvergne Rhone-Alpes;R17-059;Supermarche;;A2019;Bruno Huet;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1471;Moulin-Frene;Auvergne Rhone-Alpes;R17-060;Hypermarche;;A2016;Valerie Pasquier;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;2
+1472;Plaine-Charme;Auvergne Rhone-Alpes;R17-061;Supermarche;;A2021;Vincent Aubry;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1473;ClairFrene;Auvergne Rhone-Alpes;R17-062;Supermarche;;A2006;Vincent Lacroix;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1474;Villeneuve-Bruyere;Auvergne Rhone-Alpes;R17-063;Supermarche;;A2036;Francois Pasquier;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1475;Croix-Aulnay;Auvergne Rhone-Alpes;R17-064;Magasin urbain de proximite;;A2008;Olivier Rouaud;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1476;Terre-Mer;Auvergne Rhone-Alpes;R17-065;Magasin urbain de proximite;;A2031;Jerome Rossignol;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1477;Grand-Fort;Auvergne Rhone-Alpes;R17-066;Hypermarche;;A2012;Remi Tessier;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1478;Val-Pre;Auvergne Rhone-Alpes;R17-067;Hypermarche;oui;A2034;Helene Delmas;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;2
+1479;Cote-Riviere;Auvergne Rhone-Alpes;R17-068;Supermarche;;A2007;Sophie Huet;BETAPOS;3.8;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1480;Bas-Genet;Auvergne Rhone-Alpes;R17-069;Supermarche;;A2000;Emilie Orsini;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Sans drive;0
+1481;Bois-Mesnil;Auvergne Rhone-Alpes;R17-070;Supermarche;oui;A2003;Benoit Vidal;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1482;Fontaine-Charme;Auvergne Rhone-Alpes;R17-071;Supermarche;;A2010;Michel Rossignol;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1483;Bois-Chatel;Auvergne Rhone-Alpes;R17-072;Supermarche;;A2002;Gilles Vallet;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1484;Cote-Tilleul;Auvergne Rhone-Alpes;R17-073;Petit format de centre-bourg;;A2008;Olivier Rouaud;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1485;Bourg-Loup;Auvergne Rhone-Alpes;;Supermarche;;A2004;Patrick Urvoy;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1486;Roche-Ormeau;Auvergne Rhone-Alpes;R17-075;Supermarche;;A2027;Benoit Fourcade;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1487;Saint-Verger;Auvergne Rhone-Alpes;;Supermarche;;A2030;Remi Dumas;BETAPOS;4.6;ALPHASTOCK;DRIVEPLUS;1
+1488;Moulin-Vallon;Auvergne Rhone-Alpes;R17-077;Supermarche;;A2016;Valerie Pasquier;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1489;Fontaine-Frene;Auvergne Rhone-Alpes;R17-078;Magasin urbain de proximite;;A2010;Michel Rossignol;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1490;Croix-Chatel;Auvergne Rhone-Alpes;R17-079;Hypermarche;oui;A2009;Emilie Siriex;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;2
+1491;Roche-Loup;Auvergne Rhone-Alpes;;Supermarche;;A2027;Benoit Fourcade;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1492;Port-Pierre;Auvergne Rhone-Alpes;R17-081;Hypermarche;;A2026;Gilles Bonneau;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;2
+1493;Champ-Mer;Auvergne Rhone-Alpes;R17-973;Supermarche;;A2005;Karine Fourcade;BETAPOS;4.2;BETASTOCK;Integre a la caisse;2
+1494;Saint-Lande;Auvergne Rhone-Alpes;R17-083;Supermarche;oui;A2029;Xavier Rouaud;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1495;Fontaine-Pierre;Auvergne Rhone-Alpes;R17-084;Hypermarche;;A2012;Remi Tessier;ALPHACAISSE;5.4;BETASTOCK;DRIVEPLUS;2
+1496;Pont-Aulnay;Auvergne Rhone-Alpes;;Magasin urbain de proximite;;A2022;Chantal Dumas;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1497;Port-Bruyere;Auvergne Rhone-Alpes;R17-086;Hypermarche;;A2025;Chantal Caillaud;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;2
+1498;Pont-Mesnil;Auvergne Rhone-Alpes;R17-087;Hypermarche;;A2023;Pascal Marchand;BETAPOS;4.6;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1499;Bas-Saule;Auvergne Rhone-Alpes;R17-088;Magasin urbain de proximite;;A2001;Nathalie Tessier;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1500;Bourg-Bouleau;Sud-Ouest;R18-001;Hypermarche;;A2545;Yann Chapelain;ALPHACAISSE;6.2;ALPHASTOCK;Sans drive;0
+1501;Vieux-Tilleul;Sud-Ouest;R18-002;Supermarche;;A2603;Thierry Marchand;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1502;Petit-Colline;Sud-Ouest;R18-003;Hypermarche;;A2578;Marc Yvon;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1503;Terre-Gue;Sud-Ouest;R18-004;Supermarche;;A2594;Pascal Bresson;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1504;Val-Colline;Sud-Ouest;R18-005;Supermarche;oui;A2597;Patrick Jourdan;BETAPOS;5.0;BETASTOCK;Sans drive;0
+1505;Cote-Coteau;Sud-Ouest;R18-006;Supermarche;;A2556;Jerome Siriex;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1506;Grand-Coteau;Sud-Ouest;R18-007;Magasin urbain de proximite;;A2565;Denis Bresson;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1507;Saint-Noyer;Sud-Ouest;R18-008;Hypermarche;;A2593;Laurent Bourdon;BETAPOS;5.0;BETASTOCK;Sans drive;0
+1508;Villeneuve-Marais;Sud-Ouest;R18-009;Hypermarche;;A2607;Sylvie Doucet;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1509;Saint-Charme;Sud-Ouest;R18-010;Supermarche;;A2590;Jerome Dauvergne;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1510;Bas-Martin;Sud-Ouest;R18-011;Supermarche;;A2533;Remi Guibert;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1511;Terre-Tilleul;Sud-Ouest;R18-012;Supermarche;;A2596;Xavier Lacroix;BETAPOS;3.8;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1512;Champ-Marais;Sud-Ouest;R18-013;Supermarche;;A2549;Marc Fleury;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Sans drive;0
+1513;Fontaine-Pre;Sud-Ouest;R18-014;Magasin urbain de proximite;;A2564;Claire Vallet;BETAPOS;5.0;BETASTOCK;Integre a la caisse;1
+1514;Bourg-Lande;Sud-Ouest;R18-015;Hypermarche;;A2546;Isabelle Gauthier;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;2
+1515;Croix-Etang;Sud-Ouest;R18-016;Supermarche;;A2560;Sophie Zanetti;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1516;Mont-Frene;Sud-Ouest;R18-017;Petit format de centre-bourg;;A2570;Olivier Lacombe;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1517;Neuf-Bruyere;Sud-Ouest;R18-018;Supermarche;;A2574;Isabelle Zanetti;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1518;Petit-Sablon;Sud-Ouest;R18-019;Supermarche;;A2582;Vincent Jourdan;GAMMASOFT;3.3;ALPHASTOCK;Integre a la caisse;1
+1519;Bas-Gue;Sud-Ouest;R18-020;Magasin urbain de proximite;;A2532;Agnes Delmas;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1520;Bas-Tilleul;Sud-Ouest;R18-021;Supermarche;;A2535;Vincent Chapelain;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;1
+1521;Port-Colline;Sud-Ouest;R18-022;Supermarche;oui;A2587;Sylvie Zanetti;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1522;Val-Orme;Sud-Ouest;R18-023;Supermarche;oui;A2599;Herve Moreau;GAMMASOFT;3.5;ALPHASTOCK;Sans drive;0
+1523;Petit-Ormeau;Sud-Ouest;R18-024;Supermarche;;A2581;Bruno Pichon;BETAPOS;5.0;BETASTOCK;Integre a la caisse;1
+1524;Neuf-Orme;Sud-Ouest;R18-025;Supermarche;oui;A2576;Valerie Rouaud;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1525;Champ-Orme;Sud-Ouest;R18-026;Magasin urbain de proximite;;A2550;Francois Siriex;BETAPOS;4.2;ALPHASTOCK;Sans drive;0
+1526;Bois-Bouleau;Sud-Ouest;R18-027;Petit format de centre-bourg;;A2543;Sophie Olivier;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1527;Bourg-Ormeau;Sud-Ouest;;Hypermarche;;A2547;Vincent Zanetti;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1528;Neuf-Pre;Sud-Ouest;R18-029;Supermarche;;A2577;Francois Huet;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1529;Roche-Noyer;Sud-Ouest;;Supermarche;;A2589;Valerie Delmas;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1530;Villeneuve-Genet;Sud-Ouest;R18-031;Supermarche;;A2605;Sophie Fleury;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1531;Haut-Chene;Sud-Ouest;R18-975;Supermarche;;A2567;Alain Weber;GAMMASOFT;2.9;BETASTOCK;Integre a la caisse;1
+1532;Bas-Orme;Sud-Ouest;R18-033;Supermarche;;A2534;Helene Tanguy;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1533;Saint-Colline;Sud-Ouest;R18-034;Petit format de centre-bourg;;A2591;Murielle Moreau;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1534;BeauCharme;Sud-Ouest;R18-035;Supermarche;;A2537;Murielle Esnault;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;Sans drive;0
+1535;Croix-Verger;Sud-Ouest;R18-036;Supermarche;;A2563;Agnes Olivier;BETAPOS;4.2;BETASTOCK;Sans drive;0
+1536;Croix-Saule;Sud-Ouest;R18-037;Supermarche;oui;A2562;Agnes Orsini;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1537;Pont-Houx;Sud-Ouest;R18-967;Supermarche;;A2586;Remi Vidal;BETAPOS;4.2;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1538;Grand-Gue;Sud-Ouest;R18-039;Magasin urbain de proximite;;A2566;Bruno Orsini;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1539;Petit-Lande;Sud-Ouest;R18-040;Petit format de centre-bourg;;A2579;Helene Lacroix;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1540;Pont-Gue;Sud-Ouest;R18-041;Supermarche;;A2585;Yann Esnault;BETAPOS;4.2;BETASTOCK;Sans drive;0
+1541;Champ-Riviere;Sud-Ouest;R18-042;Supermarche;;A2551;Thierry Gauthier;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1542;Val-Fort;Sud-Ouest;R18-043;Petit format de centre-bourg;;A2598;Alain Vidal;BETAPOS;5.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1543;BeauAulnay;Sud-Ouest;R18-044;Supermarche;;A2536;Murielle Dumas;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1544;BeauGue;Sud-Ouest;R18-045;Supermarche;oui;A2539;Agnes Lacroix;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1545;ClairGenet;Sud-Ouest;R18-046;Supermarche;;A2552;Denis Quemener;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1546;Haut-Ormeau;Sud-Ouest;R18-047;Supermarche;;A2569;Jerome Urvoy;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1547;Cote-Chene;Sud-Ouest;R18-048;Supermarche;;A2554;Pascal Vallet;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1548;Neuf-Jardin;Sud-Ouest;R18-049;Hypermarche;;A2575;Valerie Quemener;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1549;Vieux-Mesnil;Sud-Ouest;R18-050;Supermarche;oui;A2601;Herve Rossignol;BETAPOS;3.8;BETASTOCK;Integre a la caisse;1
+1550;Cote-Frene;Sud-Ouest;R18-051;Hypermarche;;A2557;Thierry Tanguy;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;2
+1551;Moulin-Coteau;Sud-Ouest;R18-052;Hypermarche;;A2572;Laurent Imbert;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;2
+1552;Bois-Etang;Sud-Ouest;R18-053;Supermarche;;A2544;Marc Zanetti;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1553;Cote-Vernay;Sud-Ouest;R18-054;Supermarche;oui;A2559;Catherine Grandjean;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1554;Moulin-Mer;Sud-Ouest;R18-055;Hypermarche;oui;A2573;Pascal Tessier;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;2
+1555;Cote-Sablon;Sud-Ouest;R18-056;Supermarche;;A2558;Patrick Gillet;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1556;Mont-Tilleul;Sud-Ouest;R18-057;Supermarche;;A2571;Patrick Chapelain;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;1
+1557;Cote-Colline;Sud-Ouest;R18-058;Supermarche;;A2555;Yann Delmas;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1558;BeauCoteau;Sud-Ouest;R18-059;Magasin urbain de proximite;;A2538;Helene Herve;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1559;BeauPeuplier;Sud-Ouest;R18-060;Supermarche;;A2540;Patrick Faivre;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1560;Petit-Tilleul;Sud-Ouest;R18-061;Supermarche;;A2583;Isabelle Tanguy;GAMMASOFT;3.5;ALPHASTOCK;Sans drive;0
+1561;Villeneuve-Mer;Sud-Ouest;R18-062;Hypermarche;oui;A2608;Michel Chapelain;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1562;Villeneuve-Charme;Sud-Ouest;R18-063;Supermarche;;A2604;Laurent Delmas;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1563;ClairOrme;Sud-Ouest;R18-064;Magasin urbain de proximite;;A2553;Benoit Zanetti;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1564;Vieux-Gue;Sud-Ouest;R18-065;Hypermarche;;A2600;Murielle Delmas;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;2
+1565;Petit-Marais;Sud-Ouest;R18-066;Supermarche;;A2580;Sylvie Faivre;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1566;Haut-Coteau;Sud-Ouest;R18-067;Supermarche;;A2568;Michel Bourdon;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;2
+1567;Terre-Houx;Sud-Ouest;R18-068;Petit format de centre-bourg;;A2595;Claire Bonneau;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1568;Saint-Loup;Sud-Ouest;R18-069;Supermarche;;A2592;Remi Pichon;BETAPOS;3.8;BETASTOCK;Integre a la caisse;2
+1569;Bas-Colline;Sud-Ouest;R18-070;Petit format de centre-bourg;oui;A2531;Gilles Vidal;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1570;BeauVallon;Sud-Ouest;R18-071;Supermarche;;A2542;Benoit Noguez;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1571;Champ-Etang;Sud-Ouest;;Supermarche;;A2548;Laurent Sauvage;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1572;Vieux-Noyer;Sud-Ouest;R18-073;Supermarche;;A2602;Olivier Grandjean;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1573;Port-Genet;Sud-Ouest;R18-074;Hypermarche;;A2588;Gilles Orsini;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;2
+1574;Croix-Noyer;Sud-Ouest;R18-075;Supermarche;;A2561;Sylvie Vidal;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1575;Villeneuve-Riviere;Sud-Ouest;R18-076;Supermarche;;A2609;Karine Gillet;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1576;Villeneuve-Jardin;Sud-Ouest;R18-077;Magasin urbain de proximite;;A2606;Fabienne Quemener;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Sans drive;0
+1577;Pont-Bruyere;Sud-Ouest;R18-078;Supermarche;;A2584;Denis Esnault;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1578;BeauPre;Sud-Ouest;R18-079;Hypermarche;;A2541;Chantal Tessier;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1579;Moulin-Marais;Occitanie;R19-001;Magasin urbain de proximite;;A2374;Sylvie Jourdan;BETAPOS;3.8;Tenue manuelle ou solution tierce;Sans drive;0
+1580;Cote-Loup;Occitanie;R19-002;Hypermarche;;A2349;Nathalie Lacroix;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1581;Cote-Chatel;Occitanie;R19-003;Supermarche;;A2346;Herve Bresson;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1582;Haut-Saule;Occitanie;R19-004;Petit format de centre-bourg;;A2369;Olivier Urvoy;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1583;Terre-Chene;Occitanie;R19-005;Magasin urbain de proximite;;A2394;Yann Ferrand;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1584;Pont-Sablon;Occitanie;R19-006;Supermarche;;A2388;Michel Faivre;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;1
+1585;Bourg-Genet;Occitanie;R19-007;Supermarche;;A2340;Gilles Huet;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1586;Val-Peuplier;Occitanie;R19-008;Hypermarche;;A2397;Jerome Herve;BETAPOS;4.6;BETASTOCK;Integre a la caisse;2
+1587;Grand-Noyer;Occitanie;R19-009;Supermarche;;A2363;Herve Aubry;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1588;Fontaine-Fort;Occitanie;R19-010;Supermarche;oui;A2358;Nathalie Fleury;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1589;Bourg-Noyer;Occitanie;R19-011;Supermarche;;A2342;Alain Yvon;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1590;Mont-Vigne;Occitanie;R19-012;Magasin urbain de proximite;;A2371;Valerie Lemoine;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1591;Villeneuve-Aulnay;Occitanie;R19-013;Supermarche;;A2401;Fabienne Vallet;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1592;Vieux-Charme;Occitanie;R19-014;Supermarche;;A2399;Claire Doucet;ALPHACAISSE;6.2;BETASTOCK;DRIVEPLUS;1
+1593;Moulin-Etang;Occitanie;R19-015;Supermarche;;A2372;Valerie Sauvage;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1594;Neuf-Mer;Occitanie;R19-016;Hypermarche;;A2379;Laurent Gauthier;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;2
+1595;Fontaine-Noyer;Occitanie;R19-017;Supermarche;;A2360;Chantal Carrere;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1596;Villeneuve-Peuplier;Occitanie;R19-018;Supermarche;;A2404;Thierry Urvoy;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1597;Croix-Loup;Occitanie;R19-019;Magasin urbain de proximite;;A2354;Vincent Pichon;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1598;Petit-Mesnil;Occitanie;R19-020;Supermarche;;A2382;Bruno Imbert;GAMMASOFT;3.3;ALPHASTOCK;Integre a la caisse;1
+1599;Port-Chene;Occitanie;R19-021;Supermarche;;A2389;Sylvie Quemener;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;1
+1600;Grand-Saule;Occitanie;R19-022;Hypermarche;;A2365;Isabelle Grandjean;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;2
+1601;Mont-Colline;Occitanie;R19-023;Supermarche;;A2370;Agnes Dumas;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1602;Grand-Genet;Occitanie;R19-024;Supermarche;;A2362;Didier Lebrun;ALPHACAISSE;8.0;BETASTOCK;DRIVEPLUS;1
+1603;BeauOrmeau;Occitanie;R19-025;Supermarche;;A2335;Isabelle Faivre;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;Sans drive;0
+1604;Moulin-Riviere;Occitanie;R19-026;Petit format de centre-bourg;;A2376;Fabienne Hamelin;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1605;Moulin-Pre;Occitanie;R19-027;Petit format de centre-bourg;;A2375;Claire Jourdan;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1606;Cote-Gue;Occitanie;R19-028;Supermarche;;A2348;Jerome Lemoine;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Sans drive;0
+1607;BeauVerger;Occitanie;R19-029;Supermarche;;A2336;Didier Lacroix;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1608;Haut-Ajonc;Occitanie;R19-030;Magasin urbain de proximite;;A2366;Patrick Pichon;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1609;Croix-Mesnil;Occitanie;R19-031;Petit format de centre-bourg;;A2355;Vincent Renard;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1610;Petit-Vernay;Occitanie;R19-032;Supermarche;;A2383;Nathalie Siriex;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1611;Bourg-Aulnay;Occitanie;R19-033;Hypermarche;;A2339;Pascal Vidal;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1612;Cote-Genet;Occitanie;R19-034;Supermarche;oui;A2347;Pascal Hamelin;ALPHACAISSE;8.0;ALPHASTOCK;Sans drive;0
+1613;Plaine-Pre;Occitanie;R19-035;Supermarche;;A2386;Claire Moreau;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1614;Fontaine-Houx;Occitanie;R19-036;Supermarche;;A2359;Valerie Tanguy;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1615;Villeneuve-Martin;Occitanie;R19-037;Supermarche;;A2403;Francois Weber;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1616;Neuf-Vallon;Occitanie;R19-038;Supermarche;;A2380;Isabelle Lacroix;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1617;Roche-Peuplier;Occitanie;R19-039;Supermarche;;A2392;Nathalie Moreau;BETAPOS;3.8;BETASTOCK;Integre a la caisse;1
+1618;Bois-Noyer;Occitanie;R19-040;Hypermarche;;A2338;Valerie Dumas;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1619;Neuf-Loup;Occitanie;R19-041;Hypermarche;;A2378;Catherine Mazet;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1620;Neuf-Fort;Occitanie;R19-042;Hypermarche;;A2377;Sylvie Yvon;BETAPOS;4.2;BETASTOCK;Integre a la caisse;2
+1621;Haut-Fort;Occitanie;R19-043;Supermarche;;A2367;Jerome Delmas;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1622;Champ-Colline;Occitanie;R19-044;Hypermarche;;A2343;Thierry Moreau;GAMMASOFT;3.5;ALPHASTOCK;DRIVEPLUS;2
+1623;Roche-Colline;Occitanie;R19-045;Hypermarche;;A2391;Valerie Urvoy;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;2
+1624;Pont-Frene;Occitanie;R19-046;Magasin urbain de proximite;;A2387;Chantal Vasseur;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1625;Villeneuve-Houx;Occitanie;R19-047;Hypermarche;;A2402;Vincent Vallet;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;2
+1626;Haut-Gue;Occitanie;R19-048;Petit format de centre-bourg;;A2368;Emilie Vidal;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1627;Croix-Coteau;Occitanie;R19-049;Magasin urbain de proximite;;A2352;Murielle Imbert;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1628;Bourg-Houx;Occitanie;R19-050;Supermarche;;A2341;Karine Carrere;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Sans drive;0
+1629;Val-Frene;Occitanie;R19-051;Magasin urbain de proximite;;A2395;Gilles Grandjean;ALPHACAISSE;8.0;ALPHASTOCK;Sans drive;0
+1630;Bois-Genet;Occitanie;R19-052;Supermarche;;A2337;Marc Bresson;BETAPOS;4.6;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1631;Croix-Frene;Occitanie;R19-053;Magasin urbain de proximite;;A2353;Olivier Huet;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;1
+1632;Croix-Pierre;Occitanie;R19-054;Supermarche;;A2356;Gilles Renard;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1633;BeauHoux;Occitanie;R19-055;Petit format de centre-bourg;oui;A2334;Didier Mazet;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1634;Moulin-Lande;Occitanie;R19-056;Supermarche;;A2373;Bruno Lemoine;BETAPOS;4.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1635;Vieux-Jardin;Occitanie;;Supermarche;;A2400;Sylvie Bresson;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1636;Croix-Chene;Occitanie;R19-058;Hypermarche;;A2351;Yann Zanetti;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1637;Croix-Pre;Occitanie;R19-059;Supermarche;;A2357;Remi Aubry;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1638;Grand-Pre;Occitanie;R19-060;Hypermarche;;A2364;Helene Noguez;BETAPOS;4.6;BETASTOCK;Integre a la caisse;2
+1639;Fontaine-Ormeau;Occitanie;R19-061;Magasin urbain de proximite;;A2361;Marc Orsini;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1640;Cote-Peuplier;Occitanie;R19-062;Magasin urbain de proximite;;A2350;Gilles Imbert;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1641;Port-Noyer;Occitanie;R19-063;Supermarche;;A2390;Fabienne Chauvin;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1642;ClairMesnil;Occitanie;R19-064;Petit format de centre-bourg;;A2345;Chantal Lacombe;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1643;Plaine-Frene;Occitanie;R19-065;Supermarche;;A2385;Denis Herve;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;1
+1644;Petit-Mer;Occitanie;R19-066;Petit format de centre-bourg;;A2381;Agnes Vallet;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;1
+1645;Plaine-Coteau;Occitanie;R19-067;Supermarche;oui;A2384;Sylvie Herve;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1646;Saint-Genet;Occitanie;R19-068;Supermarche;;A2393;Laurent Tessier;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1647;Val-Gue;Occitanie;R19-069;Magasin urbain de proximite;;A2396;Helene Hamelin;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1648;Val-Vernay;Occitanie;R19-070;Supermarche;;A2398;Yann Vidal;GAMMASOFT;3.3;ALPHASTOCK;DRIVEPLUS;1
+1649;Champ-Jardin;Occitanie;R19-071;Supermarche;;A2344;Murielle Rouaud;GAMMASOFT;3.5;ALPHASTOCK;Integre a la caisse;1
+1650;Terre-Mesnil;Provence;R20-001;Petit format de centre-bourg;;A2519;Laurent Berthier;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1651;Vieux-Lande;Provence;R20-002;Hypermarche;;A2526;Marc Carrere;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;2
+1652;Cote-Ormeau;Provence;R20-003;Supermarche;;A2488;Benoit Doucet;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1653;Petit-Coteau;Provence;R20-004;Supermarche;;A2502;Valerie Vasseur;BETAPOS;3.8;BETASTOCK;Integre a la caisse;1
+1654;Vieux-Bruyere;Provence;R20-005;Magasin urbain de proximite;;A2525;Xavier Jourdan;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1655;Terre-Fort;Provence;;Supermarche;oui;A2517;Catherine Siriex;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;Sans drive;0
+1656;Val-Charme;Provence;R20-007;Magasin urbain de proximite;;A2523;Jerome Bonneau;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1657;ClairPeuplier;Provence;;Supermarche;;A2484;Jerome Weber;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1658;Champ-Chatel;Provence;R20-009;Hypermarche;;A2479;Michel Chauvin;BETAPOS;4.2;BETASTOCK;Sans drive;0
+1659;Mont-Houx;Provence;R20-010;Supermarche;;A2497;Herve Mazet;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1660;ClairMer;Provence;R20-011;Hypermarche;;A2482;Yann Vallet;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1661;Moulin-Vernay;Provence;;Hypermarche;;A2500;Pascal Weber;GAMMASOFT;3.5;ALPHASTOCK;DRIVEPLUS;2
+1662;Roche-Chene;Provence;R20-013;Supermarche;;A2514;Benoit Imbert;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1663;Bourg-Ajonc;Provence;R20-014;Supermarche;;A2474;Claire Gillet;BETAPOS;4.2;BETASTOCK;Sans drive;0
+1664;Port-Mer;Provence;R20-015;Hypermarche;;A2512;Catherine Doucet;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;2
+1665;Grand-Riviere;Provence;R20-016;Hypermarche;oui;A2491;Alain Huet;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1666;Bois-Houx;Provence;R20-017;Supermarche;;A2472;Patrick Fourcade;GAMMASOFT;3.3;ALPHASTOCK;Sans drive;0
+1667;ClairCharme;Provence;R20-018;Supermarche;;A2481;Catherine Dauvergne;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1668;Petit-Pierre;Provence;R20-019;Hypermarche;oui;A2503;Marc Bonneau;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;2
+1669;Haut-Tilleul;Provence;R20-020;Hypermarche;;A2495;Gilles Bourdon;BETAPOS;4.6;BETASTOCK;Integre a la caisse;2
+1670;Roche-Martin;Provence;R20-021;Supermarche;;A2516;Francois Perrot;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1671;Grand-Tilleul;Provence;R20-022;Supermarche;;A2492;Yann Olivier;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;1
+1672;Vieux-Peuplier;Provence;R20-023;Petit format de centre-bourg;;A2527;Remi Doucet;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1673;Haut-Sablon;Provence;R20-024;Hypermarche;;A2494;Didier Vasseur;GAMMASOFT;3.5;ALPHASTOCK;DRIVEPLUS;2
+1674;Bourg-Bruyere;Provence;R20-025;Hypermarche;;A2475;Bruno Carrere;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1675;Grand-Mesnil;Provence;R20-026;Supermarche;;A2490;Benoit Gillet;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;2
+1676;Bois-Coteau;Provence;R20-027;Hypermarche;;A2471;Thierry Delmas;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;2
+1677;Haut-Martin;Provence;R20-028;Supermarche;;A2493;Yann Gauthier;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1678;Villeneuve-Colline;Provence;R20-029;Supermarche;;A2529;Chantal Pichon;GAMMASOFT;2.9;ALPHASTOCK;DRIVEPLUS;1
+1679;Plaine-Vigne;Provence;R20-030;Supermarche;;A2511;Francois Jourdan;GAMMASOFT;2.9;ALPHASTOCK;DRIVEPLUS;1
+1680;Cote-Orme;Provence;R20-031;Supermarche;oui;A2487;Denis Marchand;GAMMASOFT;3.3;ALPHASTOCK;DRIVEPLUS;1
+1681;Plaine-Houx;Provence;R20-032;Supermarche;;A2507;Patrick Carrere;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1682;Neuf-Vernay;Provence;R20-033;Supermarche;;A2501;Murielle Guibert;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1683;Haut-Vallon;Provence;R20-034;Supermarche;;A2496;Sylvie Guibert;BETAPOS;4.2;BETASTOCK;Integre a la caisse;1
+1684;ClairOrmeau;Provence;R20-035;Petit format de centre-bourg;;A2483;Karine Thevenin;ALPHACAISSE;6.2;BETASTOCK;Integre a la caisse;1
+1685;BeauFort;Provence;R20-036;Hypermarche;oui;A2466;Thierry Fourcade;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1686;Plaine-Genet;Provence;R20-037;Hypermarche;;A2506;Didier Grandjean;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;2
+1687;Champ-Ajonc;Provence;R20-038;Supermarche;;A2477;Xavier Faivre;ALPHACAISSE;8.0;ALPHASTOCK;Integre a la caisse;1
+1688;Mont-Marais;Provence;;Hypermarche;;A2498;Thierry Lacombe;BETAPOS;4.6;BETASTOCK;Integre a la caisse;2
+1689;Terre-Jardin;Provence;R20-040;Hypermarche;;A2518;Vincent Weber;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1690;Petit-Saule;Provence;R20-041;Hypermarche;;A2504;Isabelle Siriex;BETAPOS;3.8;BETASTOCK;Integre a la caisse;2
+1691;Roche-Genet;Provence;;Supermarche;;A2515;Murielle Sauvage;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1692;BeauPierre;Provence;R20-043;Hypermarche;;A2469;Benoit Dauvergne;Editeur local;;Tenue manuelle ou solution tierce;Integre a la caisse;2
+1693;Mont-Sablon;Provence;R20-044;Petit format de centre-bourg;oui;A2499;Helene Guibert;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1694;BeauMer;Provence;;Supermarche;;A2468;Fabienne Pichon;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1695;Plaine-Loup;Provence;R20-046;Supermarche;oui;A2508;Claire Lemoine;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;1
+1696;Terre-Verger;Provence;R20-047;Supermarche;;A2521;Herve Doucet;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1697;Roche-Chatel;Provence;R20-048;Hypermarche;;A2513;Emilie Dumas;GAMMASOFT;3.3;BETASTOCK;DRIVEPLUS;2
+1698;Plaine-Verger;Provence;R20-049;Supermarche;;A2510;Laurent Jourdan;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1699;Terre-Pre;Provence;R20-050;Supermarche;;A2520;Michel Herve;BETAPOS;4.6;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1700;Bourg-Vigne;Provence;R20-051;Hypermarche;;A2476;Claire Noguez;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1701;Terre-Vigne;Provence;R20-052;Supermarche;;A2522;Bruno Aubry;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1702;Val-Saule;Provence;R20-053;Supermarche;;A2524;Thierry Chauvin;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1703;Bois-Ajonc;Provence;R20-054;Supermarche;;A2470;Claire Keraudren;ALPHACAISSE;5.4;ALPHASTOCK;Integre a la caisse;1
+1704;Bois-Pre;Provence;R20-055;Petit format de centre-bourg;;A2473;Valerie Ferrand;GAMMASOFT;3.3;ALPHASTOCK;Integre a la caisse;1
+1705;Villeneuve-Lande;Provence;R20-056;Supermarche;oui;A2530;Michel Jolivet;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1706;Petit-Verger;Provence;R20-057;Hypermarche;;A2505;Thierry Thevenin;BETAPOS;3.8;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1707;Grand-Colline;Provence;R20-058;Supermarche;;A2489;Sylvie Esteve;ALPHACAISSE;5.4;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1708;Champ-Bruyere;Provence;;Supermarche;;A2478;Emilie Dauvergne;BETAPOS;3.8;BETASTOCK;Integre a la caisse;1
+1709;ClairPierre;Provence;R20-060;Supermarche;;A2485;Fabienne Dumas;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1710;Champ-Noyer;Provence;R20-061;Supermarche;;A2480;Michel Keraudren;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1711;ClairVerger;Provence;R20-062;Magasin urbain de proximite;;A2486;Didier Pichon;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1712;Plaine-Orme;Provence;R20-063;Supermarche;;A2509;Sophie Dauvergne;GAMMASOFT;3.5;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1713;BeauMarais;Provence;R20-064;Supermarche;;A2467;Emilie Pichon;BETAPOS;4.6;Tenue manuelle ou solution tierce;Sans drive;0
+1714;Vieux-Pierre;Provence;R20-065;Supermarche;;A2528;Marc Vasseur;ALPHACAISSE;6.2;BETASTOCK;DRIVEPLUS;1
+1715;Bas-Riviere;Provence;R20-066;Supermarche;;A2465;Gilles Lacombe;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;1
+1716;Plaine-Jardin;Ile-de-France;R21-001;Supermarche;;A2188;Yann Urvoy;GAMMASOFT;3.5;ALPHASTOCK;DRIVEPLUS;1
+1717;Mont-Pierre;Ile-de-France;R21-002;Petit format de centre-bourg;;A2178;Pascal Bonneau;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1718;Villeneuve-Saule;Ile-de-France;R21-956;Petit format de centre-bourg;;A2201;Yann Faivre;ALPHACAISSE;7.1;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1719;Bas-Verger;Ile-de-France;R21-004;Hypermarche;;A2156;Jerome Gauthier;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;Sans drive;0
+1720;Val-Chatel;Ile-de-France;R21-005;Supermarche;;A2197;Herve Jourdan;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1721;BeauBruyere;Ile-de-France;R21-006;Supermarche;;A2158;Bruno Lacombe;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1722;Fontaine-Ajonc;Ile-de-France;R21-007;Supermarche;;A2169;Sophie Bourdon;BETAPOS;4.2;BETASTOCK;DRIVEPLUS;1
+1723;Neuf-Lande;Ile-de-France;R21-008;Supermarche;;A2184;Didier Dumas;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1724;Cote-Saule;Ile-de-France;R21-009;Hypermarche;;A2165;Denis Bonneau;BETAPOS;4.6;BETASTOCK;Integre a la caisse;2
+1725;Croix-Genet;Ile-de-France;R21-010;Magasin urbain de proximite;;A2168;Sophie Vidal;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1726;Mont-Lande;Ile-de-France;R21-011;Magasin urbain de proximite;;A2176;Valerie Imbert;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1727;Mont-Saule;Ile-de-France;R21-012;Supermarche;oui;A2179;Jerome Carrere;GAMMASOFT;2.9;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1728;Fontaine-Colline;Ile-de-France;R21-013;Magasin urbain de proximite;;A2171;Vincent Ferrand;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1729;Roche-Lande;Ile-de-France;R21-014;Supermarche;;A2194;Chantal Esteve;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1730;Fontaine-Bruyere;Ile-de-France;R21-015;Hypermarche;;A2170;Pascal Yvon;ALPHACAISSE;5.4;ALPHASTOCK;DRIVEPLUS;2
+1731;Moulin-Aulnay;Ile-de-France;R21-016;Supermarche;;A2180;Jerome Caillaud;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1732;Bois-Charme;Ile-de-France;R21-017;Supermarche;;A2160;Murielle Renard;BETAPOS;4.2;Tenue manuelle ou solution tierce;Integre a la caisse;1
+1733;Val-Sablon;Ile-de-France;R21-018;Hypermarche;;A2198;Denis Guibert;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1734;Croix-Bruyere;Ile-de-France;R21-019;Hypermarche;;A2167;Francois Dumas;ALPHACAISSE;7.1;ALPHASTOCK;DRIVEPLUS;2
+1735;Port-Sablon;Ile-de-France;R21-020;Supermarche;;A2193;Alain Lacroix;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;2
+1736;Champ-Vernay;Ile-de-France;;Supermarche;oui;A2162;Michel Perrot;BETAPOS;5.0;BETASTOCK;Integre a la caisse;1
+1737;Neuf-Chatel;Ile-de-France;R21-022;Hypermarche;;A2183;Francois Tessier;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;2
+1738;Haut-Verger;Ile-de-France;R21-023;Supermarche;;A2175;Laurent Vidal;GAMMASOFT;2.9;BETASTOCK;Integre a la caisse;1
+1739;BeauVigne;Ile-de-France;R21-024;Supermarche;;A2159;Isabelle Moreau;BETAPOS;4.6;BETASTOCK;Integre a la caisse;1
+1740;Pont-Fort;Ile-de-France;R21-918;Supermarche;;A2190;Benoit Bresson;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1741;Neuf-Riviere;Ile-de-France;R21-026;Hypermarche;;A2185;Jerome Lacroix;ALPHACAISSE;8.0;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1742;Bas-Vigne;Ile-de-France;R21-027;Supermarche;;A2157;Helene Chauvin;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1743;Saint-Bouleau;Ile-de-France;;Supermarche;;A2195;Emilie Pasquier;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;1
+1744;Moulin-Loup;Ile-de-France;R21-029;Petit format de centre-bourg;;A2182;Chantal Chapelain;ALPHACAISSE;7.1;ALPHASTOCK;Sans drive;0
+1745;Moulin-Chatel;Ile-de-France;R21-030;Supermarche;;A2181;Nathalie Nicolas;ALPHACAISSE;6.2;ALPHASTOCK;DRIVEPLUS;1
+1746;Grand-Houx;Ile-de-France;R21-031;Hypermarche;;A2173;Didier Berthier;GAMMASOFT;3.3;Tenue manuelle ou solution tierce;DRIVEPLUS;2
+1747;Bois-Saule;Ile-de-France;R21-936;Petit format de centre-bourg;;A2161;Vincent Gillet;ALPHACAISSE;6.2;ALPHASTOCK;Sans drive;0
+1748;Haut-Bouleau;Ile-de-France;R21-033;Hypermarche;;A2174;Herve Dauvergne;BETAPOS;4.2;BETASTOCK;Integre a la caisse;2
+1749;Vieux-Colline;Ile-de-France;R21-034;Hypermarche;oui;A2200;Helene Gillet;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;2
+1750;Petit-Noyer;Ile-de-France;R21-035;Hypermarche;;A2186;Didier Yvon;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;2
+1751;Terre-Aulnay;Ile-de-France;R21-036;Supermarche;;A2196;Sylvie Renard;BETAPOS;4.2;BETASTOCK;Sans drive;0
+1752;Cote-Martin;Ile-de-France;R21-037;Hypermarche;;A2163;Pascal Zanetti;ALPHACAISSE;8.0;ALPHASTOCK;DRIVEPLUS;2
+1753;Plaine-Peuplier;Ile-de-France;R21-038;Supermarche;;A2189;Denis Renard;BETAPOS;3.8;BETASTOCK;DRIVEPLUS;1
+1754;Bas-Etang;Ile-de-France;R21-039;Magasin urbain de proximite;;A2155;Yann Marchand;BETAPOS;5.0;BETASTOCK;DRIVEPLUS;1
+1755;Croix-Bouleau;Ile-de-France;R21-040;Supermarche;;A2166;Claire Zanetti;BETAPOS;4.6;BETASTOCK;DRIVEPLUS;1
+1756;Mont-Orme;Ile-de-France;R21-041;Supermarche;oui;A2177;Benoit Herve;ALPHACAISSE;7.1;ALPHASTOCK;Integre a la caisse;2
+1757;Fontaine-Mer;Ile-de-France;R21-042;Hypermarche;;A2172;Thierry Keraudren;BETAPOS;4.6;BETASTOCK;Integre a la caisse;2
+1758;Vieux-Bouleau;Ile-de-France;R21-043;Supermarche;oui;A2199;Michel Quemener;ALPHACAISSE;6.2;Tenue manuelle ou solution tierce;DRIVEPLUS;1
+1759;Petit-Peuplier;Ile-de-France;R21-044;Supermarche;;A2187;Fabienne Jourdan;ALPHACAISSE;6.2;ALPHASTOCK;Integre a la caisse;1
+1760;Port-Chatel;Ile-de-France;R21-045;Hypermarche;;A2191;Murielle Pasquier;BETAPOS;4.2;ALPHASTOCK;DRIVEPLUS;2
+1761;Port-Jardin;Ile-de-France;R21-046;Supermarche;;A2192;Karine Jolivet;GAMMASOFT;2.9;BETASTOCK;Integre a la caisse;1
+1762;Cote-Pierre;Ile-de-France;;Magasin urbain de proximite;;A2164;Yann Chauvin;BETAPOS;5.0;Tenue manuelle ou solution tierce;DRIVEPLUS;1

@@ -1,0 +1,1236 @@
+magasin,code,libelle,stock,seuil_alerte,maj
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",78,5,2024-10-02
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",42,10,2024-10-02
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",59,10,2024-10-02
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",62,8,2024-10-02
+0042,3024500008226,"orangina bouteille 1,5 l orangina",35,10,2024-10-02
+0042,3024500009599,ice tea pêche 2 l lipton,58,15,2024-10-02
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",66,15,2024-10-02
+0042,P-10024,eau minérale evian 6x1 l evian,49,8,2024-10-02
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,49,5,2024-10-02
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,73,10,2024-10-02
+0042,P-10033,jus de pomme bio 1 l marque repère,89,15,2024-10-02
+0042,P-10036,sirop de grenadine 75 cl teisseire,46,5,2024-10-02
+0042,3024500020556,café en grains 1 kg lavazza,109,20,2024-10-02
+0042,3024500021928,thé vert nature 20 sachets lipton,117,20,2024-10-02
+0042,P-10045,pâtes penne 500 g barilla,133,15,2024-10-02
+0042,P-10048,riz long grain 1 kg taureau ailé,186,20,2024-10-02
+0042,3024500028774,huile de tournesol 1 l marque repère,136,30,2024-10-02
+0042,P-10054,sauce tomate basilic 400 g panzani,188,30,2024-10-02
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,103,20,2024-10-02
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,182,20,2024-10-02
+0042,P-10063,haricots verts extra fins 400 g bonduelle,144,30,2024-10-02
+0042,P-10066,maïs doux 3x140 g géant vert,208,20,2024-10-02
+0042,3024500038360,sucre en poudre 1 kg daddy,235,30,2024-10-02
+0042,P-10072,confiture de fraises 370 g bonne maman,239,30,2024-10-02
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,164,20,2024-10-02
+0042,P-10078,biscuits petit beurre 200 g lu,195,15,2024-10-02
+0042,3024500043845,biscuits prince chocolat 300 g lu,183,30,2024-10-02
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,208,30,2024-10-02
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,53,5,2024-10-02
+0042,P-10090,boîte de chocolats assortis 400 g lindt,32,15,2024-10-02
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,16,5,2024-10-02
+0042,3024500050690,calendrier de l'avent chocolat kinder,0,5,2024-10-02
+0042,3024500052069,papillotes assorties 500 g révillon,35,15,2024-10-02
+0042,P-10102,marrons glacés 250 g clément faugier,16,5,2024-10-02
+0042,P-10105,bûche glacée vanille chocolat marque repère,6,5,2024-10-02
+0042,P-10108,foie gras de canard entier 200 g labeyrie,34,8,2024-10-02
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,29,8,2024-10-02
+0042,P-10114,plateau de fruits de mer marque repère,19,5,2024-10-02
+0042,P-10117,huîtres creuses n3 douzaine marque repère,34,5,2024-10-02
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,11,5,2024-10-02
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,6,10,2024-10-02
+0042,P-10126,crémant de loire brut 75 cl bouvet,4,15,2024-10-02
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,48,8,2024-10-02
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,46,15,2024-10-02
+0042,P-10135,bière blonde pack 6x25 cl heineken,24,8,2024-10-02
+0042,P-10138,bière blonde pack 12x25 cl 1664,60,15,2024-10-02
+0042,P-10141,lait demi-écrémé 6x1 l lactel,170,20,2024-10-02
+0042,P-10144,beurre doux plaquette 250 g président,153,20,2024-10-02
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,236,20,2024-10-02
+0042,3024500078090,yaourt nature 16 pots danone,234,20,2024-10-02
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,179,30,2024-10-02
+0042,P-10156,camembert au lait cru 250 g président,168,30,2024-10-02
+0042,P-10159,emmental râpé 200 g entremont,214,30,2024-10-02
+0042,P-10162,comté aop 12 mois 200 g marque repère,135,30,2024-10-02
+0042,P-10165,oeufs plein air x12 marque repère,0,30,2024-10-02
+0042,P-10168,jambon blanc 4 tranches herta,254,20,2024-10-02
+0042,P-10171,saucisson sec 200 g justin bridou,193,20,2024-10-02
+0042,P-10174,escalope de poulet 500 g marque repère,127,20,2024-10-02
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,110,15,2024-10-02
+0042,P-10180,côte de boeuf 1 kg marque repère,92,20,2024-10-02
+0042,3024500094533,rôti de porc 800 g marque repère,118,30,2024-10-02
+0042,3024500095905,chapon fermier 3 kg marque repère,19,10,2024-10-02
+0042,P-10189,"dinde fermière 2,5 kg marque repère",31,15,2024-10-02
+0042,3024500100012,pommes gala 1 kg marque repère,278,20,2024-10-02
+0042,3024500101385,clémentines 1 kg marque repère,38,10,2024-10-02
+0042,3024500102757,tomates grappe 1 kg marque repère,177,20,2024-10-02
+0042,3024500104126,carottes 1 kg marque repère,200,15,2024-10-02
+0042,P-10204,"pommes de terre 2,5 kg marque repère",267,15,2024-10-02
+0042,3024500106861,salade batavia pièce marque repère,171,20,2024-10-02
+0042,3024500109602,champignons de paris 500 g marque repère,0,15,2024-10-02
+0042,3024500110974,baguette tradition marque repère,231,20,2024-10-02
+0042,3024500112343,pain de mie complet 500 g harrys,127,30,2024-10-02
+0042,P-10219,croissants x6 marque repère,203,30,2024-10-02
+0042,3024500115085,pizza surgelée reine 400 g buitoni,55,8,2024-10-02
+0042,P-10225,frites surgelées 1 kg mccain,36,8,2024-10-02
+0042,3024500117829,poisson pané x10 findus,46,10,2024-10-02
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,42,10,2024-10-02
+0042,P-10234,gel douche 250 ml dove,78,15,2024-10-02
+0042,3024500124674,dentifrice protection 75 ml signal,43,8,2024-10-02
+0042,P-10240,papier toilette 12 rouleaux lotus,31,10,2024-10-02
+0042,P-10243,couches taille 4 x50 pampers,35,5,2024-10-02
+0042,P-10246,sacs poubelle 30 l x20 marque repère,0,5,2024-10-02
+0042,P-10249,essuie-tout x6 marque repère,26,15,2024-10-02
+0042,3024500138374,pile alcaline lr6 x8 duracell,35,15,2024-10-02
+0042,P-10255,guirlande lumineuse 200 led marque repère,11,10,2024-10-02
+0042,P-10258,sapin artificiel 150 cm marque repère,9,8,2024-10-02
+0042,P-10261,boules de noël x18 marque repère,4,10,2024-10-02
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,9,8,2024-10-02
+0042,3024500157559,trousse garnie marque repère,5,10,2024-10-02
+0042,P-10270,cartable 38 cm marque repère,7,10,2024-10-02
+0042,P-10273,chaussettes homme x5 marque repère,38,15,2024-10-02
+0042,P-10276,tee-shirt coton homme marque repère,39,10,2024-10-02
+0042,P-10279,pyjama enfant marque repère,8,15,2024-10-02
+0042,P-10282,écharpe laine mélangée marque repère,13,15,2024-10-02
+0042,P-10285,plaid polaire 130x170 marque repère,4,5,2024-10-02
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",75,15,2024-10-09
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",60,15,2024-10-09
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",49,8,2024-10-09
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",40,8,2024-10-09
+0042,3024500008226,"orangina bouteille 1,5 l orangina",63,8,2024-10-09
+0042,3024500009599,ice tea pêche 2 l lipton,89,10,2024-10-09
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",54,8,2024-10-09
+0042,P-10024,eau minérale evian 6x1 l evian,40,8,2024-10-09
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,59,5,2024-10-09
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,64,10,2024-10-09
+0042,P-10033,jus de pomme bio 1 l marque repère,0,15,2024-10-09
+0042,P-10036,sirop de grenadine 75 cl teisseire,55,15,2024-10-09
+0042,3024500020556,café en grains 1 kg lavazza,147,30,2024-10-09
+0042,3024500021928,thé vert nature 20 sachets lipton,202,20,2024-10-09
+0042,P-10045,pâtes penne 500 g barilla,203,15,2024-10-09
+0042,P-10048,riz long grain 1 kg taureau ailé,159,30,2024-10-09
+0042,3024500028774,huile de tournesol 1 l marque repère,175,15,2024-10-09
+0042,P-10054,sauce tomate basilic 400 g panzani,286,15,2024-10-09
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,110,30,2024-10-09
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,0,30,2024-10-09
+0042,P-10063,haricots verts extra fins 400 g bonduelle,197,30,2024-10-09
+0042,P-10066,maïs doux 3x140 g géant vert,145,30,2024-10-09
+0042,3024500038360,sucre en poudre 1 kg daddy,206,30,2024-10-09
+0042,P-10072,confiture de fraises 370 g bonne maman,0,20,2024-10-09
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,185,15,2024-10-09
+0042,P-10078,biscuits petit beurre 200 g lu,213,15,2024-10-09
+0042,3024500043845,biscuits prince chocolat 300 g lu,217,20,2024-10-09
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,0,20,2024-10-09
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,27,8,2024-10-09
+0042,P-10090,boîte de chocolats assortis 400 g lindt,24,5,2024-10-09
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,26,8,2024-10-09
+0042,3024500050690,calendrier de l'avent chocolat kinder,9,10,2024-10-09
+0042,3024500052069,papillotes assorties 500 g révillon,19,8,2024-10-09
+0042,P-10102,marrons glacés 250 g clément faugier,31,10,2024-10-09
+0042,P-10105,bûche glacée vanille chocolat marque repère,10,5,2024-10-09
+0042,P-10108,foie gras de canard entier 200 g labeyrie,20,15,2024-10-09
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,36,5,2024-10-09
+0042,P-10114,plateau de fruits de mer marque repère,16,10,2024-10-09
+0042,P-10117,huîtres creuses n3 douzaine marque repère,34,5,2024-10-09
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,7,10,2024-10-09
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,6,5,2024-10-09
+0042,P-10126,crémant de loire brut 75 cl bouvet,6,15,2024-10-09
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,37,15,2024-10-09
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,0,15,2024-10-09
+0042,P-10135,bière blonde pack 6x25 cl heineken,40,8,2024-10-09
+0042,P-10138,bière blonde pack 12x25 cl 1664,50,10,2024-10-09
+0042,P-10141,lait demi-écrémé 6x1 l lactel,143,20,2024-10-09
+0042,P-10144,beurre doux plaquette 250 g président,118,15,2024-10-09
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,194,30,2024-10-09
+0042,3024500078090,yaourt nature 16 pots danone,197,30,2024-10-09
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,138,30,2024-10-09
+0042,P-10156,camembert au lait cru 250 g président,214,30,2024-10-09
+0042,P-10159,emmental râpé 200 g entremont,166,15,2024-10-09
+0042,P-10162,comté aop 12 mois 200 g marque repère,106,15,2024-10-09
+0042,P-10165,oeufs plein air x12 marque repère,0,15,2024-10-09
+0042,P-10168,jambon blanc 4 tranches herta,134,15,2024-10-09
+0042,P-10171,saucisson sec 200 g justin bridou,133,30,2024-10-09
+0042,P-10174,escalope de poulet 500 g marque repère,146,15,2024-10-09
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,96,20,2024-10-09
+0042,P-10180,côte de boeuf 1 kg marque repère,98,15,2024-10-09
+0042,3024500094533,rôti de porc 800 g marque repère,149,30,2024-10-09
+0042,3024500095905,chapon fermier 3 kg marque repère,17,8,2024-10-09
+0042,P-10189,"dinde fermière 2,5 kg marque repère",24,15,2024-10-09
+0042,3024500100012,pommes gala 1 kg marque repère,226,15,2024-10-09
+0042,3024500101385,clémentines 1 kg marque repère,48,10,2024-10-09
+0042,3024500102757,tomates grappe 1 kg marque repère,243,15,2024-10-09
+0042,3024500104126,carottes 1 kg marque repère,205,15,2024-10-09
+0042,P-10204,"pommes de terre 2,5 kg marque repère",178,30,2024-10-09
+0042,3024500106861,salade batavia pièce marque repère,194,30,2024-10-09
+0042,3024500109602,champignons de paris 500 g marque repère,153,30,2024-10-09
+0042,3024500110974,baguette tradition marque repère,0,30,2024-10-09
+0042,3024500112343,pain de mie complet 500 g harrys,168,20,2024-10-09
+0042,P-10219,croissants x6 marque repère,174,15,2024-10-09
+0042,3024500115085,pizza surgelée reine 400 g buitoni,71,8,2024-10-09
+0042,P-10225,frites surgelées 1 kg mccain,49,5,2024-10-09
+0042,3024500117829,poisson pané x10 findus,31,8,2024-10-09
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,84,10,2024-10-09
+0042,P-10234,gel douche 250 ml dove,70,5,2024-10-09
+0042,3024500124674,dentifrice protection 75 ml signal,45,10,2024-10-09
+0042,P-10240,papier toilette 12 rouleaux lotus,24,15,2024-10-09
+0042,P-10243,couches taille 4 x50 pampers,29,15,2024-10-09
+0042,P-10246,sacs poubelle 30 l x20 marque repère,46,15,2024-10-09
+0042,P-10249,essuie-tout x6 marque repère,41,15,2024-10-09
+0042,3024500138374,pile alcaline lr6 x8 duracell,39,10,2024-10-09
+0042,P-10255,guirlande lumineuse 200 led marque repère,9,8,2024-10-09
+0042,P-10258,sapin artificiel 150 cm marque repère,4,15,2024-10-09
+0042,P-10261,boules de noël x18 marque repère,6,5,2024-10-09
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,12,8,2024-10-09
+0042,3024500157559,trousse garnie marque repère,4,5,2024-10-09
+0042,P-10270,cartable 38 cm marque repère,4,10,2024-10-09
+0042,P-10273,chaussettes homme x5 marque repère,31,8,2024-10-09
+0042,P-10276,tee-shirt coton homme marque repère,39,10,2024-10-09
+0042,P-10279,pyjama enfant marque repère,10,5,2024-10-09
+0042,P-10282,écharpe laine mélangée marque repère,10,10,2024-10-09
+0042,P-10285,plaid polaire 130x170 marque repère,6,15,2024-10-09
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",39,15,2024-10-16
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",62,15,2024-10-16
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",43,15,2024-10-16
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",74,8,2024-10-16
+0042,3024500008226,"orangina bouteille 1,5 l orangina",52,15,2024-10-16
+0042,3024500009599,ice tea pêche 2 l lipton,41,8,2024-10-16
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",41,5,2024-10-16
+0042,P-10024,eau minérale evian 6x1 l evian,40,8,2024-10-16
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,74,10,2024-10-16
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,46,5,2024-10-16
+0042,P-10033,jus de pomme bio 1 l marque repère,0,8,2024-10-16
+0042,P-10036,sirop de grenadine 75 cl teisseire,66,5,2024-10-16
+0042,3024500020556,café en grains 1 kg lavazza,83,20,2024-10-16
+0042,3024500021928,thé vert nature 20 sachets lipton,177,15,2024-10-16
+0042,P-10045,pâtes penne 500 g barilla,154,30,2024-10-16
+0042,P-10048,riz long grain 1 kg taureau ailé,212,30,2024-10-16
+0042,3024500028774,huile de tournesol 1 l marque repère,171,15,2024-10-16
+0042,P-10054,sauce tomate basilic 400 g panzani,172,20,2024-10-16
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,151,30,2024-10-16
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,231,20,2024-10-16
+0042,P-10063,haricots verts extra fins 400 g bonduelle,117,20,2024-10-16
+0042,P-10066,maïs doux 3x140 g géant vert,121,20,2024-10-16
+0042,3024500038360,sucre en poudre 1 kg daddy,165,20,2024-10-16
+0042,P-10072,confiture de fraises 370 g bonne maman,116,20,2024-10-16
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,228,30,2024-10-16
+0042,P-10078,biscuits petit beurre 200 g lu,123,15,2024-10-16
+0042,3024500043845,biscuits prince chocolat 300 g lu,161,30,2024-10-16
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,202,15,2024-10-16
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,25,8,2024-10-16
+0042,P-10090,boîte de chocolats assortis 400 g lindt,20,5,2024-10-16
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,16,5,2024-10-16
+0042,3024500050690,calendrier de l'avent chocolat kinder,0,5,2024-10-16
+0042,3024500052069,papillotes assorties 500 g révillon,14,15,2024-10-16
+0042,P-10102,marrons glacés 250 g clément faugier,29,5,2024-10-16
+0042,P-10105,bûche glacée vanille chocolat marque repère,8,15,2024-10-16
+0042,P-10108,foie gras de canard entier 200 g labeyrie,25,5,2024-10-16
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,18,5,2024-10-16
+0042,P-10114,plateau de fruits de mer marque repère,28,15,2024-10-16
+0042,P-10117,huîtres creuses n3 douzaine marque repère,39,10,2024-10-16
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,7,5,2024-10-16
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,6,5,2024-10-16
+0042,P-10126,crémant de loire brut 75 cl bouvet,6,5,2024-10-16
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,44,5,2024-10-16
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,34,10,2024-10-16
+0042,P-10135,bière blonde pack 6x25 cl heineken,33,10,2024-10-16
+0042,P-10138,bière blonde pack 12x25 cl 1664,36,5,2024-10-16
+0042,P-10141,lait demi-écrémé 6x1 l lactel,101,30,2024-10-16
+0042,P-10144,beurre doux plaquette 250 g président,127,20,2024-10-16
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,219,20,2024-10-16
+0042,3024500078090,yaourt nature 16 pots danone,179,20,2024-10-16
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,189,20,2024-10-16
+0042,P-10156,camembert au lait cru 250 g président,232,30,2024-10-16
+0042,P-10159,emmental râpé 200 g entremont,214,15,2024-10-16
+0042,P-10162,comté aop 12 mois 200 g marque repère,112,15,2024-10-16
+0042,P-10165,oeufs plein air x12 marque repère,215,30,2024-10-16
+0042,P-10168,jambon blanc 4 tranches herta,173,20,2024-10-16
+0042,P-10171,saucisson sec 200 g justin bridou,142,20,2024-10-16
+0042,P-10174,escalope de poulet 500 g marque repère,167,20,2024-10-16
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,109,20,2024-10-16
+0042,P-10180,côte de boeuf 1 kg marque repère,142,30,2024-10-16
+0042,3024500094533,rôti de porc 800 g marque repère,81,20,2024-10-16
+0042,3024500095905,chapon fermier 3 kg marque repère,23,8,2024-10-16
+0042,P-10189,"dinde fermière 2,5 kg marque repère",34,5,2024-10-16
+0042,3024500100012,pommes gala 1 kg marque repère,0,20,2024-10-16
+0042,3024500101385,clémentines 1 kg marque repère,67,8,2024-10-16
+0042,3024500102757,tomates grappe 1 kg marque repère,128,15,2024-10-16
+0042,3024500104126,carottes 1 kg marque repère,136,20,2024-10-16
+0042,P-10204,"pommes de terre 2,5 kg marque repère",198,30,2024-10-16
+0042,3024500106861,salade batavia pièce marque repère,177,15,2024-10-16
+0042,3024500109602,champignons de paris 500 g marque repère,117,15,2024-10-16
+0042,3024500110974,baguette tradition marque repère,242,30,2024-10-16
+0042,3024500112343,pain de mie complet 500 g harrys,174,20,2024-10-16
+0042,P-10219,croissants x6 marque repère,209,20,2024-10-16
+0042,3024500115085,pizza surgelée reine 400 g buitoni,51,15,2024-10-16
+0042,P-10225,frites surgelées 1 kg mccain,58,8,2024-10-16
+0042,3024500117829,poisson pané x10 findus,30,8,2024-10-16
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,81,5,2024-10-16
+0042,P-10234,gel douche 250 ml dove,41,10,2024-10-16
+0042,3024500124674,dentifrice protection 75 ml signal,79,8,2024-10-16
+0042,P-10240,papier toilette 12 rouleaux lotus,37,5,2024-10-16
+0042,P-10243,couches taille 4 x50 pampers,26,5,2024-10-16
+0042,P-10246,sacs poubelle 30 l x20 marque repère,58,10,2024-10-16
+0042,P-10249,essuie-tout x6 marque repère,44,8,2024-10-16
+0042,3024500138374,pile alcaline lr6 x8 duracell,54,5,2024-10-16
+0042,P-10255,guirlande lumineuse 200 led marque repère,3,10,2024-10-16
+0042,P-10258,sapin artificiel 150 cm marque repère,6,5,2024-10-16
+0042,P-10261,boules de noël x18 marque repère,4,5,2024-10-16
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,10,15,2024-10-16
+0042,3024500157559,trousse garnie marque repère,3,5,2024-10-16
+0042,P-10270,cartable 38 cm marque repère,6,10,2024-10-16
+0042,P-10273,chaussettes homme x5 marque repère,28,10,2024-10-16
+0042,P-10276,tee-shirt coton homme marque repère,23,5,2024-10-16
+0042,P-10279,pyjama enfant marque repère,5,5,2024-10-16
+0042,P-10282,écharpe laine mélangée marque repère,7,8,2024-10-16
+0042,P-10285,plaid polaire 130x170 marque repère,5,15,2024-10-16
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",69,10,2024-10-23
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",35,15,2024-10-23
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",69,8,2024-10-23
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",56,10,2024-10-23
+0042,3024500008226,"orangina bouteille 1,5 l orangina",0,10,2024-10-23
+0042,3024500009599,ice tea pêche 2 l lipton,44,15,2024-10-23
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",64,8,2024-10-23
+0042,P-10024,eau minérale evian 6x1 l evian,29,5,2024-10-23
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,50,10,2024-10-23
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,31,15,2024-10-23
+0042,P-10033,jus de pomme bio 1 l marque repère,59,10,2024-10-23
+0042,P-10036,sirop de grenadine 75 cl teisseire,71,8,2024-10-23
+0042,3024500020556,café en grains 1 kg lavazza,146,15,2024-10-23
+0042,3024500021928,thé vert nature 20 sachets lipton,144,30,2024-10-23
+0042,P-10045,pâtes penne 500 g barilla,0,20,2024-10-23
+0042,P-10048,riz long grain 1 kg taureau ailé,151,15,2024-10-23
+0042,3024500028774,huile de tournesol 1 l marque repère,110,15,2024-10-23
+0042,P-10054,sauce tomate basilic 400 g panzani,260,30,2024-10-23
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,147,30,2024-10-23
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,177,30,2024-10-23
+0042,P-10063,haricots verts extra fins 400 g bonduelle,183,15,2024-10-23
+0042,P-10066,maïs doux 3x140 g géant vert,189,15,2024-10-23
+0042,3024500038360,sucre en poudre 1 kg daddy,133,30,2024-10-23
+0042,P-10072,confiture de fraises 370 g bonne maman,147,30,2024-10-23
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,237,20,2024-10-23
+0042,P-10078,biscuits petit beurre 200 g lu,227,30,2024-10-23
+0042,3024500043845,biscuits prince chocolat 300 g lu,0,15,2024-10-23
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,177,20,2024-10-23
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,27,8,2024-10-23
+0042,P-10090,boîte de chocolats assortis 400 g lindt,23,8,2024-10-23
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,28,5,2024-10-23
+0042,3024500050690,calendrier de l'avent chocolat kinder,41,8,2024-10-23
+0042,3024500052069,papillotes assorties 500 g révillon,27,15,2024-10-23
+0042,P-10102,marrons glacés 250 g clément faugier,13,8,2024-10-23
+0042,P-10105,bûche glacée vanille chocolat marque repère,5,15,2024-10-23
+0042,P-10108,foie gras de canard entier 200 g labeyrie,30,10,2024-10-23
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,27,8,2024-10-23
+0042,P-10114,plateau de fruits de mer marque repère,12,10,2024-10-23
+0042,P-10117,huîtres creuses n3 douzaine marque repère,30,10,2024-10-23
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,9,5,2024-10-23
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,8,15,2024-10-23
+0042,P-10126,crémant de loire brut 75 cl bouvet,12,5,2024-10-23
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,45,8,2024-10-23
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,32,15,2024-10-23
+0042,P-10135,bière blonde pack 6x25 cl heineken,25,15,2024-10-23
+0042,P-10138,bière blonde pack 12x25 cl 1664,26,10,2024-10-23
+0042,P-10141,lait demi-écrémé 6x1 l lactel,100,30,2024-10-23
+0042,P-10144,beurre doux plaquette 250 g président,194,30,2024-10-23
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,241,20,2024-10-23
+0042,3024500078090,yaourt nature 16 pots danone,204,30,2024-10-23
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,243,15,2024-10-23
+0042,P-10156,camembert au lait cru 250 g président,116,15,2024-10-23
+0042,P-10159,emmental râpé 200 g entremont,178,20,2024-10-23
+0042,P-10162,comté aop 12 mois 200 g marque repère,85,30,2024-10-23
+0042,P-10165,oeufs plein air x12 marque repère,194,15,2024-10-23
+0042,P-10168,jambon blanc 4 tranches herta,134,30,2024-10-23
+0042,P-10171,saucisson sec 200 g justin bridou,212,15,2024-10-23
+0042,P-10174,escalope de poulet 500 g marque repère,85,20,2024-10-23
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,155,15,2024-10-23
+0042,P-10180,côte de boeuf 1 kg marque repère,0,20,2024-10-23
+0042,3024500094533,rôti de porc 800 g marque repère,84,15,2024-10-23
+0042,3024500095905,chapon fermier 3 kg marque repère,31,5,2024-10-23
+0042,P-10189,"dinde fermière 2,5 kg marque repère",20,10,2024-10-23
+0042,3024500100012,pommes gala 1 kg marque repère,170,30,2024-10-23
+0042,3024500101385,clémentines 1 kg marque repère,36,10,2024-10-23
+0042,3024500102757,tomates grappe 1 kg marque repère,195,20,2024-10-23
+0042,3024500104126,carottes 1 kg marque repère,112,15,2024-10-23
+0042,P-10204,"pommes de terre 2,5 kg marque repère",192,15,2024-10-23
+0042,3024500106861,salade batavia pièce marque repère,126,15,2024-10-23
+0042,3024500109602,champignons de paris 500 g marque repère,276,15,2024-10-23
+0042,3024500110974,baguette tradition marque repère,237,20,2024-10-23
+0042,3024500112343,pain de mie complet 500 g harrys,124,15,2024-10-23
+0042,P-10219,croissants x6 marque repère,219,20,2024-10-23
+0042,3024500115085,pizza surgelée reine 400 g buitoni,0,5,2024-10-23
+0042,P-10225,frites surgelées 1 kg mccain,37,8,2024-10-23
+0042,3024500117829,poisson pané x10 findus,37,15,2024-10-23
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,0,5,2024-10-23
+0042,P-10234,gel douche 250 ml dove,47,8,2024-10-23
+0042,3024500124674,dentifrice protection 75 ml signal,0,8,2024-10-23
+0042,P-10240,papier toilette 12 rouleaux lotus,44,5,2024-10-23
+0042,P-10243,couches taille 4 x50 pampers,33,15,2024-10-23
+0042,P-10246,sacs poubelle 30 l x20 marque repère,50,8,2024-10-23
+0042,P-10249,essuie-tout x6 marque repère,40,5,2024-10-23
+0042,3024500138374,pile alcaline lr6 x8 duracell,26,8,2024-10-23
+0042,P-10255,guirlande lumineuse 200 led marque repère,7,10,2024-10-23
+0042,P-10258,sapin artificiel 150 cm marque repère,6,15,2024-10-23
+0042,P-10261,boules de noël x18 marque repère,7,10,2024-10-23
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,8,5,2024-10-23
+0042,3024500157559,trousse garnie marque repère,3,10,2024-10-23
+0042,P-10270,cartable 38 cm marque repère,4,5,2024-10-23
+0042,P-10273,chaussettes homme x5 marque repère,33,5,2024-10-23
+0042,P-10276,tee-shirt coton homme marque repère,29,10,2024-10-23
+0042,P-10279,pyjama enfant marque repère,3,10,2024-10-23
+0042,P-10282,écharpe laine mélangée marque repère,7,8,2024-10-23
+0042,P-10285,plaid polaire 130x170 marque repère,0,15,2024-10-23
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",57,5,2024-10-30
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",66,10,2024-10-30
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",33,15,2024-10-30
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",74,15,2024-10-30
+0042,3024500008226,"orangina bouteille 1,5 l orangina",61,8,2024-10-30
+0042,3024500009599,ice tea pêche 2 l lipton,72,15,2024-10-30
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",77,5,2024-10-30
+0042,P-10024,eau minérale evian 6x1 l evian,31,5,2024-10-30
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,40,15,2024-10-30
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,46,10,2024-10-30
+0042,P-10033,jus de pomme bio 1 l marque repère,51,5,2024-10-30
+0042,P-10036,sirop de grenadine 75 cl teisseire,56,15,2024-10-30
+0042,3024500020556,café en grains 1 kg lavazza,79,15,2024-10-30
+0042,3024500021928,thé vert nature 20 sachets lipton,0,30,2024-10-30
+0042,P-10045,pâtes penne 500 g barilla,163,30,2024-10-30
+0042,P-10048,riz long grain 1 kg taureau ailé,248,20,2024-10-30
+0042,3024500028774,huile de tournesol 1 l marque repère,184,30,2024-10-30
+0042,P-10054,sauce tomate basilic 400 g panzani,153,20,2024-10-30
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,150,20,2024-10-30
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,181,30,2024-10-30
+0042,P-10063,haricots verts extra fins 400 g bonduelle,197,30,2024-10-30
+0042,P-10066,maïs doux 3x140 g géant vert,192,20,2024-10-30
+0042,3024500038360,sucre en poudre 1 kg daddy,195,30,2024-10-30
+0042,P-10072,confiture de fraises 370 g bonne maman,178,20,2024-10-30
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,150,20,2024-10-30
+0042,P-10078,biscuits petit beurre 200 g lu,209,30,2024-10-30
+0042,3024500043845,biscuits prince chocolat 300 g lu,195,15,2024-10-30
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,121,30,2024-10-30
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,15,5,2024-10-30
+0042,P-10090,boîte de chocolats assortis 400 g lindt,14,5,2024-10-30
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,20,10,2024-10-30
+0042,3024500050690,calendrier de l'avent chocolat kinder,18,8,2024-10-30
+0042,3024500052069,papillotes assorties 500 g révillon,24,8,2024-10-30
+0042,P-10102,marrons glacés 250 g clément faugier,28,8,2024-10-30
+0042,P-10105,bûche glacée vanille chocolat marque repère,9,15,2024-10-30
+0042,P-10108,foie gras de canard entier 200 g labeyrie,21,10,2024-10-30
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,12,8,2024-10-30
+0042,P-10114,plateau de fruits de mer marque repère,24,5,2024-10-30
+0042,P-10117,huîtres creuses n3 douzaine marque repère,15,10,2024-10-30
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,5,5,2024-10-30
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,9,5,2024-10-30
+0042,P-10126,crémant de loire brut 75 cl bouvet,9,8,2024-10-30
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,39,8,2024-10-30
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,40,5,2024-10-30
+0042,P-10135,bière blonde pack 6x25 cl heineken,52,5,2024-10-30
+0042,P-10138,bière blonde pack 12x25 cl 1664,29,8,2024-10-30
+0042,P-10141,lait demi-écrémé 6x1 l lactel,146,20,2024-10-30
+0042,P-10144,beurre doux plaquette 250 g président,199,30,2024-10-30
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,241,30,2024-10-30
+0042,3024500078090,yaourt nature 16 pots danone,227,20,2024-10-30
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,181,30,2024-10-30
+0042,P-10156,camembert au lait cru 250 g président,229,20,2024-10-30
+0042,P-10159,emmental râpé 200 g entremont,127,20,2024-10-30
+0042,P-10162,comté aop 12 mois 200 g marque repère,131,30,2024-10-30
+0042,P-10165,oeufs plein air x12 marque repère,255,15,2024-10-30
+0042,P-10168,jambon blanc 4 tranches herta,209,20,2024-10-30
+0042,P-10171,saucisson sec 200 g justin bridou,224,15,2024-10-30
+0042,P-10174,escalope de poulet 500 g marque repère,131,15,2024-10-30
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,101,15,2024-10-30
+0042,P-10180,côte de boeuf 1 kg marque repère,113,30,2024-10-30
+0042,3024500094533,rôti de porc 800 g marque repère,153,30,2024-10-30
+0042,3024500095905,chapon fermier 3 kg marque repère,15,5,2024-10-30
+0042,P-10189,"dinde fermière 2,5 kg marque repère",19,10,2024-10-30
+0042,3024500100012,pommes gala 1 kg marque repère,169,30,2024-10-30
+0042,3024500101385,clémentines 1 kg marque repère,29,5,2024-10-30
+0042,3024500102757,tomates grappe 1 kg marque repère,217,30,2024-10-30
+0042,3024500104126,carottes 1 kg marque repère,128,20,2024-10-30
+0042,P-10204,"pommes de terre 2,5 kg marque repère",131,30,2024-10-30
+0042,3024500106861,salade batavia pièce marque repère,148,15,2024-10-30
+0042,3024500109602,champignons de paris 500 g marque repère,0,30,2024-10-30
+0042,3024500110974,baguette tradition marque repère,148,20,2024-10-30
+0042,3024500112343,pain de mie complet 500 g harrys,145,15,2024-10-30
+0042,P-10219,croissants x6 marque repère,121,20,2024-10-30
+0042,3024500115085,pizza surgelée reine 400 g buitoni,60,15,2024-10-30
+0042,P-10225,frites surgelées 1 kg mccain,61,8,2024-10-30
+0042,3024500117829,poisson pané x10 findus,47,8,2024-10-30
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,56,15,2024-10-30
+0042,P-10234,gel douche 250 ml dove,46,8,2024-10-30
+0042,3024500124674,dentifrice protection 75 ml signal,71,5,2024-10-30
+0042,P-10240,papier toilette 12 rouleaux lotus,22,8,2024-10-30
+0042,P-10243,couches taille 4 x50 pampers,38,10,2024-10-30
+0042,P-10246,sacs poubelle 30 l x20 marque repère,58,5,2024-10-30
+0042,P-10249,essuie-tout x6 marque repère,28,8,2024-10-30
+0042,3024500138374,pile alcaline lr6 x8 duracell,31,10,2024-10-30
+0042,P-10255,guirlande lumineuse 200 led marque repère,6,15,2024-10-30
+0042,P-10258,sapin artificiel 150 cm marque repère,13,8,2024-10-30
+0042,P-10261,boules de noël x18 marque repère,5,5,2024-10-30
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,12,15,2024-10-30
+0042,3024500157559,trousse garnie marque repère,0,10,2024-10-30
+0042,P-10270,cartable 38 cm marque repère,5,5,2024-10-30
+0042,P-10273,chaussettes homme x5 marque repère,0,5,2024-10-30
+0042,P-10276,tee-shirt coton homme marque repère,37,15,2024-10-30
+0042,P-10279,pyjama enfant marque repère,0,5,2024-10-30
+0042,P-10282,écharpe laine mélangée marque repère,13,5,2024-10-30
+0042,P-10285,plaid polaire 130x170 marque repère,5,8,2024-10-30
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",81,15,2024-11-06
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",62,15,2024-11-06
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",52,10,2024-11-06
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",51,15,2024-11-06
+0042,3024500008226,"orangina bouteille 1,5 l orangina",0,8,2024-11-06
+0042,3024500009599,ice tea pêche 2 l lipton,0,5,2024-11-06
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",95,15,2024-11-06
+0042,P-10024,eau minérale evian 6x1 l evian,39,10,2024-11-06
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,84,15,2024-11-06
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,57,10,2024-11-06
+0042,P-10033,jus de pomme bio 1 l marque repère,81,10,2024-11-06
+0042,P-10036,sirop de grenadine 75 cl teisseire,48,8,2024-11-06
+0042,3024500020556,café en grains 1 kg lavazza,103,15,2024-11-06
+0042,3024500021928,thé vert nature 20 sachets lipton,130,30,2024-11-06
+0042,P-10045,pâtes penne 500 g barilla,268,30,2024-11-06
+0042,P-10048,riz long grain 1 kg taureau ailé,247,20,2024-11-06
+0042,3024500028774,huile de tournesol 1 l marque repère,209,15,2024-11-06
+0042,P-10054,sauce tomate basilic 400 g panzani,133,20,2024-11-06
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,116,15,2024-11-06
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,261,30,2024-11-06
+0042,P-10063,haricots verts extra fins 400 g bonduelle,196,15,2024-11-06
+0042,P-10066,maïs doux 3x140 g géant vert,172,30,2024-11-06
+0042,3024500038360,sucre en poudre 1 kg daddy,220,20,2024-11-06
+0042,P-10072,confiture de fraises 370 g bonne maman,117,20,2024-11-06
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,236,20,2024-11-06
+0042,P-10078,biscuits petit beurre 200 g lu,133,15,2024-11-06
+0042,3024500043845,biscuits prince chocolat 300 g lu,210,15,2024-11-06
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,105,20,2024-11-06
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,0,15,2024-11-06
+0042,P-10090,boîte de chocolats assortis 400 g lindt,116,5,2024-11-06
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,136,5,2024-11-06
+0042,3024500050690,calendrier de l'avent chocolat kinder,120,8,2024-11-06
+0042,3024500052069,papillotes assorties 500 g révillon,91,5,2024-11-06
+0042,P-10102,marrons glacés 250 g clément faugier,127,15,2024-11-06
+0042,P-10105,bûche glacée vanille chocolat marque repère,43,10,2024-11-06
+0042,P-10108,foie gras de canard entier 200 g labeyrie,97,5,2024-11-06
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,129,15,2024-11-06
+0042,P-10114,plateau de fruits de mer marque repère,173,8,2024-11-06
+0042,P-10117,huîtres creuses n3 douzaine marque repère,116,5,2024-11-06
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,39,5,2024-11-06
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,38,8,2024-11-06
+0042,P-10126,crémant de loire brut 75 cl bouvet,45,15,2024-11-06
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,53,10,2024-11-06
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,53,8,2024-11-06
+0042,P-10135,bière blonde pack 6x25 cl heineken,37,10,2024-11-06
+0042,P-10138,bière blonde pack 12x25 cl 1664,46,15,2024-11-06
+0042,P-10141,lait demi-écrémé 6x1 l lactel,101,15,2024-11-06
+0042,P-10144,beurre doux plaquette 250 g président,159,15,2024-11-06
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,112,30,2024-11-06
+0042,3024500078090,yaourt nature 16 pots danone,193,20,2024-11-06
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,165,30,2024-11-06
+0042,P-10156,camembert au lait cru 250 g président,154,20,2024-11-06
+0042,P-10159,emmental râpé 200 g entremont,0,30,2024-11-06
+0042,P-10162,comté aop 12 mois 200 g marque repère,93,30,2024-11-06
+0042,P-10165,oeufs plein air x12 marque repère,103,30,2024-11-06
+0042,P-10168,jambon blanc 4 tranches herta,149,30,2024-11-06
+0042,P-10171,saucisson sec 200 g justin bridou,146,20,2024-11-06
+0042,P-10174,escalope de poulet 500 g marque repère,125,30,2024-11-06
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,171,15,2024-11-06
+0042,P-10180,côte de boeuf 1 kg marque repère,82,15,2024-11-06
+0042,3024500094533,rôti de porc 800 g marque repère,168,30,2024-11-06
+0042,3024500095905,chapon fermier 3 kg marque repère,97,8,2024-11-06
+0042,P-10189,"dinde fermière 2,5 kg marque repère",70,10,2024-11-06
+0042,3024500100012,pommes gala 1 kg marque repère,244,20,2024-11-06
+0042,3024500101385,clémentines 1 kg marque repère,244,15,2024-11-06
+0042,3024500102757,tomates grappe 1 kg marque repère,291,20,2024-11-06
+0042,3024500104126,carottes 1 kg marque repère,118,15,2024-11-06
+0042,P-10204,"pommes de terre 2,5 kg marque repère",281,30,2024-11-06
+0042,3024500106861,salade batavia pièce marque repère,188,20,2024-11-06
+0042,3024500109602,champignons de paris 500 g marque repère,265,15,2024-11-06
+0042,3024500110974,baguette tradition marque repère,234,20,2024-11-06
+0042,3024500112343,pain de mie complet 500 g harrys,233,20,2024-11-06
+0042,P-10219,croissants x6 marque repère,253,15,2024-11-06
+0042,3024500115085,pizza surgelée reine 400 g buitoni,60,5,2024-11-06
+0042,P-10225,frites surgelées 1 kg mccain,54,15,2024-11-06
+0042,3024500117829,poisson pané x10 findus,33,8,2024-11-06
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,40,8,2024-11-06
+0042,P-10234,gel douche 250 ml dove,96,5,2024-11-06
+0042,3024500124674,dentifrice protection 75 ml signal,47,8,2024-11-06
+0042,P-10240,papier toilette 12 rouleaux lotus,35,5,2024-11-06
+0042,P-10243,couches taille 4 x50 pampers,43,10,2024-11-06
+0042,P-10246,sacs poubelle 30 l x20 marque repère,0,15,2024-11-06
+0042,P-10249,essuie-tout x6 marque repère,31,5,2024-11-06
+0042,3024500138374,pile alcaline lr6 x8 duracell,46,15,2024-11-06
+0042,P-10255,guirlande lumineuse 200 led marque repère,23,10,2024-11-06
+0042,P-10258,sapin artificiel 150 cm marque repère,27,8,2024-11-06
+0042,P-10261,boules de noël x18 marque repère,48,5,2024-11-06
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,12,8,2024-11-06
+0042,3024500157559,trousse garnie marque repère,4,5,2024-11-06
+0042,P-10270,cartable 38 cm marque repère,4,8,2024-11-06
+0042,P-10273,chaussettes homme x5 marque repère,31,8,2024-11-06
+0042,P-10276,tee-shirt coton homme marque repère,41,8,2024-11-06
+0042,P-10279,pyjama enfant marque repère,18,5,2024-11-06
+0042,P-10282,écharpe laine mélangée marque repère,49,15,2024-11-06
+0042,P-10285,plaid polaire 130x170 marque repère,50,5,2024-11-06
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",74,10,2024-11-13
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",0,8,2024-11-13
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",51,15,2024-11-13
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",85,5,2024-11-13
+0042,3024500008226,"orangina bouteille 1,5 l orangina",54,5,2024-11-13
+0042,3024500009599,ice tea pêche 2 l lipton,64,8,2024-11-13
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",87,10,2024-11-13
+0042,P-10024,eau minérale evian 6x1 l evian,22,8,2024-11-13
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,36,5,2024-11-13
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,51,10,2024-11-13
+0042,P-10033,jus de pomme bio 1 l marque repère,78,8,2024-11-13
+0042,P-10036,sirop de grenadine 75 cl teisseire,37,5,2024-11-13
+0042,3024500020556,café en grains 1 kg lavazza,152,15,2024-11-13
+0042,3024500021928,thé vert nature 20 sachets lipton,114,30,2024-11-13
+0042,P-10045,pâtes penne 500 g barilla,228,20,2024-11-13
+0042,P-10048,riz long grain 1 kg taureau ailé,130,20,2024-11-13
+0042,3024500028774,huile de tournesol 1 l marque repère,123,20,2024-11-13
+0042,P-10054,sauce tomate basilic 400 g panzani,214,15,2024-11-13
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,135,30,2024-11-13
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,180,30,2024-11-13
+0042,P-10063,haricots verts extra fins 400 g bonduelle,0,30,2024-11-13
+0042,P-10066,maïs doux 3x140 g géant vert,184,30,2024-11-13
+0042,3024500038360,sucre en poudre 1 kg daddy,195,15,2024-11-13
+0042,P-10072,confiture de fraises 370 g bonne maman,178,15,2024-11-13
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,243,15,2024-11-13
+0042,P-10078,biscuits petit beurre 200 g lu,138,30,2024-11-13
+0042,3024500043845,biscuits prince chocolat 300 g lu,146,15,2024-11-13
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,127,30,2024-11-13
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,196,15,2024-11-13
+0042,P-10090,boîte de chocolats assortis 400 g lindt,120,5,2024-11-13
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,85,5,2024-11-13
+0042,3024500050690,calendrier de l'avent chocolat kinder,160,5,2024-11-13
+0042,3024500052069,papillotes assorties 500 g révillon,154,10,2024-11-13
+0042,P-10102,marrons glacés 250 g clément faugier,97,10,2024-11-13
+0042,P-10105,bûche glacée vanille chocolat marque repère,45,10,2024-11-13
+0042,P-10108,foie gras de canard entier 200 g labeyrie,0,10,2024-11-13
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,217,5,2024-11-13
+0042,P-10114,plateau de fruits de mer marque repère,92,15,2024-11-13
+0042,P-10117,huîtres creuses n3 douzaine marque repère,140,5,2024-11-13
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,39,15,2024-11-13
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,44,5,2024-11-13
+0042,P-10126,crémant de loire brut 75 cl bouvet,0,15,2024-11-13
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,21,5,2024-11-13
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,27,15,2024-11-13
+0042,P-10135,bière blonde pack 6x25 cl heineken,40,10,2024-11-13
+0042,P-10138,bière blonde pack 12x25 cl 1664,26,5,2024-11-13
+0042,P-10141,lait demi-écrémé 6x1 l lactel,135,20,2024-11-13
+0042,P-10144,beurre doux plaquette 250 g président,116,20,2024-11-13
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,0,30,2024-11-13
+0042,3024500078090,yaourt nature 16 pots danone,168,15,2024-11-13
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,209,20,2024-11-13
+0042,P-10156,camembert au lait cru 250 g président,205,15,2024-11-13
+0042,P-10159,emmental râpé 200 g entremont,269,20,2024-11-13
+0042,P-10162,comté aop 12 mois 200 g marque repère,137,15,2024-11-13
+0042,P-10165,oeufs plein air x12 marque repère,208,15,2024-11-13
+0042,P-10168,jambon blanc 4 tranches herta,255,15,2024-11-13
+0042,P-10171,saucisson sec 200 g justin bridou,200,30,2024-11-13
+0042,P-10174,escalope de poulet 500 g marque repère,166,20,2024-11-13
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,132,20,2024-11-13
+0042,P-10180,côte de boeuf 1 kg marque repère,145,30,2024-11-13
+0042,3024500094533,rôti de porc 800 g marque repère,95,15,2024-11-13
+0042,3024500095905,chapon fermier 3 kg marque repère,111,8,2024-11-13
+0042,P-10189,"dinde fermière 2,5 kg marque repère",134,8,2024-11-13
+0042,3024500100012,pommes gala 1 kg marque repère,224,20,2024-11-13
+0042,3024500101385,clémentines 1 kg marque repère,160,15,2024-11-13
+0042,3024500102757,tomates grappe 1 kg marque repère,254,15,2024-11-13
+0042,3024500104126,carottes 1 kg marque repère,116,15,2024-11-13
+0042,P-10204,"pommes de terre 2,5 kg marque repère",140,30,2024-11-13
+0042,3024500106861,salade batavia pièce marque repère,131,30,2024-11-13
+0042,3024500109602,champignons de paris 500 g marque repère,189,15,2024-11-13
+0042,3024500110974,baguette tradition marque repère,236,15,2024-11-13
+0042,3024500112343,pain de mie complet 500 g harrys,0,15,2024-11-13
+0042,P-10219,croissants x6 marque repère,155,30,2024-11-13
+0042,3024500115085,pizza surgelée reine 400 g buitoni,74,5,2024-11-13
+0042,P-10225,frites surgelées 1 kg mccain,42,8,2024-11-13
+0042,3024500117829,poisson pané x10 findus,30,15,2024-11-13
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,66,8,2024-11-13
+0042,P-10234,gel douche 250 ml dove,69,10,2024-11-13
+0042,3024500124674,dentifrice protection 75 ml signal,44,10,2024-11-13
+0042,P-10240,papier toilette 12 rouleaux lotus,26,5,2024-11-13
+0042,P-10243,couches taille 4 x50 pampers,37,5,2024-11-13
+0042,P-10246,sacs poubelle 30 l x20 marque repère,44,10,2024-11-13
+0042,P-10249,essuie-tout x6 marque repère,37,15,2024-11-13
+0042,3024500138374,pile alcaline lr6 x8 duracell,22,8,2024-11-13
+0042,P-10255,guirlande lumineuse 200 led marque repère,56,5,2024-11-13
+0042,P-10258,sapin artificiel 150 cm marque repère,47,8,2024-11-13
+0042,P-10261,boules de noël x18 marque repère,24,10,2024-11-13
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,9,10,2024-11-13
+0042,3024500157559,trousse garnie marque repère,0,5,2024-11-13
+0042,P-10270,cartable 38 cm marque repère,6,10,2024-11-13
+0042,P-10273,chaussettes homme x5 marque repère,29,15,2024-11-13
+0042,P-10276,tee-shirt coton homme marque repère,26,10,2024-11-13
+0042,P-10279,pyjama enfant marque repère,41,15,2024-11-13
+0042,P-10282,écharpe laine mélangée marque repère,61,5,2024-11-13
+0042,P-10285,plaid polaire 130x170 marque repère,47,15,2024-11-13
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",71,10,2024-11-20
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",75,8,2024-11-20
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",43,8,2024-11-20
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",43,8,2024-11-20
+0042,3024500008226,"orangina bouteille 1,5 l orangina",32,15,2024-11-20
+0042,3024500009599,ice tea pêche 2 l lipton,37,15,2024-11-20
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",69,8,2024-11-20
+0042,P-10024,eau minérale evian 6x1 l evian,30,5,2024-11-20
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,72,15,2024-11-20
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,53,5,2024-11-20
+0042,P-10033,jus de pomme bio 1 l marque repère,59,10,2024-11-20
+0042,P-10036,sirop de grenadine 75 cl teisseire,74,8,2024-11-20
+0042,3024500020556,café en grains 1 kg lavazza,146,15,2024-11-20
+0042,3024500021928,thé vert nature 20 sachets lipton,0,20,2024-11-20
+0042,P-10045,pâtes penne 500 g barilla,145,20,2024-11-20
+0042,P-10048,riz long grain 1 kg taureau ailé,0,20,2024-11-20
+0042,3024500028774,huile de tournesol 1 l marque repère,108,15,2024-11-20
+0042,P-10054,sauce tomate basilic 400 g panzani,148,30,2024-11-20
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,112,30,2024-11-20
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,193,30,2024-11-20
+0042,P-10063,haricots verts extra fins 400 g bonduelle,0,15,2024-11-20
+0042,P-10066,maïs doux 3x140 g géant vert,184,30,2024-11-20
+0042,3024500038360,sucre en poudre 1 kg daddy,220,20,2024-11-20
+0042,P-10072,confiture de fraises 370 g bonne maman,141,30,2024-11-20
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,141,30,2024-11-20
+0042,P-10078,biscuits petit beurre 200 g lu,222,30,2024-11-20
+0042,3024500043845,biscuits prince chocolat 300 g lu,147,20,2024-11-20
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,176,30,2024-11-20
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,150,15,2024-11-20
+0042,P-10090,boîte de chocolats assortis 400 g lindt,0,15,2024-11-20
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,190,10,2024-11-20
+0042,3024500050690,calendrier de l'avent chocolat kinder,162,5,2024-11-20
+0042,3024500052069,papillotes assorties 500 g révillon,118,5,2024-11-20
+0042,P-10102,marrons glacés 250 g clément faugier,113,15,2024-11-20
+0042,P-10105,bûche glacée vanille chocolat marque repère,25,5,2024-11-20
+0042,P-10108,foie gras de canard entier 200 g labeyrie,203,10,2024-11-20
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,164,15,2024-11-20
+0042,P-10114,plateau de fruits de mer marque repère,173,15,2024-11-20
+0042,P-10117,huîtres creuses n3 douzaine marque repère,150,15,2024-11-20
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,41,15,2024-11-20
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,0,8,2024-11-20
+0042,P-10126,crémant de loire brut 75 cl bouvet,59,5,2024-11-20
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,30,10,2024-11-20
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,51,15,2024-11-20
+0042,P-10135,bière blonde pack 6x25 cl heineken,33,5,2024-11-20
+0042,P-10138,bière blonde pack 12x25 cl 1664,33,15,2024-11-20
+0042,P-10141,lait demi-écrémé 6x1 l lactel,0,30,2024-11-20
+0042,P-10144,beurre doux plaquette 250 g président,205,30,2024-11-20
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,206,30,2024-11-20
+0042,3024500078090,yaourt nature 16 pots danone,236,30,2024-11-20
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,226,20,2024-11-20
+0042,P-10156,camembert au lait cru 250 g président,140,15,2024-11-20
+0042,P-10159,emmental râpé 200 g entremont,187,30,2024-11-20
+0042,P-10162,comté aop 12 mois 200 g marque repère,154,30,2024-11-20
+0042,P-10165,oeufs plein air x12 marque repère,200,15,2024-11-20
+0042,P-10168,jambon blanc 4 tranches herta,208,20,2024-11-20
+0042,P-10171,saucisson sec 200 g justin bridou,152,30,2024-11-20
+0042,P-10174,escalope de poulet 500 g marque repère,90,15,2024-11-20
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,0,20,2024-11-20
+0042,P-10180,côte de boeuf 1 kg marque repère,108,20,2024-11-20
+0042,3024500094533,rôti de porc 800 g marque repère,91,30,2024-11-20
+0042,3024500095905,chapon fermier 3 kg marque repère,122,5,2024-11-20
+0042,P-10189,"dinde fermière 2,5 kg marque repère",87,8,2024-11-20
+0042,3024500100012,pommes gala 1 kg marque repère,222,15,2024-11-20
+0042,3024500101385,clémentines 1 kg marque repère,208,15,2024-11-20
+0042,3024500102757,tomates grappe 1 kg marque repère,135,20,2024-11-20
+0042,3024500104126,carottes 1 kg marque repère,114,15,2024-11-20
+0042,P-10204,"pommes de terre 2,5 kg marque repère",244,30,2024-11-20
+0042,3024500106861,salade batavia pièce marque repère,213,20,2024-11-20
+0042,3024500109602,champignons de paris 500 g marque repère,159,15,2024-11-20
+0042,3024500110974,baguette tradition marque repère,255,15,2024-11-20
+0042,3024500112343,pain de mie complet 500 g harrys,178,15,2024-11-20
+0042,P-10219,croissants x6 marque repère,113,20,2024-11-20
+0042,3024500115085,pizza surgelée reine 400 g buitoni,77,5,2024-11-20
+0042,P-10225,frites surgelées 1 kg mccain,61,10,2024-11-20
+0042,3024500117829,poisson pané x10 findus,31,10,2024-11-20
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,52,10,2024-11-20
+0042,P-10234,gel douche 250 ml dove,54,5,2024-11-20
+0042,3024500124674,dentifrice protection 75 ml signal,86,15,2024-11-20
+0042,P-10240,papier toilette 12 rouleaux lotus,29,8,2024-11-20
+0042,P-10243,couches taille 4 x50 pampers,27,10,2024-11-20
+0042,P-10246,sacs poubelle 30 l x20 marque repère,35,15,2024-11-20
+0042,P-10249,essuie-tout x6 marque repère,43,15,2024-11-20
+0042,3024500138374,pile alcaline lr6 x8 duracell,44,10,2024-11-20
+0042,P-10255,guirlande lumineuse 200 led marque repère,58,10,2024-11-20
+0042,P-10258,sapin artificiel 150 cm marque repère,56,5,2024-11-20
+0042,P-10261,boules de noël x18 marque repère,30,5,2024-11-20
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,10,15,2024-11-20
+0042,3024500157559,trousse garnie marque repère,3,10,2024-11-20
+0042,P-10270,cartable 38 cm marque repère,5,15,2024-11-20
+0042,P-10273,chaussettes homme x5 marque repère,25,10,2024-11-20
+0042,P-10276,tee-shirt coton homme marque repère,47,15,2024-11-20
+0042,P-10279,pyjama enfant marque repère,49,5,2024-11-20
+0042,P-10282,écharpe laine mélangée marque repère,58,10,2024-11-20
+0042,P-10285,plaid polaire 130x170 marque repère,31,10,2024-11-20
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",85,10,2024-11-27
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",69,8,2024-11-27
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",61,8,2024-11-27
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",52,15,2024-11-27
+0042,3024500008226,"orangina bouteille 1,5 l orangina",46,10,2024-11-27
+0042,3024500009599,ice tea pêche 2 l lipton,65,5,2024-11-27
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",71,15,2024-11-27
+0042,P-10024,eau minérale evian 6x1 l evian,53,10,2024-11-27
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,45,8,2024-11-27
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,39,5,2024-11-27
+0042,P-10033,jus de pomme bio 1 l marque repère,39,15,2024-11-27
+0042,P-10036,sirop de grenadine 75 cl teisseire,47,5,2024-11-27
+0042,3024500020556,café en grains 1 kg lavazza,158,30,2024-11-27
+0042,3024500021928,thé vert nature 20 sachets lipton,181,30,2024-11-27
+0042,P-10045,pâtes penne 500 g barilla,245,15,2024-11-27
+0042,P-10048,riz long grain 1 kg taureau ailé,180,30,2024-11-27
+0042,3024500028774,huile de tournesol 1 l marque repère,223,15,2024-11-27
+0042,P-10054,sauce tomate basilic 400 g panzani,176,30,2024-11-27
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,85,20,2024-11-27
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,256,15,2024-11-27
+0042,P-10063,haricots verts extra fins 400 g bonduelle,167,20,2024-11-27
+0042,P-10066,maïs doux 3x140 g géant vert,196,15,2024-11-27
+0042,3024500038360,sucre en poudre 1 kg daddy,168,15,2024-11-27
+0042,P-10072,confiture de fraises 370 g bonne maman,141,30,2024-11-27
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,245,20,2024-11-27
+0042,P-10078,biscuits petit beurre 200 g lu,161,20,2024-11-27
+0042,3024500043845,biscuits prince chocolat 300 g lu,233,15,2024-11-27
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,206,20,2024-11-27
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,249,15,2024-11-27
+0042,P-10090,boîte de chocolats assortis 400 g lindt,105,8,2024-11-27
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,179,8,2024-11-27
+0042,3024500050690,calendrier de l'avent chocolat kinder,124,15,2024-11-27
+0042,3024500052069,papillotes assorties 500 g révillon,152,5,2024-11-27
+0042,P-10102,marrons glacés 250 g clément faugier,128,5,2024-11-27
+0042,P-10105,bûche glacée vanille chocolat marque repère,31,15,2024-11-27
+0042,P-10108,foie gras de canard entier 200 g labeyrie,116,15,2024-11-27
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,109,15,2024-11-27
+0042,P-10114,plateau de fruits de mer marque repère,84,15,2024-11-27
+0042,P-10117,huîtres creuses n3 douzaine marque repère,100,5,2024-11-27
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,46,8,2024-11-27
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,0,8,2024-11-27
+0042,P-10126,crémant de loire brut 75 cl bouvet,27,5,2024-11-27
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,24,8,2024-11-27
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,0,15,2024-11-27
+0042,P-10135,bière blonde pack 6x25 cl heineken,40,5,2024-11-27
+0042,P-10138,bière blonde pack 12x25 cl 1664,36,5,2024-11-27
+0042,P-10141,lait demi-écrémé 6x1 l lactel,80,15,2024-11-27
+0042,P-10144,beurre doux plaquette 250 g président,227,15,2024-11-27
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,123,20,2024-11-27
+0042,3024500078090,yaourt nature 16 pots danone,193,20,2024-11-27
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,161,20,2024-11-27
+0042,P-10156,camembert au lait cru 250 g président,176,30,2024-11-27
+0042,P-10159,emmental râpé 200 g entremont,178,20,2024-11-27
+0042,P-10162,comté aop 12 mois 200 g marque repère,129,30,2024-11-27
+0042,P-10165,oeufs plein air x12 marque repère,219,30,2024-11-27
+0042,P-10168,jambon blanc 4 tranches herta,265,20,2024-11-27
+0042,P-10171,saucisson sec 200 g justin bridou,211,15,2024-11-27
+0042,P-10174,escalope de poulet 500 g marque repère,0,20,2024-11-27
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,163,15,2024-11-27
+0042,P-10180,côte de boeuf 1 kg marque repère,145,15,2024-11-27
+0042,3024500094533,rôti de porc 800 g marque repère,153,15,2024-11-27
+0042,3024500095905,chapon fermier 3 kg marque repère,94,8,2024-11-27
+0042,P-10189,"dinde fermière 2,5 kg marque repère",173,8,2024-11-27
+0042,3024500100012,pommes gala 1 kg marque repère,159,30,2024-11-27
+0042,3024500101385,clémentines 1 kg marque repère,171,5,2024-11-27
+0042,3024500102757,tomates grappe 1 kg marque repère,194,30,2024-11-27
+0042,3024500104126,carottes 1 kg marque repère,123,15,2024-11-27
+0042,P-10204,"pommes de terre 2,5 kg marque repère",219,30,2024-11-27
+0042,3024500106861,salade batavia pièce marque repère,243,30,2024-11-27
+0042,3024500109602,champignons de paris 500 g marque repère,0,20,2024-11-27
+0042,3024500110974,baguette tradition marque repère,125,30,2024-11-27
+0042,3024500112343,pain de mie complet 500 g harrys,190,15,2024-11-27
+0042,P-10219,croissants x6 marque repère,172,15,2024-11-27
+0042,3024500115085,pizza surgelée reine 400 g buitoni,59,8,2024-11-27
+0042,P-10225,frites surgelées 1 kg mccain,59,5,2024-11-27
+0042,3024500117829,poisson pané x10 findus,49,15,2024-11-27
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,34,15,2024-11-27
+0042,P-10234,gel douche 250 ml dove,80,5,2024-11-27
+0042,3024500124674,dentifrice protection 75 ml signal,56,8,2024-11-27
+0042,P-10240,papier toilette 12 rouleaux lotus,22,5,2024-11-27
+0042,P-10243,couches taille 4 x50 pampers,41,10,2024-11-27
+0042,P-10246,sacs poubelle 30 l x20 marque repère,38,15,2024-11-27
+0042,P-10249,essuie-tout x6 marque repère,0,10,2024-11-27
+0042,3024500138374,pile alcaline lr6 x8 duracell,36,8,2024-11-27
+0042,P-10255,guirlande lumineuse 200 led marque repère,68,15,2024-11-27
+0042,P-10258,sapin artificiel 150 cm marque repère,41,5,2024-11-27
+0042,P-10261,boules de noël x18 marque repère,38,5,2024-11-27
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,11,10,2024-11-27
+0042,3024500157559,trousse garnie marque repère,3,5,2024-11-27
+0042,P-10270,cartable 38 cm marque repère,0,5,2024-11-27
+0042,P-10273,chaussettes homme x5 marque repère,31,10,2024-11-27
+0042,P-10276,tee-shirt coton homme marque repère,28,15,2024-11-27
+0042,P-10279,pyjama enfant marque repère,31,10,2024-11-27
+0042,P-10282,écharpe laine mélangée marque repère,37,5,2024-11-27
+0042,P-10285,plaid polaire 130x170 marque repère,44,10,2024-11-27
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",39,15,2024-12-04
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",67,10,2024-12-04
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",43,10,2024-12-04
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",47,8,2024-12-04
+0042,3024500008226,"orangina bouteille 1,5 l orangina",48,5,2024-12-04
+0042,3024500009599,ice tea pêche 2 l lipton,58,15,2024-12-04
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",59,8,2024-12-04
+0042,P-10024,eau minérale evian 6x1 l evian,24,8,2024-12-04
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,52,8,2024-12-04
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,0,5,2024-12-04
+0042,P-10033,jus de pomme bio 1 l marque repère,80,5,2024-12-04
+0042,P-10036,sirop de grenadine 75 cl teisseire,67,5,2024-12-04
+0042,3024500020556,café en grains 1 kg lavazza,112,30,2024-12-04
+0042,3024500021928,thé vert nature 20 sachets lipton,217,20,2024-12-04
+0042,P-10045,pâtes penne 500 g barilla,172,30,2024-12-04
+0042,P-10048,riz long grain 1 kg taureau ailé,144,30,2024-12-04
+0042,3024500028774,huile de tournesol 1 l marque repère,223,15,2024-12-04
+0042,P-10054,sauce tomate basilic 400 g panzani,236,30,2024-12-04
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,76,15,2024-12-04
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,122,15,2024-12-04
+0042,P-10063,haricots verts extra fins 400 g bonduelle,143,30,2024-12-04
+0042,P-10066,maïs doux 3x140 g géant vert,105,20,2024-12-04
+0042,3024500038360,sucre en poudre 1 kg daddy,222,20,2024-12-04
+0042,P-10072,confiture de fraises 370 g bonne maman,128,30,2024-12-04
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,197,20,2024-12-04
+0042,P-10078,biscuits petit beurre 200 g lu,197,15,2024-12-04
+0042,3024500043845,biscuits prince chocolat 300 g lu,167,15,2024-12-04
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,200,15,2024-12-04
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,177,8,2024-12-04
+0042,P-10090,boîte de chocolats assortis 400 g lindt,60,10,2024-12-04
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,127,5,2024-12-04
+0042,3024500050690,calendrier de l'avent chocolat kinder,112,8,2024-12-04
+0042,3024500052069,papillotes assorties 500 g révillon,176,8,2024-12-04
+0042,P-10102,marrons glacés 250 g clément faugier,0,5,2024-12-04
+0042,P-10105,bûche glacée vanille chocolat marque repère,0,15,2024-12-04
+0042,P-10108,foie gras de canard entier 200 g labeyrie,101,15,2024-12-04
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,54,15,2024-12-04
+0042,P-10114,plateau de fruits de mer marque repère,116,15,2024-12-04
+0042,P-10117,huîtres creuses n3 douzaine marque repère,138,10,2024-12-04
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,63,10,2024-12-04
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,33,15,2024-12-04
+0042,P-10126,crémant de loire brut 75 cl bouvet,60,10,2024-12-04
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,35,5,2024-12-04
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,48,5,2024-12-04
+0042,P-10135,bière blonde pack 6x25 cl heineken,43,10,2024-12-04
+0042,P-10138,bière blonde pack 12x25 cl 1664,44,8,2024-12-04
+0042,P-10141,lait demi-écrémé 6x1 l lactel,139,30,2024-12-04
+0042,P-10144,beurre doux plaquette 250 g président,179,15,2024-12-04
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,221,15,2024-12-04
+0042,3024500078090,yaourt nature 16 pots danone,162,20,2024-12-04
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,248,20,2024-12-04
+0042,P-10156,camembert au lait cru 250 g président,215,30,2024-12-04
+0042,P-10159,emmental râpé 200 g entremont,249,30,2024-12-04
+0042,P-10162,comté aop 12 mois 200 g marque repère,104,30,2024-12-04
+0042,P-10165,oeufs plein air x12 marque repère,149,15,2024-12-04
+0042,P-10168,jambon blanc 4 tranches herta,213,15,2024-12-04
+0042,P-10171,saucisson sec 200 g justin bridou,212,20,2024-12-04
+0042,P-10174,escalope de poulet 500 g marque repère,156,15,2024-12-04
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,125,15,2024-12-04
+0042,P-10180,côte de boeuf 1 kg marque repère,96,20,2024-12-04
+0042,3024500094533,rôti de porc 800 g marque repère,166,15,2024-12-04
+0042,3024500095905,chapon fermier 3 kg marque repère,203,15,2024-12-04
+0042,P-10189,"dinde fermière 2,5 kg marque repère",176,15,2024-12-04
+0042,3024500100012,pommes gala 1 kg marque repère,273,20,2024-12-04
+0042,3024500101385,clémentines 1 kg marque repère,316,15,2024-12-04
+0042,3024500102757,tomates grappe 1 kg marque repère,0,15,2024-12-04
+0042,3024500104126,carottes 1 kg marque repère,165,30,2024-12-04
+0042,P-10204,"pommes de terre 2,5 kg marque repère",177,15,2024-12-04
+0042,3024500106861,salade batavia pièce marque repère,217,30,2024-12-04
+0042,3024500109602,champignons de paris 500 g marque repère,0,20,2024-12-04
+0042,3024500110974,baguette tradition marque repère,194,15,2024-12-04
+0042,3024500112343,pain de mie complet 500 g harrys,112,15,2024-12-04
+0042,P-10219,croissants x6 marque repère,138,20,2024-12-04
+0042,3024500115085,pizza surgelée reine 400 g buitoni,38,15,2024-12-04
+0042,P-10225,frites surgelées 1 kg mccain,36,10,2024-12-04
+0042,3024500117829,poisson pané x10 findus,40,8,2024-12-04
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,47,8,2024-12-04
+0042,P-10234,gel douche 250 ml dove,66,10,2024-12-04
+0042,3024500124674,dentifrice protection 75 ml signal,82,10,2024-12-04
+0042,P-10240,papier toilette 12 rouleaux lotus,44,5,2024-12-04
+0042,P-10243,couches taille 4 x50 pampers,27,5,2024-12-04
+0042,P-10246,sacs poubelle 30 l x20 marque repère,72,15,2024-12-04
+0042,P-10249,essuie-tout x6 marque repère,34,10,2024-12-04
+0042,3024500138374,pile alcaline lr6 x8 duracell,29,5,2024-12-04
+0042,P-10255,guirlande lumineuse 200 led marque repère,63,5,2024-12-04
+0042,P-10258,sapin artificiel 150 cm marque repère,37,10,2024-12-04
+0042,P-10261,boules de noël x18 marque repère,41,10,2024-12-04
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,6,10,2024-12-04
+0042,3024500157559,trousse garnie marque repère,3,10,2024-12-04
+0042,P-10270,cartable 38 cm marque repère,8,8,2024-12-04
+0042,P-10273,chaussettes homme x5 marque repère,44,8,2024-12-04
+0042,P-10276,tee-shirt coton homme marque repère,40,5,2024-12-04
+0042,P-10279,pyjama enfant marque repère,39,10,2024-12-04
+0042,P-10282,écharpe laine mélangée marque repère,74,8,2024-12-04
+0042,P-10285,plaid polaire 130x170 marque repère,46,8,2024-12-04
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",69,15,2024-12-11
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",62,15,2024-12-11
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",63,5,2024-12-11
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",47,10,2024-12-11
+0042,3024500008226,"orangina bouteille 1,5 l orangina",66,15,2024-12-11
+0042,3024500009599,ice tea pêche 2 l lipton,85,5,2024-12-11
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",50,5,2024-12-11
+0042,P-10024,eau minérale evian 6x1 l evian,44,10,2024-12-11
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,58,5,2024-12-11
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,56,8,2024-12-11
+0042,P-10033,jus de pomme bio 1 l marque repère,75,15,2024-12-11
+0042,P-10036,sirop de grenadine 75 cl teisseire,0,5,2024-12-11
+0042,3024500020556,café en grains 1 kg lavazza,161,30,2024-12-11
+0042,3024500021928,thé vert nature 20 sachets lipton,241,30,2024-12-11
+0042,P-10045,pâtes penne 500 g barilla,252,20,2024-12-11
+0042,P-10048,riz long grain 1 kg taureau ailé,145,15,2024-12-11
+0042,3024500028774,huile de tournesol 1 l marque repère,0,15,2024-12-11
+0042,P-10054,sauce tomate basilic 400 g panzani,123,30,2024-12-11
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,99,15,2024-12-11
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,224,20,2024-12-11
+0042,P-10063,haricots verts extra fins 400 g bonduelle,211,30,2024-12-11
+0042,P-10066,maïs doux 3x140 g géant vert,155,15,2024-12-11
+0042,3024500038360,sucre en poudre 1 kg daddy,217,20,2024-12-11
+0042,P-10072,confiture de fraises 370 g bonne maman,218,15,2024-12-11
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,160,20,2024-12-11
+0042,P-10078,biscuits petit beurre 200 g lu,217,20,2024-12-11
+0042,3024500043845,biscuits prince chocolat 300 g lu,167,30,2024-12-11
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,216,15,2024-12-11
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,152,15,2024-12-11
+0042,P-10090,boîte de chocolats assortis 400 g lindt,112,15,2024-12-11
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,0,10,2024-12-11
+0042,3024500050690,calendrier de l'avent chocolat kinder,181,10,2024-12-11
+0042,3024500052069,papillotes assorties 500 g révillon,85,10,2024-12-11
+0042,P-10102,marrons glacés 250 g clément faugier,91,15,2024-12-11
+0042,P-10105,bûche glacée vanille chocolat marque repère,25,15,2024-12-11
+0042,P-10108,foie gras de canard entier 200 g labeyrie,164,8,2024-12-11
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,80,5,2024-12-11
+0042,P-10114,plateau de fruits de mer marque repère,97,15,2024-12-11
+0042,P-10117,huîtres creuses n3 douzaine marque repère,119,10,2024-12-11
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,50,15,2024-12-11
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,31,15,2024-12-11
+0042,P-10126,crémant de loire brut 75 cl bouvet,48,15,2024-12-11
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,49,8,2024-12-11
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,0,8,2024-12-11
+0042,P-10135,bière blonde pack 6x25 cl heineken,29,8,2024-12-11
+0042,P-10138,bière blonde pack 12x25 cl 1664,35,5,2024-12-11
+0042,P-10141,lait demi-écrémé 6x1 l lactel,124,30,2024-12-11
+0042,P-10144,beurre doux plaquette 250 g président,109,20,2024-12-11
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,207,20,2024-12-11
+0042,3024500078090,yaourt nature 16 pots danone,134,30,2024-12-11
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,152,20,2024-12-11
+0042,P-10156,camembert au lait cru 250 g président,108,20,2024-12-11
+0042,P-10159,emmental râpé 200 g entremont,255,15,2024-12-11
+0042,P-10162,comté aop 12 mois 200 g marque repère,157,20,2024-12-11
+0042,P-10165,oeufs plein air x12 marque repère,174,15,2024-12-11
+0042,P-10168,jambon blanc 4 tranches herta,227,20,2024-12-11
+0042,P-10171,saucisson sec 200 g justin bridou,233,15,2024-12-11
+0042,P-10174,escalope de poulet 500 g marque repère,168,30,2024-12-11
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,0,30,2024-12-11
+0042,P-10180,côte de boeuf 1 kg marque repère,70,15,2024-12-11
+0042,3024500094533,rôti de porc 800 g marque repère,164,20,2024-12-11
+0042,3024500095905,chapon fermier 3 kg marque repère,125,5,2024-12-11
+0042,P-10189,"dinde fermière 2,5 kg marque repère",184,15,2024-12-11
+0042,3024500100012,pommes gala 1 kg marque repère,118,30,2024-12-11
+0042,3024500101385,clémentines 1 kg marque repère,213,10,2024-12-11
+0042,3024500102757,tomates grappe 1 kg marque repère,203,20,2024-12-11
+0042,3024500104126,carottes 1 kg marque repère,158,30,2024-12-11
+0042,P-10204,"pommes de terre 2,5 kg marque repère",233,30,2024-12-11
+0042,3024500106861,salade batavia pièce marque repère,123,20,2024-12-11
+0042,3024500109602,champignons de paris 500 g marque repère,0,20,2024-12-11
+0042,3024500110974,baguette tradition marque repère,191,20,2024-12-11
+0042,3024500112343,pain de mie complet 500 g harrys,130,15,2024-12-11
+0042,P-10219,croissants x6 marque repère,0,15,2024-12-11
+0042,3024500115085,pizza surgelée reine 400 g buitoni,81,15,2024-12-11
+0042,P-10225,frites surgelées 1 kg mccain,47,15,2024-12-11
+0042,3024500117829,poisson pané x10 findus,32,15,2024-12-11
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,37,8,2024-12-11
+0042,P-10234,gel douche 250 ml dove,65,15,2024-12-11
+0042,3024500124674,dentifrice protection 75 ml signal,69,5,2024-12-11
+0042,P-10240,papier toilette 12 rouleaux lotus,32,8,2024-12-11
+0042,P-10243,couches taille 4 x50 pampers,37,10,2024-12-11
+0042,P-10246,sacs poubelle 30 l x20 marque repère,47,15,2024-12-11
+0042,P-10249,essuie-tout x6 marque repère,21,5,2024-12-11
+0042,3024500138374,pile alcaline lr6 x8 duracell,53,10,2024-12-11
+0042,P-10255,guirlande lumineuse 200 led marque repère,57,10,2024-12-11
+0042,P-10258,sapin artificiel 150 cm marque repère,47,10,2024-12-11
+0042,P-10261,boules de noël x18 marque repère,0,8,2024-12-11
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,10,15,2024-12-11
+0042,3024500157559,trousse garnie marque repère,4,15,2024-12-11
+0042,P-10270,cartable 38 cm marque repère,7,8,2024-12-11
+0042,P-10273,chaussettes homme x5 marque repère,28,5,2024-12-11
+0042,P-10276,tee-shirt coton homme marque repère,25,15,2024-12-11
+0042,P-10279,pyjama enfant marque repère,33,15,2024-12-11
+0042,P-10282,écharpe laine mélangée marque repère,72,15,2024-12-11
+0042,P-10285,plaid polaire 130x170 marque repère,47,8,2024-12-11
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",56,5,2024-12-18
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",53,8,2024-12-18
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",69,15,2024-12-18
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",0,15,2024-12-18
+0042,3024500008226,"orangina bouteille 1,5 l orangina",63,10,2024-12-18
+0042,3024500009599,ice tea pêche 2 l lipton,74,10,2024-12-18
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",55,5,2024-12-18
+0042,P-10024,eau minérale evian 6x1 l evian,33,5,2024-12-18
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,57,15,2024-12-18
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,50,5,2024-12-18
+0042,P-10033,jus de pomme bio 1 l marque repère,72,8,2024-12-18
+0042,P-10036,sirop de grenadine 75 cl teisseire,73,15,2024-12-18
+0042,3024500020556,café en grains 1 kg lavazza,170,20,2024-12-18
+0042,3024500021928,thé vert nature 20 sachets lipton,157,20,2024-12-18
+0042,P-10045,pâtes penne 500 g barilla,0,20,2024-12-18
+0042,P-10048,riz long grain 1 kg taureau ailé,176,15,2024-12-18
+0042,3024500028774,huile de tournesol 1 l marque repère,182,20,2024-12-18
+0042,P-10054,sauce tomate basilic 400 g panzani,208,30,2024-12-18
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,89,20,2024-12-18
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,252,20,2024-12-18
+0042,P-10063,haricots verts extra fins 400 g bonduelle,244,30,2024-12-18
+0042,P-10066,maïs doux 3x140 g géant vert,118,15,2024-12-18
+0042,3024500038360,sucre en poudre 1 kg daddy,244,20,2024-12-18
+0042,P-10072,confiture de fraises 370 g bonne maman,154,20,2024-12-18
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,158,30,2024-12-18
+0042,P-10078,biscuits petit beurre 200 g lu,208,15,2024-12-18
+0042,3024500043845,biscuits prince chocolat 300 g lu,0,20,2024-12-18
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,0,15,2024-12-18
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,7,5,2024-12-18
+0042,P-10090,boîte de chocolats assortis 400 g lindt,3,15,2024-12-18
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,30,15,2024-12-18
+0042,3024500050690,calendrier de l'avent chocolat kinder,10,15,2024-12-18
+0042,3024500052069,papillotes assorties 500 g révillon,3,10,2024-12-18
+0042,P-10102,marrons glacés 250 g clément faugier,11,10,2024-12-18
+0042,P-10105,bûche glacée vanille chocolat marque repère,4,5,2024-12-18
+0042,P-10108,foie gras de canard entier 200 g labeyrie,9,5,2024-12-18
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,3,15,2024-12-18
+0042,P-10114,plateau de fruits de mer marque repère,9,8,2024-12-18
+0042,P-10117,huîtres creuses n3 douzaine marque repère,16,15,2024-12-18
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,2,15,2024-12-18
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,1,15,2024-12-18
+0042,P-10126,crémant de loire brut 75 cl bouvet,4,10,2024-12-18
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,31,8,2024-12-18
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,27,10,2024-12-18
+0042,P-10135,bière blonde pack 6x25 cl heineken,44,8,2024-12-18
+0042,P-10138,bière blonde pack 12x25 cl 1664,0,5,2024-12-18
+0042,P-10141,lait demi-écrémé 6x1 l lactel,152,15,2024-12-18
+0042,P-10144,beurre doux plaquette 250 g président,154,30,2024-12-18
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,188,15,2024-12-18
+0042,3024500078090,yaourt nature 16 pots danone,170,15,2024-12-18
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,125,20,2024-12-18
+0042,P-10156,camembert au lait cru 250 g président,156,15,2024-12-18
+0042,P-10159,emmental râpé 200 g entremont,194,15,2024-12-18
+0042,P-10162,comté aop 12 mois 200 g marque repère,126,20,2024-12-18
+0042,P-10165,oeufs plein air x12 marque repère,165,30,2024-12-18
+0042,P-10168,jambon blanc 4 tranches herta,233,30,2024-12-18
+0042,P-10171,saucisson sec 200 g justin bridou,258,15,2024-12-18
+0042,P-10174,escalope de poulet 500 g marque repère,86,20,2024-12-18
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,114,20,2024-12-18
+0042,P-10180,côte de boeuf 1 kg marque repère,96,15,2024-12-18
+0042,3024500094533,rôti de porc 800 g marque repère,134,20,2024-12-18
+0042,3024500095905,chapon fermier 3 kg marque repère,0,8,2024-12-18
+0042,P-10189,"dinde fermière 2,5 kg marque repère",12,5,2024-12-18
+0042,3024500100012,pommes gala 1 kg marque repère,151,15,2024-12-18
+0042,3024500101385,clémentines 1 kg marque repère,15,5,2024-12-18
+0042,3024500102757,tomates grappe 1 kg marque repère,240,20,2024-12-18
+0042,3024500104126,carottes 1 kg marque repère,229,20,2024-12-18
+0042,P-10204,"pommes de terre 2,5 kg marque repère",207,15,2024-12-18
+0042,3024500106861,salade batavia pièce marque repère,221,30,2024-12-18
+0042,3024500109602,champignons de paris 500 g marque repère,126,15,2024-12-18
+0042,3024500110974,baguette tradition marque repère,227,20,2024-12-18
+0042,3024500112343,pain de mie complet 500 g harrys,236,30,2024-12-18
+0042,P-10219,croissants x6 marque repère,232,20,2024-12-18
+0042,3024500115085,pizza surgelée reine 400 g buitoni,59,5,2024-12-18
+0042,P-10225,frites surgelées 1 kg mccain,60,8,2024-12-18
+0042,3024500117829,poisson pané x10 findus,51,10,2024-12-18
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,41,8,2024-12-18
+0042,P-10234,gel douche 250 ml dove,80,10,2024-12-18
+0042,3024500124674,dentifrice protection 75 ml signal,90,10,2024-12-18
+0042,P-10240,papier toilette 12 rouleaux lotus,28,15,2024-12-18
+0042,P-10243,couches taille 4 x50 pampers,51,10,2024-12-18
+0042,P-10246,sacs poubelle 30 l x20 marque repère,60,15,2024-12-18
+0042,P-10249,essuie-tout x6 marque repère,22,5,2024-12-18
+0042,3024500138374,pile alcaline lr6 x8 duracell,0,5,2024-12-18
+0042,P-10255,guirlande lumineuse 200 led marque repère,1,15,2024-12-18
+0042,P-10258,sapin artificiel 150 cm marque repère,3,10,2024-12-18
+0042,P-10261,boules de noël x18 marque repère,4,8,2024-12-18
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,9,8,2024-12-18
+0042,3024500157559,trousse garnie marque repère,0,15,2024-12-18
+0042,P-10270,cartable 38 cm marque repère,6,15,2024-12-18
+0042,P-10273,chaussettes homme x5 marque repère,45,5,2024-12-18
+0042,P-10276,tee-shirt coton homme marque repère,24,8,2024-12-18
+0042,P-10279,pyjama enfant marque repère,6,5,2024-12-18
+0042,P-10282,écharpe laine mélangée marque repère,0,15,2024-12-18
+0042,P-10285,plaid polaire 130x170 marque repère,3,10,2024-12-18
+0042,3024500001371,"coca-cola bouteille 1,5 l coca-cola",74,10,2024-12-25
+0042,P-10006,"coca-cola zero bouteille 1,5 l coca-cola",0,10,2024-12-25
+0042,3024500005485,"pepsi bouteille 1,5 l pepsi",48,5,2024-12-25
+0042,3024500006857,"pepsi max bouteille 1,5 l pepsi",69,5,2024-12-25
+0042,3024500008226,"orangina bouteille 1,5 l orangina",43,8,2024-12-25
+0042,3024500009599,ice tea pêche 2 l lipton,62,8,2024-12-25
+0042,P-10021,"eau de source cristaline 6x1,5 l cristaline",64,15,2024-12-25
+0042,P-10024,eau minérale evian 6x1 l evian,0,8,2024-12-25
+0042,3024500013701,eau pétillante perrier 6x33 cl perrier,54,15,2024-12-25
+0042,P-10030,jus d'orange sans pulpe 1 l tropicana,70,5,2024-12-25
+0042,P-10033,jus de pomme bio 1 l marque repère,48,10,2024-12-25
+0042,P-10036,sirop de grenadine 75 cl teisseire,66,8,2024-12-25
+0042,3024500020556,café en grains 1 kg lavazza,118,15,2024-12-25
+0042,3024500021928,thé vert nature 20 sachets lipton,153,20,2024-12-25
+0042,P-10045,pâtes penne 500 g barilla,196,30,2024-12-25
+0042,P-10048,riz long grain 1 kg taureau ailé,212,15,2024-12-25
+0042,3024500028774,huile de tournesol 1 l marque repère,180,20,2024-12-25
+0042,P-10054,sauce tomate basilic 400 g panzani,0,20,2024-12-25
+0042,P-10057,thon albacore à l'huile 3x80 g petit navire,113,30,2024-12-25
+0042,P-10060,sardines à l'huile d'olive 115 g connétable,191,30,2024-12-25
+0042,P-10063,haricots verts extra fins 400 g bonduelle,203,15,2024-12-25
+0042,P-10066,maïs doux 3x140 g géant vert,183,15,2024-12-25
+0042,3024500038360,sucre en poudre 1 kg daddy,110,30,2024-12-25
+0042,P-10072,confiture de fraises 370 g bonne maman,238,20,2024-12-25
+0042,3024500041100,pâte à tartiner noisettes 400 g nutella,149,20,2024-12-25
+0042,P-10078,biscuits petit beurre 200 g lu,134,20,2024-12-25
+0042,3024500043845,biscuits prince chocolat 300 g lu,0,15,2024-12-25
+0042,P-10084,céréales pétales de maïs 500 g kellogg's,200,20,2024-12-25
+0042,P-10087,chocolat noir 70 pourcent 100 g lindt,45,5,2024-12-25
+0042,P-10090,boîte de chocolats assortis 400 g lindt,4,15,2024-12-25
+0042,P-10093,ballotin de chocolats 250 g jeff de bruges,7,5,2024-12-25
+0042,3024500050690,calendrier de l'avent chocolat kinder,24,15,2024-12-25
+0042,3024500052069,papillotes assorties 500 g révillon,19,5,2024-12-25
+0042,P-10102,marrons glacés 250 g clément faugier,5,10,2024-12-25
+0042,P-10105,bûche glacée vanille chocolat marque repère,6,8,2024-12-25
+0042,P-10108,foie gras de canard entier 200 g labeyrie,9,10,2024-12-25
+0042,P-10111,saumon fumé écosse 4 tranches labeyrie,13,5,2024-12-25
+0042,P-10114,plateau de fruits de mer marque repère,16,10,2024-12-25
+0042,P-10117,huîtres creuses n3 douzaine marque repère,14,8,2024-12-25
+0042,P-10120,champagne brut 75 cl nicolas feuillatte,5,15,2024-12-25
+0042,P-10123,champagne brut premier cru 75 cl canard-duchêne,3,10,2024-12-25
+0042,P-10126,crémant de loire brut 75 cl bouvet,0,8,2024-12-25
+0042,P-10129,bordeaux rouge aoc 75 cl marque repère,53,8,2024-12-25
+0042,3024500068503,côtes du rhône aoc 75 cl marque repère,0,10,2024-12-25
+0042,P-10135,bière blonde pack 6x25 cl heineken,50,10,2024-12-25
+0042,P-10138,bière blonde pack 12x25 cl 1664,43,5,2024-12-25
+0042,P-10141,lait demi-écrémé 6x1 l lactel,118,30,2024-12-25
+0042,P-10144,beurre doux plaquette 250 g président,180,20,2024-12-25
+0042,P-10147,crème fraîche épaisse 20 cl elle et vire,119,15,2024-12-25
+0042,3024500078090,yaourt nature 16 pots danone,159,15,2024-12-25
+0042,P-10153,fromage blanc 3 pourcent 1 kg marque repère,161,30,2024-12-25
+0042,P-10156,camembert au lait cru 250 g président,171,20,2024-12-25
+0042,P-10159,emmental râpé 200 g entremont,181,30,2024-12-25
+0042,P-10162,comté aop 12 mois 200 g marque repère,84,15,2024-12-25
+0042,P-10165,oeufs plein air x12 marque repère,211,30,2024-12-25
+0042,P-10168,jambon blanc 4 tranches herta,141,15,2024-12-25
+0042,P-10171,saucisson sec 200 g justin bridou,145,15,2024-12-25
+0042,P-10174,escalope de poulet 500 g marque repère,103,30,2024-12-25
+0042,P-10177,steak haché 5 pourcent 2x125 g charal,155,15,2024-12-25
+0042,P-10180,côte de boeuf 1 kg marque repère,114,20,2024-12-25
+0042,3024500094533,rôti de porc 800 g marque repère,134,15,2024-12-25
+0042,3024500095905,chapon fermier 3 kg marque repère,11,10,2024-12-25
+0042,P-10189,"dinde fermière 2,5 kg marque repère",15,15,2024-12-25
+0042,3024500100012,pommes gala 1 kg marque repère,181,20,2024-12-25
+0042,3024500101385,clémentines 1 kg marque repère,34,15,2024-12-25
+0042,3024500102757,tomates grappe 1 kg marque repère,0,30,2024-12-25
+0042,3024500104126,carottes 1 kg marque repère,176,20,2024-12-25
+0042,P-10204,"pommes de terre 2,5 kg marque repère",237,30,2024-12-25
+0042,3024500106861,salade batavia pièce marque repère,167,20,2024-12-25
+0042,3024500109602,champignons de paris 500 g marque repère,224,30,2024-12-25
+0042,3024500110974,baguette tradition marque repère,186,15,2024-12-25
+0042,3024500112343,pain de mie complet 500 g harrys,230,20,2024-12-25
+0042,P-10219,croissants x6 marque repère,180,15,2024-12-25
+0042,3024500115085,pizza surgelée reine 400 g buitoni,75,10,2024-12-25
+0042,P-10225,frites surgelées 1 kg mccain,65,15,2024-12-25
+0042,3024500117829,poisson pané x10 findus,0,10,2024-12-25
+0042,3024500120560,légumes pour poêlée 1 kg marque repère,76,10,2024-12-25
+0042,P-10234,gel douche 250 ml dove,0,15,2024-12-25
+0042,3024500124674,dentifrice protection 75 ml signal,80,5,2024-12-25
+0042,P-10240,papier toilette 12 rouleaux lotus,23,8,2024-12-25
+0042,P-10243,couches taille 4 x50 pampers,40,15,2024-12-25
+0042,P-10246,sacs poubelle 30 l x20 marque repère,62,10,2024-12-25
+0042,P-10249,essuie-tout x6 marque repère,41,10,2024-12-25
+0042,3024500138374,pile alcaline lr6 x8 duracell,31,10,2024-12-25
+0042,P-10255,guirlande lumineuse 200 led marque repère,7,15,2024-12-25
+0042,P-10258,sapin artificiel 150 cm marque repère,0,15,2024-12-25
+0042,P-10261,boules de noël x18 marque repère,3,10,2024-12-25
+0042,3024500156187,cahier 96 pages grands carreaux clairefontaine,11,10,2024-12-25
+0042,3024500157559,trousse garnie marque repère,5,10,2024-12-25
+0042,P-10270,cartable 38 cm marque repère,5,8,2024-12-25
+0042,P-10273,chaussettes homme x5 marque repère,38,15,2024-12-25
+0042,P-10276,tee-shirt coton homme marque repère,20,15,2024-12-25
+0042,P-10279,pyjama enfant marque repère,5,10,2024-12-25
+0042,P-10282,écharpe laine mélangée marque repère,2,15,2024-12-25
+0042,P-10285,plaid polaire 130x170 marque repère,3,15,2024-12-25

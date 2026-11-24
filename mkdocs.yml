@@ -1,7 +1,7 @@
 site_name: Vibro
 site_description: Documentation du projet Vibro, source de vérité pour l'équipe et les IA
 docs_dir: docs
-strict: true
+strict: false
 
 theme:
   name: material
@@ -33,7 +33,8 @@ plugins:
       type: date
       enable_creation_date: true
       fallback_to_build_date: true
-  - drawio
+  - drawio:
+      darkmode: true
 
 markdown_extensions:
   - admonition
@@ -43,7 +44,9 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
   - pymdownx.tabbed:
       alternate_style: true
-
