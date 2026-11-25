@@ -21,9 +21,11 @@ nav:
           - 00-cadrage/reponses-client/tarifs-achat-centrale.md
   - Besoins:
       - 10-besoins/expression-de-besoin-client.md
+      - 10-besoins/cas-utilisation.md
   - Architecture:
       - 30-architecture/architecture-cible.md
       - 30-architecture/ingestion.md
+      - 30-architecture/obligations.md
   - Développement:
       - 40-dev/installation.md
       - 40-dev/utilisation.md
